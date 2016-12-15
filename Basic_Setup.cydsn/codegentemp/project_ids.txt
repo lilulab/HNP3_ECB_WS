@@ -1,6 +1,5 @@
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|77453672-55b6-47b0-9a05-fe7fc9ab04ed
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|601ac230-aecb-4347-9a04-333ef66d6bef
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|3c586163-91c9-4e13-af37-cf15f74e656a
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|965584e8-e506-4b31-ab8f-af1e910f1554
-D:\MyPSoC\HNP3_ECB_WS\Basic_Setup.cydsn\Basic_Setup.cyprj|7b0c4233-4ef8-452e-ac61-7b761618c404
-C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\dev\psoc3\AnalogDevice\PSoC35AnalogDevice.cylib\PSoC35AnalogDevice.cyprj|9506ea68-821b-4cc1-aa36-84cebc2accc8
+D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn\Basic_Setup.cyprj|08767b14-40ff-48d5-8d42-b93df5862a9d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|75f3452f-0775-497c-9d94-7f9fa1158121
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|a77c8f77-e6cf-4ad3-93f6-c6b86c052a1c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|cf4d9b97-9233-4905-97d9-add1f077ec32
+C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|882a7bac-4d9c-44d2-98a7-66bcb744ad3e

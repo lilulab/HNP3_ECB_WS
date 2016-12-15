@@ -1,9 +1,9 @@
 -- ======================================================================
 -- Basic_Setup.ctl generated from Basic_Setup
--- 10/08/2016 at 17:20
+-- 12/14/2016 at 22:30
 -- This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 -- ======================================================================
 
--- PSoC3/5 Clock Editor
+-- PSoC Clock Editor
 -- Directives Editor
 -- Analog Device Editor

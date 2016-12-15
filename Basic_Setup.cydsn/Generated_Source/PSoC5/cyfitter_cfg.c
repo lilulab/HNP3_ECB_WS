@@ -1,7 +1,7 @@
 /*******************************************************************************
 * File Name: cyfitter_cfg.c
 * 
-* PSoC Creator  3.3 CP3
+* PSoC Creator  4.0
 *
 * Description:
 * This file contains device initialization code.
@@ -21,6 +21,7 @@
 #include "cyfitter.h"
 #include "CyLib.h"
 #include "cyfitter_cfg.h"
+#include "cyapicallbacks.h"
 
 #define CY_NEED_CYCLOCKSTARTUPERROR 1
 
@@ -80,11 +81,13 @@ static void CYCONFIGCPYCODE(void *dest, const void *src, size_t n)
 
 
 
+
 /* Clock startup error codes                                                   */
 #define CYCLOCKSTART_NO_ERROR    0u
 #define CYCLOCKSTART_XTAL_ERROR  1u
 #define CYCLOCKSTART_32KHZ_ERROR 2u
 #define CYCLOCKSTART_PLL_ERROR   3u
+
 
 #ifdef CY_NEED_CYCLOCKSTARTUPERROR
 /*******************************************************************************
@@ -110,6 +113,14 @@ static void CyClockStartupError(uint8 errorCode)
     /* To remove the compiler warning if errorCode not used.                */
     errorCode = errorCode;
 
+    /* If we have a clock startup error (bad MHz crystal, PLL lock, etc.),  */
+    /* we will end up here to allow the customer to implement something to  */
+    /* deal with the clock condition.                                       */
+
+#ifdef CY_CFG_CLOCK_STARTUP_ERROR_CALLBACK
+	CY_CFG_Clock_Startup_ErrorCallback();
+#else
+	/*  If not using CY_CFG_CLOCK_STARTUP_ERROR_CALLBACK, place your clock startup code here. */
     /* `#START CyClockStartupError` */
 
     /* If we have a clock startup error (bad MHz crystal, PLL lock, etc.),  */
@@ -121,6 +132,7 @@ static void CyClockStartupError(uint8 errorCode)
     /* If nothing else, stop here since the clocks have not started         */
     /* correctly.                                                           */
     while(1) {}
+#endif /* CY_CFG_CLOCK_STARTUP_ERROR_CALLBACK */ 
 }
 #endif
 
@@ -135,43 +147,40 @@ CYPACKED typedef struct
 #define cy_cfg_data_table ((const cy_cfg_addrvalue_t CYFAR *)0x480000ACu)
 
 /* IOPORT_7 Address: CYDEV_PRTDSI_PRT12_BASE Size (bytes): 6 */
-#define BS_IOPORT_7_VAL ((const uint8 CYFAR *)0x4800129Cu)
+#define BS_IOPORT_7_VAL ((const uint8 CYFAR *)0x48001378u)
 
-/* UDB_1_4_0_CONFIG Address: CYDEV_UCFG_B0_P1_U1_BASE Size (bytes): 128 */
-#define BS_UDB_1_4_0_CONFIG_VAL ((const uint8 CYFAR *)0x480012A4u)
+/* UDB_1_5_0_CONFIG Address: CYDEV_UCFG_B0_P0_U0_BASE Size (bytes): 128 */
+#define BS_UDB_1_5_0_CONFIG_VAL ((const uint8 CYFAR *)0x48001380u)
 
-/* UDB_0_0_0_CONFIG Address: CYDEV_UCFG_B1_P5_U0_BASE Size (bytes): 128 */
-#define BS_UDB_0_0_0_CONFIG_VAL ((const uint8 CYFAR *)0x48001324u)
-
-/* UDBSWITCH_0_2 Address: CYDEV_UCFG_B0_P4_ROUTE_BASE Size (bytes): 128 */
-#define BS_UDBSWITCH_0_2_VAL ((const uint8 CYFAR *)0x480013A4u)
+/* UDB_0_0_1_CONFIG Address: CYDEV_UCFG_B1_P5_U1_BASE Size (bytes): 128 */
+#define BS_UDB_0_0_1_CONFIG_VAL ((const uint8 CYFAR *)0x48001400u)
 
 /* IOPINS0_0 Address: CYREG_PRT0_DM0 Size (bytes): 8 */
-#define BS_IOPINS0_0_VAL ((const uint8 CYFAR *)0x48001424u)
+#define BS_IOPINS0_0_VAL ((const uint8 CYFAR *)0x48001480u)
 
 /* IOPINS0_7 Address: CYREG_PRT12_DR Size (bytes): 10 */
-#define BS_IOPINS0_7_VAL ((const uint8 CYFAR *)0x4800142Cu)
+#define BS_IOPINS0_7_VAL ((const uint8 CYFAR *)0x48001488u)
 
 /* IOPINS0_8 Address: CYREG_PRT15_DR Size (bytes): 10 */
-#define BS_IOPINS0_8_VAL ((const uint8 CYFAR *)0x48001438u)
+#define BS_IOPINS0_8_VAL ((const uint8 CYFAR *)0x48001494u)
 
 /* IOPINS0_1 Address: CYREG_PRT1_DR Size (bytes): 10 */
-#define BS_IOPINS0_1_VAL ((const uint8 CYFAR *)0x48001444u)
+#define BS_IOPINS0_1_VAL ((const uint8 CYFAR *)0x480014A0u)
 
 /* IOPINS0_2 Address: CYREG_PRT2_DM0 Size (bytes): 8 */
-#define BS_IOPINS0_2_VAL ((const uint8 CYFAR *)0x48001450u)
+#define BS_IOPINS0_2_VAL ((const uint8 CYFAR *)0x480014ACu)
 
 /* IOPINS0_4 Address: CYREG_PRT4_DM0 Size (bytes): 8 */
-#define BS_IOPINS0_4_VAL ((const uint8 CYFAR *)0x48001458u)
+#define BS_IOPINS0_4_VAL ((const uint8 CYFAR *)0x480014B4u)
 
 /* IOPINS0_5 Address: CYREG_PRT5_DR Size (bytes): 10 */
-#define BS_IOPINS0_5_VAL ((const uint8 CYFAR *)0x48001460u)
+#define BS_IOPINS0_5_VAL ((const uint8 CYFAR *)0x480014BCu)
 
 /* IOPINS0_6 Address: CYREG_PRT6_DM0 Size (bytes): 8 */
-#define BS_IOPINS0_6_VAL ((const uint8 CYFAR *)0x4800146Cu)
+#define BS_IOPINS0_6_VAL ((const uint8 CYFAR *)0x480014C8u)
 
 /* CYDEV_CLKDIST_ACFG0_CFG0 Address: CYREG_CLKDIST_ACFG0_CFG0 Size (bytes): 4 */
-#define BS_CYDEV_CLKDIST_ACFG0_CFG0_VAL ((const uint8 CYFAR *)0x48001474u)
+#define BS_CYDEV_CLKDIST_ACFG0_CFG0_VAL ((const uint8 CYFAR *)0x480014D0u)
 
 
 /*******************************************************************************
@@ -413,11 +422,9 @@ void cyfitter_cfg(void)
 		static const cfg_memset_t CYCODE cfg_memset_list [] = {
 			/* address, size */
 			{(void CYFAR *)(CYREG_PRT3_DR), 16u},
-			{(void CYFAR *)(CYDEV_UCFG_B0_P0_U0_BASE), 640u},
-			{(void CYFAR *)(CYDEV_UCFG_B0_P1_ROUTE_BASE), 1536u},
-			{(void CYFAR *)(CYDEV_UCFG_B0_P4_ROUTE_BASE + 0x00000080u), 1664u},
-			{(void CYFAR *)(CYDEV_UCFG_B1_P2_U0_BASE), 1536u},
-			{(void CYFAR *)(CYDEV_UCFG_B1_P5_U1_BASE), 384u},
+			{(void CYFAR *)(CYDEV_UCFG_B0_P0_U1_BASE), 3968u},
+			{(void CYFAR *)(CYDEV_UCFG_B1_P2_U0_BASE), 1664u},
+			{(void CYFAR *)(CYDEV_UCFG_B1_P5_ROUTE_BASE), 256u},
 			{(void CYFAR *)(CYDEV_UCFG_DSI0_BASE), 2560u},
 			{(void CYFAR *)(CYDEV_UCFG_DSI12_BASE), 512u},
 			{(void CYFAR *)(CYREG_BCTL0_MDCLK_EN), 32u},
@@ -426,9 +433,8 @@ void cyfitter_cfg(void)
 		static const cfg_memcpy_t CYCODE cfg_memcpy_list [] = {
 			/* dest, src, size */
 			{(void CYFAR *)(CYDEV_PRTDSI_PRT12_BASE), BS_IOPORT_7_VAL, 6u},
-			{(void CYFAR *)(CYDEV_UCFG_B0_P1_U1_BASE), BS_UDB_1_4_0_CONFIG_VAL, 128u},
-			{(void CYFAR *)(CYDEV_UCFG_B1_P5_U0_BASE), BS_UDB_0_0_0_CONFIG_VAL, 128u},
-			{(void CYFAR *)(CYDEV_UCFG_B0_P4_ROUTE_BASE), BS_UDBSWITCH_0_2_VAL, 128u},
+			{(void CYFAR *)(CYDEV_UCFG_B0_P0_U0_BASE), BS_UDB_1_5_0_CONFIG_VAL, 128u},
+			{(void CYFAR *)(CYDEV_UCFG_B1_P5_U1_BASE), BS_UDB_0_0_1_CONFIG_VAL, 128u},
 		};
 
 		uint8 CYDATA i;

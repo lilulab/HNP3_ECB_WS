@@ -1,6 +1,6 @@
--- Project:   D:\MyPSoC\HNP3_ECB_WS\Basic_Setup.cydsn\Basic_Setup.cyprj
--- Generated: 10/08/2016 17:20:37
--- PSoC Creator  3.3 CP3
+-- Project:   D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn\Basic_Setup.cyprj
+-- Generated: 12/14/2016 22:31:18
+-- PSoC Creator  4.0
 
 ENTITY Basic_Setup IS
     PORT(
@@ -20,11 +20,11 @@ ENTITY Basic_Setup IS
         DIO_13(0)_PAD : INOUT std_ulogic;
         DIO_14(0)_PAD : INOUT std_ulogic;
         DIO_15(0)_PAD : INOUT std_ulogic;
-        ASIO_0(0)_PAD : INOUT std_ulogic;
-        ASIO_1(0)_PAD : OUT std_ulogic;
-        DSIO_0(0)_PAD : INOUT std_ulogic;
-        MODX_IO_0(0)_PAD : INOUT std_ulogic;
-        DSIO_1(0)_PAD : OUT std_ulogic;
+        SAIO_0(0)_PAD : INOUT std_ulogic;
+        SAIO_1(0)_PAD : OUT std_ulogic;
+        SDIO_0(0)_PAD : INOUT std_ulogic;
+        MODX_3_IO(0)_PAD : INOUT std_ulogic;
+        SDIO_1(0)_PAD : OUT std_ulogic;
         LED_B(0)_PAD : OUT std_ulogic;
         LED_G(0)_PAD : OUT std_ulogic;
         LED_R(0)_PAD : OUT std_ulogic;
@@ -35,16 +35,14 @@ ENTITY Basic_Setup IS
         CAN_RX(0)_PAD : IN std_ulogic;
         MODX_1_TXD(0)_PAD : OUT std_ulogic;
         MODX_1_RXD(0)_PAD : IN std_ulogic;
-        MODX_0_TXD(0)_PAD : OUT std_ulogic;
-        MODX_0_RXD(0)_PAD : IN std_ulogic;
+        MODX_3_TXD(0)_PAD : OUT std_ulogic;
+        MODX_3_RXD(0)_PAD : IN std_ulogic;
         MODX_2_RXD(0)_PAD : IN std_ulogic;
         MODX_2_TXD(0)_PAD : OUT std_ulogic;
-        LINUX_RST(0)_PAD : OUT std_ulogic;
         UART_LINUX_0_TXD(0)_PAD : OUT std_ulogic;
         UART_LINUX_0_RXD(0)_PAD : IN std_ulogic;
-        PSOC_RST(0)_PAD : IN std_ulogic;
-        MODX_IO_1(0)_PAD : INOUT std_ulogic;
-        MODX_IO_2(0)_PAD : INOUT std_ulogic);
+        MODX_1_IO(0)_PAD : INOUT std_ulogic;
+        MODX_2_IO(0)_PAD : INOUT std_ulogic);
     ATTRIBUTE voltage_VDDABUF OF __DEFAULT__ : ENTITY IS 5e0;
     ATTRIBUTE voltage_VDDA OF __DEFAULT__ : ENTITY IS 5e0;
     ATTRIBUTE voltage_VUSB OF __DEFAULT__ : ENTITY IS 5e0;
@@ -78,54 +76,52 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     ATTRIBUTE placement_force OF AMuxHw_1_Decoder_is_active : SIGNAL IS "U(2,5,A)0";
     ATTRIBUTE soft OF AMuxHw_1_Decoder_is_active : SIGNAL IS 1;
     SIGNAL AMuxHw_1_Decoder_old_id_0 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_old_id_0 : SIGNAL IS "U(2,5,A)1";
+    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_old_id_0 : SIGNAL IS "U(2,5,A)2";
     SIGNAL AMuxHw_1_Decoder_old_id_1 : bit;
     ATTRIBUTE placement_force OF AMuxHw_1_Decoder_old_id_1 : SIGNAL IS "U(3,4,B)1";
     SIGNAL AMuxHw_1_Decoder_old_id_2 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_old_id_2 : SIGNAL IS "U(2,5,A)2";
+    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_old_id_2 : SIGNAL IS "U(2,5,A)1";
     SIGNAL AMuxHw_1_Decoder_one_hot_0 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_0 : SIGNAL IS "U(3,5,B)0";
+    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_0 : SIGNAL IS "U(3,5,A)1";
     SIGNAL AMuxHw_1_Decoder_one_hot_1 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_1 : SIGNAL IS "U(3,5,A)3";
+    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_1 : SIGNAL IS "U(3,5,B)0";
     SIGNAL AMuxHw_1_Decoder_one_hot_2 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_2 : SIGNAL IS "U(3,5,A)2";
+    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_2 : SIGNAL IS "U(3,5,B)3";
     SIGNAL AMuxHw_1_Decoder_one_hot_3 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_3 : SIGNAL IS "U(3,5,B)3";
+    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_3 : SIGNAL IS "U(3,5,B)1";
     SIGNAL AMuxHw_1_Decoder_one_hot_4 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_4 : SIGNAL IS "U(3,5,A)0";
+    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_4 : SIGNAL IS "U(3,5,A)3";
     SIGNAL AMuxHw_1_Decoder_one_hot_5 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_5 : SIGNAL IS "U(3,5,B)2";
+    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_5 : SIGNAL IS "U(3,5,A)0";
     SIGNAL AMuxHw_1_Decoder_one_hot_6 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_6 : SIGNAL IS "U(3,5,B)1";
+    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_6 : SIGNAL IS "U(3,5,B)2";
     SIGNAL AMuxHw_1_Decoder_one_hot_7 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_7 : SIGNAL IS "U(3,5,A)1";
+    ATTRIBUTE placement_force OF AMuxHw_1_Decoder_one_hot_7 : SIGNAL IS "U(3,5,A)2";
     SIGNAL AMuxHw_2_Decoder_is_active : bit;
     ATTRIBUTE placement_force OF AMuxHw_2_Decoder_is_active : SIGNAL IS "U(3,3,B)0";
     ATTRIBUTE soft OF AMuxHw_2_Decoder_is_active : SIGNAL IS 1;
     SIGNAL AMuxHw_2_Decoder_old_id_0 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_old_id_0 : SIGNAL IS "U(3,3,B)1";
+    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_old_id_0 : SIGNAL IS "U(3,3,B)2";
     SIGNAL AMuxHw_2_Decoder_old_id_1 : bit;
     ATTRIBUTE placement_force OF AMuxHw_2_Decoder_old_id_1 : SIGNAL IS "U(3,4,B)0";
     SIGNAL AMuxHw_2_Decoder_old_id_2 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_old_id_2 : SIGNAL IS "U(3,3,B)2";
+    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_old_id_2 : SIGNAL IS "U(3,3,B)1";
     SIGNAL AMuxHw_2_Decoder_one_hot_0 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_0 : SIGNAL IS "U(3,4,A)2";
+    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_0 : SIGNAL IS "U(3,4,A)3";
     SIGNAL AMuxHw_2_Decoder_one_hot_1 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_1 : SIGNAL IS "U(3,2,B)2";
+    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_1 : SIGNAL IS "U(3,2,A)0";
     SIGNAL AMuxHw_2_Decoder_one_hot_2 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_2 : SIGNAL IS "U(3,4,A)1";
+    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_2 : SIGNAL IS "U(3,2,A)1";
     SIGNAL AMuxHw_2_Decoder_one_hot_3 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_3 : SIGNAL IS "U(3,2,B)1";
+    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_3 : SIGNAL IS "U(3,4,A)1";
     SIGNAL AMuxHw_2_Decoder_one_hot_4 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_4 : SIGNAL IS "U(3,4,A)0";
+    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_4 : SIGNAL IS "U(3,2,A)2";
     SIGNAL AMuxHw_2_Decoder_one_hot_5 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_5 : SIGNAL IS "U(3,2,B)0";
+    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_5 : SIGNAL IS "U(3,2,A)3";
     SIGNAL AMuxHw_2_Decoder_one_hot_6 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_6 : SIGNAL IS "U(3,2,B)3";
+    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_6 : SIGNAL IS "U(3,4,A)0";
     SIGNAL AMuxHw_2_Decoder_one_hot_7 : bit;
-    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_7 : SIGNAL IS "U(3,4,A)3";
-    SIGNAL ASIO_0(0)__PA : bit;
-    SIGNAL ASIO_1(0)__PA : bit;
+    ATTRIBUTE placement_force OF AMuxHw_2_Decoder_one_hot_7 : SIGNAL IS "U(3,4,A)2";
     SIGNAL BUZZER(0)__PA : bit;
     SIGNAL CAN_RX(0)__PA : bit;
     SIGNAL CAN_TX(0)__PA : bit;
@@ -162,14 +158,17 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     SIGNAL DIO_7(0)__PA : bit;
     SIGNAL DIO_8(0)__PA : bit;
     SIGNAL DIO_9(0)__PA : bit;
-    SIGNAL DSIO_0(0)__PA : bit;
-    SIGNAL DSIO_1(0)__PA : bit;
     SIGNAL KEY_1(0)__PA : bit;
     SIGNAL KEY_2(0)__PA : bit;
     SIGNAL LED_B(0)__PA : bit;
+    SIGNAL LED_BUS_0 : bit;
+    ATTRIBUTE placement_force OF LED_BUS_0 : SIGNAL IS "U(0,0,A)2";
+    SIGNAL LED_BUS_1 : bit;
+    ATTRIBUTE placement_force OF LED_BUS_1 : SIGNAL IS "U(0,0,A)1";
+    SIGNAL LED_BUS_2 : bit;
+    ATTRIBUTE placement_force OF LED_BUS_2 : SIGNAL IS "U(0,0,A)0";
     SIGNAL LED_G(0)__PA : bit;
     SIGNAL LED_R(0)__PA : bit;
-    SIGNAL LINUX_RST(0)__PA : bit;
     SIGNAL MODIN12_3 : bit;
     SIGNAL MODIN12_4 : bit;
     SIGNAL MODIN12_5 : bit;
@@ -183,13 +182,13 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     SIGNAL MODIN16_5 : bit;
     SIGNAL MODIN16_6 : bit;
     SIGNAL MODIN17_0 : bit;
-    ATTRIBUTE placement_force OF MODIN17_0 : SIGNAL IS "U(3,0,A)1";
+    ATTRIBUTE placement_force OF MODIN17_0 : SIGNAL IS "U(3,1,A)1";
     SIGNAL MODIN17_1 : bit;
-    ATTRIBUTE placement_force OF MODIN17_1 : SIGNAL IS "U(3,0,A)0";
+    ATTRIBUTE placement_force OF MODIN17_1 : SIGNAL IS "U(3,1,A)0";
     SIGNAL MODIN1_0 : bit;
-    ATTRIBUTE placement_force OF MODIN1_0 : SIGNAL IS "U(0,1,B)3";
+    ATTRIBUTE placement_force OF MODIN1_0 : SIGNAL IS "U(1,2,B)1";
     SIGNAL MODIN1_1 : bit;
-    ATTRIBUTE placement_force OF MODIN1_1 : SIGNAL IS "U(0,1,B)0";
+    ATTRIBUTE placement_force OF MODIN1_1 : SIGNAL IS "U(1,2,B)0";
     SIGNAL MODIN20_3 : bit;
     SIGNAL MODIN20_4 : bit;
     SIGNAL MODIN20_5 : bit;
@@ -199,26 +198,26 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     SIGNAL MODIN4_5 : bit;
     SIGNAL MODIN4_6 : bit;
     SIGNAL MODIN5_0 : bit;
-    ATTRIBUTE placement_force OF MODIN5_0 : SIGNAL IS "U(1,0,B)3";
+    ATTRIBUTE placement_force OF MODIN5_0 : SIGNAL IS "U(0,0,B)0";
     SIGNAL MODIN5_1 : bit;
-    ATTRIBUTE placement_force OF MODIN5_1 : SIGNAL IS "U(1,0,B)2";
+    ATTRIBUTE placement_force OF MODIN5_1 : SIGNAL IS "U(0,0,B)2";
     SIGNAL MODIN8_3 : bit;
     SIGNAL MODIN8_4 : bit;
     SIGNAL MODIN8_5 : bit;
     SIGNAL MODIN8_6 : bit;
     SIGNAL MODIN9_0 : bit;
-    ATTRIBUTE placement_force OF MODIN9_0 : SIGNAL IS "U(0,1,A)3";
+    ATTRIBUTE placement_force OF MODIN9_0 : SIGNAL IS "U(0,1,A)2";
     SIGNAL MODIN9_1 : bit;
-    ATTRIBUTE placement_force OF MODIN9_1 : SIGNAL IS "U(0,1,A)0";
-    SIGNAL MODX_0_RXD(0)__PA : bit;
-    SIGNAL MODX_0_TXD(0)__PA : bit;
+    ATTRIBUTE placement_force OF MODIN9_1 : SIGNAL IS "U(0,1,A)1";
+    SIGNAL MODX_1_IO(0)__PA : bit;
     SIGNAL MODX_1_RXD(0)__PA : bit;
     SIGNAL MODX_1_TXD(0)__PA : bit;
+    SIGNAL MODX_2_IO(0)__PA : bit;
     SIGNAL MODX_2_RXD(0)__PA : bit;
     SIGNAL MODX_2_TXD(0)__PA : bit;
-    SIGNAL MODX_IO_0(0)__PA : bit;
-    SIGNAL MODX_IO_1(0)__PA : bit;
-    SIGNAL MODX_IO_2(0)__PA : bit;
+    SIGNAL MODX_3_IO(0)__PA : bit;
+    SIGNAL MODX_3_RXD(0)__PA : bit;
+    SIGNAL MODX_3_TXD(0)__PA : bit;
     SIGNAL Net_11 : bit;
     SIGNAL Net_12 : bit;
     SIGNAL Net_1581 : bit;
@@ -255,36 +254,38 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     SIGNAL Net_3529 : bit;
     SIGNAL Net_3530 : bit;
     SIGNAL Net_4959 : bit;
-    SIGNAL Net_5187 : bit;
-    ATTRIBUTE udbclken_assigned OF Net_5187 : SIGNAL IS "True";
-    ATTRIBUTE global_signal OF Net_5187 : SIGNAL IS true;
-    SIGNAL Net_5187_local : bit;
-    SIGNAL Net_5188 : bit;
+    SIGNAL Net_5287 : bit;
+    ATTRIBUTE udbclken_assigned OF Net_5287 : SIGNAL IS "True";
+    ATTRIBUTE global_signal OF Net_5287 : SIGNAL IS true;
+    SIGNAL Net_5287_local : bit;
+    SIGNAL Net_5367 : bit;
     SIGNAL Net_629 : bit;
     SIGNAL Net_719 : bit;
-    ATTRIBUTE placement_force OF Net_719 : SIGNAL IS "U(2,0,B)0";
+    ATTRIBUTE placement_force OF Net_719 : SIGNAL IS "U(1,2,A)0";
     SIGNAL Net_724 : bit;
     SIGNAL Net_732 : bit;
-    ATTRIBUTE placement_force OF Net_732 : SIGNAL IS "U(2,1,A)0";
+    ATTRIBUTE placement_force OF Net_732 : SIGNAL IS "U(2,3,A)3";
     SIGNAL Net_737 : bit;
     SIGNAL Net_745 : bit;
-    ATTRIBUTE placement_force OF Net_745 : SIGNAL IS "U(1,2,A)2";
+    ATTRIBUTE placement_force OF Net_745 : SIGNAL IS "U(0,3,A)1";
     SIGNAL Net_750 : bit;
     SIGNAL Net_784 : bit;
-    ATTRIBUTE placement_force OF Net_784 : SIGNAL IS "U(1,3,A)1";
+    ATTRIBUTE placement_force OF Net_784 : SIGNAL IS "U(1,4,A)1";
     SIGNAL Net_789 : bit;
     SIGNAL Net_797 : bit;
-    ATTRIBUTE placement_force OF Net_797 : SIGNAL IS "U(2,3,B)3";
+    ATTRIBUTE placement_force OF Net_797 : SIGNAL IS "U(0,5,B)2";
     SIGNAL Net_802 : bit;
     SIGNAL Net_810 : bit;
-    ATTRIBUTE placement_force OF Net_810 : SIGNAL IS "U(2,0,B)1";
+    ATTRIBUTE placement_force OF Net_810 : SIGNAL IS "U(2,2,A)1";
     SIGNAL Net_815 : bit;
-    SIGNAL Net_917 : bit;
     SIGNAL Net_927 : bit;
-    ATTRIBUTE placement_force OF Net_927 : SIGNAL IS "U(2,0,A)2";
+    ATTRIBUTE placement_force OF Net_927 : SIGNAL IS "U(2,0,B)2";
     SIGNAL Net_928 : bit;
     SIGNAL Net_929 : bit;
-    SIGNAL PSOC_RST(0)__PA : bit;
+    SIGNAL SAIO_0(0)__PA : bit;
+    SIGNAL SAIO_1(0)__PA : bit;
+    SIGNAL SDIO_0(0)__PA : bit;
+    SIGNAL SDIO_1(0)__PA : bit;
     SIGNAL UART_LINUX_0_RXD(0)__PA : bit;
     SIGNAL UART_LINUX_0_TXD(0)__PA : bit;
     SIGNAL \ADC_SAR_1:Net_207_0\ : bit;
@@ -329,11 +330,6 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     SIGNAL \Control_Reg_2:control_5\ : bit;
     SIGNAL \Control_Reg_2:control_6\ : bit;
     SIGNAL \Control_Reg_2:control_7\ : bit;
-    SIGNAL \Control_Reg_3:control_3\ : bit;
-    SIGNAL \Control_Reg_3:control_4\ : bit;
-    SIGNAL \Control_Reg_3:control_5\ : bit;
-    SIGNAL \Control_Reg_3:control_6\ : bit;
-    SIGNAL \Control_Reg_3:control_7\ : bit;
     SIGNAL \PWM_1:PWMUDB:cmp1_less\ : bit;
     SIGNAL \PWM_1:PWMUDB:control_0\ : bit;
     SIGNAL \PWM_1:PWMUDB:control_1\ : bit;
@@ -344,229 +340,229 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     SIGNAL \PWM_1:PWMUDB:control_6\ : bit;
     SIGNAL \PWM_1:PWMUDB:control_7\ : bit;
     SIGNAL \PWM_1:PWMUDB:prevCompare1\ : bit;
-    ATTRIBUTE placement_force OF \PWM_1:PWMUDB:prevCompare1\ : SIGNAL IS "U(2,0,A)1";
+    ATTRIBUTE placement_force OF \PWM_1:PWMUDB:prevCompare1\ : SIGNAL IS "U(2,0,B)1";
     SIGNAL \PWM_1:PWMUDB:runmode_enable\ : bit;
-    ATTRIBUTE placement_force OF \PWM_1:PWMUDB:runmode_enable\ : SIGNAL IS "U(2,0,A)3";
+    ATTRIBUTE placement_force OF \PWM_1:PWMUDB:runmode_enable\ : SIGNAL IS "U(2,0,B)3";
     SIGNAL \PWM_1:PWMUDB:status_0\ : bit;
-    ATTRIBUTE placement_force OF \PWM_1:PWMUDB:status_0\ : SIGNAL IS "U(2,0,A)0";
+    ATTRIBUTE placement_force OF \PWM_1:PWMUDB:status_0\ : SIGNAL IS "U(2,0,B)0";
     SIGNAL \PWM_1:PWMUDB:status_2\ : bit;
-    ATTRIBUTE placement_force OF \PWM_1:PWMUDB:status_2\ : SIGNAL IS "U(2,0,B)2";
+    ATTRIBUTE placement_force OF \PWM_1:PWMUDB:status_2\ : SIGNAL IS "U(0,0,A)3";
     SIGNAL \PWM_1:PWMUDB:status_3\ : bit;
     SIGNAL \PWM_1:PWMUDB:tc_i\ : bit;
     SIGNAL \UART_LINUX_0:BUART:counter_load_not\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:counter_load_not\ : SIGNAL IS "U(0,5,B)2";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:counter_load_not\ : SIGNAL IS "U(3,3,A)2";
     SIGNAL \UART_LINUX_0:BUART:rx_bitclk_enable\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_bitclk_enable\ : SIGNAL IS "U(3,0,B)1";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_bitclk_enable\ : SIGNAL IS "U(3,1,A)3";
     SIGNAL \UART_LINUX_0:BUART:rx_count7_tc\ : bit;
     SIGNAL \UART_LINUX_0:BUART:rx_count_0\ : bit;
     SIGNAL \UART_LINUX_0:BUART:rx_count_1\ : bit;
     SIGNAL \UART_LINUX_0:BUART:rx_count_2\ : bit;
     SIGNAL \UART_LINUX_0:BUART:rx_counter_load\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_counter_load\ : SIGNAL IS "U(3,1,B)1";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_counter_load\ : SIGNAL IS "U(3,0,B)1";
     SIGNAL \UART_LINUX_0:BUART:rx_fifofull\ : bit;
     SIGNAL \UART_LINUX_0:BUART:rx_fifonotempty\ : bit;
     SIGNAL \UART_LINUX_0:BUART:rx_last\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_last\ : SIGNAL IS "U(3,0,A)3";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_last\ : SIGNAL IS "U(3,0,B)3";
     SIGNAL \UART_LINUX_0:BUART:rx_load_fifo\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_load_fifo\ : SIGNAL IS "U(3,1,A)1";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_load_fifo\ : SIGNAL IS "U(3,0,A)1";
     SIGNAL \UART_LINUX_0:BUART:rx_postpoll\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_postpoll\ : SIGNAL IS "U(3,0,A)2";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_postpoll\ : SIGNAL IS "U(3,1,A)2";
     SIGNAL \UART_LINUX_0:BUART:rx_state_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_state_0\ : SIGNAL IS "U(3,1,A)0";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_state_0\ : SIGNAL IS "U(3,0,A)0";
     SIGNAL \UART_LINUX_0:BUART:rx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_state_2\ : SIGNAL IS "U(3,1,B)0";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_state_2\ : SIGNAL IS "U(3,0,B)0";
     SIGNAL \UART_LINUX_0:BUART:rx_state_3\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_state_3\ : SIGNAL IS "U(3,1,A)2";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_state_3\ : SIGNAL IS "U(3,0,A)2";
     SIGNAL \UART_LINUX_0:BUART:rx_state_stop1_reg\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(3,1,B)2";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(3,0,B)2";
     SIGNAL \UART_LINUX_0:BUART:rx_status_3\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_status_3\ : SIGNAL IS "U(3,1,A)3";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_status_3\ : SIGNAL IS "U(3,0,A)3";
     SIGNAL \UART_LINUX_0:BUART:rx_status_4\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_status_4\ : SIGNAL IS "U(3,0,B)0";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_status_4\ : SIGNAL IS "U(2,0,A)2";
     SIGNAL \UART_LINUX_0:BUART:rx_status_5\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_status_5\ : SIGNAL IS "U(3,0,B)2";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:rx_status_5\ : SIGNAL IS "U(3,2,B)3";
     SIGNAL \UART_LINUX_0:BUART:tx_bitclk\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_bitclk\ : SIGNAL IS "U(1,5,B)1";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_bitclk\ : SIGNAL IS "U(3,2,B)1";
     SIGNAL \UART_LINUX_0:BUART:tx_bitclk_enable_pre\ : bit;
     SIGNAL \UART_LINUX_0:BUART:tx_counter_dp\ : bit;
     SIGNAL \UART_LINUX_0:BUART:tx_ctrl_mark_last\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_ctrl_mark_last\ : SIGNAL IS "U(3,0,B)3";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_ctrl_mark_last\ : SIGNAL IS "U(3,3,A)3";
     SIGNAL \UART_LINUX_0:BUART:tx_fifo_empty\ : bit;
     SIGNAL \UART_LINUX_0:BUART:tx_fifo_notfull\ : bit;
     SIGNAL \UART_LINUX_0:BUART:tx_shift_out\ : bit;
     SIGNAL \UART_LINUX_0:BUART:tx_state_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_state_0\ : SIGNAL IS "U(1,5,B)0";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_state_0\ : SIGNAL IS "U(3,2,B)0";
     SIGNAL \UART_LINUX_0:BUART:tx_state_1\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_state_1\ : SIGNAL IS "U(0,5,B)0";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_state_1\ : SIGNAL IS "U(3,3,A)1";
     SIGNAL \UART_LINUX_0:BUART:tx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_state_2\ : SIGNAL IS "U(0,5,B)1";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_state_2\ : SIGNAL IS "U(3,3,A)0";
     SIGNAL \UART_LINUX_0:BUART:tx_status_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_status_0\ : SIGNAL IS "U(1,5,B)3";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_status_0\ : SIGNAL IS "U(3,2,B)2";
     SIGNAL \UART_LINUX_0:BUART:tx_status_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_status_2\ : SIGNAL IS "U(1,5,A)3";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:tx_status_2\ : SIGNAL IS "U(3,4,B)3";
     SIGNAL \UART_LINUX_0:BUART:txn\ : bit;
-    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:txn\ : SIGNAL IS "U(1,5,A)0";
+    ATTRIBUTE placement_force OF \UART_LINUX_0:BUART:txn\ : SIGNAL IS "U(2,2,A)0";
     SIGNAL \UART_LINUX_0:Net_9\ : bit;
     ATTRIBUTE udbclken_assigned OF \UART_LINUX_0:Net_9\ : SIGNAL IS "True";
     ATTRIBUTE global_signal OF \UART_LINUX_0:Net_9\ : SIGNAL IS true;
     SIGNAL \UART_LINUX_0:Net_9_local\ : bit;
     SIGNAL \UART_MODX_0:BUART:counter_load_not\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:counter_load_not\ : SIGNAL IS "U(1,4,B)2";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:counter_load_not\ : SIGNAL IS "U(0,2,B)3";
     SIGNAL \UART_MODX_0:BUART:rx_bitclk_enable\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_bitclk_enable\ : SIGNAL IS "U(1,2,B)3";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_bitclk_enable\ : SIGNAL IS "U(0,0,B)1";
     SIGNAL \UART_MODX_0:BUART:rx_count7_tc\ : bit;
     SIGNAL \UART_MODX_0:BUART:rx_count_0\ : bit;
     SIGNAL \UART_MODX_0:BUART:rx_count_1\ : bit;
     SIGNAL \UART_MODX_0:BUART:rx_count_2\ : bit;
     SIGNAL \UART_MODX_0:BUART:rx_counter_load\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_counter_load\ : SIGNAL IS "U(1,1,B)1";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_counter_load\ : SIGNAL IS "U(1,0,B)1";
     SIGNAL \UART_MODX_0:BUART:rx_fifofull\ : bit;
     SIGNAL \UART_MODX_0:BUART:rx_fifonotempty\ : bit;
     SIGNAL \UART_MODX_0:BUART:rx_last\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_last\ : SIGNAL IS "U(1,0,B)1";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_last\ : SIGNAL IS "U(1,0,A)2";
     SIGNAL \UART_MODX_0:BUART:rx_load_fifo\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_load_fifo\ : SIGNAL IS "U(1,1,A)1";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_load_fifo\ : SIGNAL IS "U(1,0,A)1";
     SIGNAL \UART_MODX_0:BUART:rx_postpoll\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_postpoll\ : SIGNAL IS "U(1,0,B)0";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_postpoll\ : SIGNAL IS "U(0,0,B)3";
     SIGNAL \UART_MODX_0:BUART:rx_state_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_state_0\ : SIGNAL IS "U(1,1,A)0";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_state_0\ : SIGNAL IS "U(1,0,A)0";
     SIGNAL \UART_MODX_0:BUART:rx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_state_2\ : SIGNAL IS "U(1,1,B)0";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_state_2\ : SIGNAL IS "U(1,0,B)0";
     SIGNAL \UART_MODX_0:BUART:rx_state_3\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_state_3\ : SIGNAL IS "U(1,1,A)2";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_state_3\ : SIGNAL IS "U(1,0,B)3";
     SIGNAL \UART_MODX_0:BUART:rx_state_stop1_reg\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(1,1,B)2";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(1,0,B)2";
     SIGNAL \UART_MODX_0:BUART:rx_status_3\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_status_3\ : SIGNAL IS "U(1,1,A)3";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_status_3\ : SIGNAL IS "U(1,0,A)3";
     SIGNAL \UART_MODX_0:BUART:rx_status_4\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_status_4\ : SIGNAL IS "U(2,0,B)3";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_status_4\ : SIGNAL IS "U(1,3,B)1";
     SIGNAL \UART_MODX_0:BUART:rx_status_5\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_status_5\ : SIGNAL IS "U(2,1,B)3";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:rx_status_5\ : SIGNAL IS "U(2,0,A)0";
     SIGNAL \UART_MODX_0:BUART:tx_bitclk\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_bitclk\ : SIGNAL IS "U(1,4,A)1";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_bitclk\ : SIGNAL IS "U(1,3,A)2";
     SIGNAL \UART_MODX_0:BUART:tx_bitclk_enable_pre\ : bit;
     SIGNAL \UART_MODX_0:BUART:tx_counter_dp\ : bit;
     SIGNAL \UART_MODX_0:BUART:tx_fifo_empty\ : bit;
     SIGNAL \UART_MODX_0:BUART:tx_fifo_notfull\ : bit;
     SIGNAL \UART_MODX_0:BUART:tx_shift_out\ : bit;
     SIGNAL \UART_MODX_0:BUART:tx_state_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_state_0\ : SIGNAL IS "U(1,4,A)0";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_state_0\ : SIGNAL IS "U(0,2,B)0";
     SIGNAL \UART_MODX_0:BUART:tx_state_1\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_state_1\ : SIGNAL IS "U(1,4,B)1";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_state_1\ : SIGNAL IS "U(1,3,A)0";
     SIGNAL \UART_MODX_0:BUART:tx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_state_2\ : SIGNAL IS "U(1,4,B)0";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_state_2\ : SIGNAL IS "U(1,3,A)1";
     SIGNAL \UART_MODX_0:BUART:tx_status_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_status_0\ : SIGNAL IS "U(1,4,A)2";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_status_0\ : SIGNAL IS "U(0,2,B)2";
     SIGNAL \UART_MODX_0:BUART:tx_status_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_status_2\ : SIGNAL IS "U(1,5,B)2";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:tx_status_2\ : SIGNAL IS "U(1,3,B)3";
     SIGNAL \UART_MODX_0:BUART:txn\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:txn\ : SIGNAL IS "U(2,3,B)0";
+    ATTRIBUTE placement_force OF \UART_MODX_0:BUART:txn\ : SIGNAL IS "U(1,2,A)2";
     SIGNAL \UART_MODX_1:BUART:counter_load_not\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:counter_load_not\ : SIGNAL IS "U(2,2,B)1";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:counter_load_not\ : SIGNAL IS "U(2,3,A)2";
     SIGNAL \UART_MODX_1:BUART:rx_bitclk_enable\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_bitclk_enable\ : SIGNAL IS "U(1,0,A)1";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_bitclk_enable\ : SIGNAL IS "U(1,2,B)3";
     SIGNAL \UART_MODX_1:BUART:rx_count7_tc\ : bit;
     SIGNAL \UART_MODX_1:BUART:rx_count_0\ : bit;
     SIGNAL \UART_MODX_1:BUART:rx_count_1\ : bit;
     SIGNAL \UART_MODX_1:BUART:rx_count_2\ : bit;
     SIGNAL \UART_MODX_1:BUART:rx_counter_load\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_counter_load\ : SIGNAL IS "U(0,0,B)1";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_counter_load\ : SIGNAL IS "U(1,1,B)1";
     SIGNAL \UART_MODX_1:BUART:rx_fifofull\ : bit;
     SIGNAL \UART_MODX_1:BUART:rx_fifonotempty\ : bit;
     SIGNAL \UART_MODX_1:BUART:rx_last\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_last\ : SIGNAL IS "U(0,1,B)2";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_last\ : SIGNAL IS "U(1,1,B)3";
     SIGNAL \UART_MODX_1:BUART:rx_load_fifo\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_load_fifo\ : SIGNAL IS "U(0,0,A)1";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_load_fifo\ : SIGNAL IS "U(1,1,A)1";
     SIGNAL \UART_MODX_1:BUART:rx_postpoll\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_postpoll\ : SIGNAL IS "U(0,1,B)1";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_postpoll\ : SIGNAL IS "U(1,2,B)2";
     SIGNAL \UART_MODX_1:BUART:rx_state_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_state_0\ : SIGNAL IS "U(0,0,A)0";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_state_0\ : SIGNAL IS "U(1,1,A)0";
     SIGNAL \UART_MODX_1:BUART:rx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_state_2\ : SIGNAL IS "U(0,0,B)0";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_state_2\ : SIGNAL IS "U(1,1,B)0";
     SIGNAL \UART_MODX_1:BUART:rx_state_3\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_state_3\ : SIGNAL IS "U(0,0,A)2";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_state_3\ : SIGNAL IS "U(1,1,A)2";
     SIGNAL \UART_MODX_1:BUART:rx_state_stop1_reg\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(0,0,B)2";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(1,1,B)2";
     SIGNAL \UART_MODX_1:BUART:rx_status_3\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_status_3\ : SIGNAL IS "U(0,0,A)3";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_status_3\ : SIGNAL IS "U(1,1,A)3";
     SIGNAL \UART_MODX_1:BUART:rx_status_4\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_status_4\ : SIGNAL IS "U(0,0,B)3";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_status_4\ : SIGNAL IS "U(1,3,A)3";
     SIGNAL \UART_MODX_1:BUART:rx_status_5\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_status_5\ : SIGNAL IS "U(1,0,A)0";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:rx_status_5\ : SIGNAL IS "U(2,2,B)3";
     SIGNAL \UART_MODX_1:BUART:tx_bitclk\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_bitclk\ : SIGNAL IS "U(2,3,A)1";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_bitclk\ : SIGNAL IS "U(2,3,B)1";
     SIGNAL \UART_MODX_1:BUART:tx_bitclk_enable_pre\ : bit;
     SIGNAL \UART_MODX_1:BUART:tx_counter_dp\ : bit;
     SIGNAL \UART_MODX_1:BUART:tx_ctrl_mark_last\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_ctrl_mark_last\ : SIGNAL IS "U(1,1,B)3";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_ctrl_mark_last\ : SIGNAL IS "U(2,2,B)0";
     SIGNAL \UART_MODX_1:BUART:tx_fifo_empty\ : bit;
     SIGNAL \UART_MODX_1:BUART:tx_fifo_notfull\ : bit;
     SIGNAL \UART_MODX_1:BUART:tx_shift_out\ : bit;
     SIGNAL \UART_MODX_1:BUART:tx_state_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_state_0\ : SIGNAL IS "U(2,2,B)0";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_state_0\ : SIGNAL IS "U(2,3,B)0";
     SIGNAL \UART_MODX_1:BUART:tx_state_1\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_state_1\ : SIGNAL IS "U(2,3,A)2";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_state_1\ : SIGNAL IS "U(1,3,B)2";
     SIGNAL \UART_MODX_1:BUART:tx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_state_2\ : SIGNAL IS "U(2,3,A)0";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_state_2\ : SIGNAL IS "U(1,3,B)0";
     SIGNAL \UART_MODX_1:BUART:tx_status_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_status_0\ : SIGNAL IS "U(2,2,B)2";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_status_0\ : SIGNAL IS "U(2,3,B)2";
     SIGNAL \UART_MODX_1:BUART:tx_status_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_status_2\ : SIGNAL IS "U(2,2,B)3";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:tx_status_2\ : SIGNAL IS "U(2,2,B)1";
     SIGNAL \UART_MODX_1:BUART:txn\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:txn\ : SIGNAL IS "U(2,1,B)1";
+    ATTRIBUTE placement_force OF \UART_MODX_1:BUART:txn\ : SIGNAL IS "U(2,3,A)0";
     SIGNAL \UART_MODX_2:BUART:counter_load_not\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:counter_load_not\ : SIGNAL IS "U(1,3,B)2";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:counter_load_not\ : SIGNAL IS "U(0,4,B)2";
     SIGNAL \UART_MODX_2:BUART:rx_bitclk_enable\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_bitclk_enable\ : SIGNAL IS "U(0,1,A)1";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_bitclk_enable\ : SIGNAL IS "U(0,2,B)1";
     SIGNAL \UART_MODX_2:BUART:rx_count7_tc\ : bit;
     SIGNAL \UART_MODX_2:BUART:rx_count_0\ : bit;
     SIGNAL \UART_MODX_2:BUART:rx_count_1\ : bit;
     SIGNAL \UART_MODX_2:BUART:rx_count_2\ : bit;
     SIGNAL \UART_MODX_2:BUART:rx_counter_load\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_counter_load\ : SIGNAL IS "U(0,2,B)1";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_counter_load\ : SIGNAL IS "U(0,2,A)1";
     SIGNAL \UART_MODX_2:BUART:rx_fifofull\ : bit;
     SIGNAL \UART_MODX_2:BUART:rx_fifonotempty\ : bit;
     SIGNAL \UART_MODX_2:BUART:rx_last\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_last\ : SIGNAL IS "U(0,2,B)3";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_last\ : SIGNAL IS "U(0,1,A)0";
     SIGNAL \UART_MODX_2:BUART:rx_load_fifo\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_load_fifo\ : SIGNAL IS "U(0,2,A)1";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_load_fifo\ : SIGNAL IS "U(0,2,A)2";
     SIGNAL \UART_MODX_2:BUART:rx_postpoll\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_postpoll\ : SIGNAL IS "U(0,1,A)2";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_postpoll\ : SIGNAL IS "U(0,1,A)3";
     SIGNAL \UART_MODX_2:BUART:rx_state_0\ : bit;
     ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_state_0\ : SIGNAL IS "U(0,2,A)0";
     SIGNAL \UART_MODX_2:BUART:rx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_state_2\ : SIGNAL IS "U(0,2,B)0";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_state_2\ : SIGNAL IS "U(0,3,B)0";
     SIGNAL \UART_MODX_2:BUART:rx_state_3\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_state_3\ : SIGNAL IS "U(0,2,A)2";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_state_3\ : SIGNAL IS "U(0,3,B)3";
     SIGNAL \UART_MODX_2:BUART:rx_state_stop1_reg\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(0,2,B)2";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(0,3,B)2";
     SIGNAL \UART_MODX_2:BUART:rx_status_3\ : bit;
     ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_status_3\ : SIGNAL IS "U(0,2,A)3";
     SIGNAL \UART_MODX_2:BUART:rx_status_4\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_status_4\ : SIGNAL IS "U(0,3,A)2";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_status_4\ : SIGNAL IS "U(0,1,B)1";
     SIGNAL \UART_MODX_2:BUART:rx_status_5\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_status_5\ : SIGNAL IS "U(0,3,A)3";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:rx_status_5\ : SIGNAL IS "U(0,1,B)0";
     SIGNAL \UART_MODX_2:BUART:tx_bitclk\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_bitclk\ : SIGNAL IS "U(1,2,B)2";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_bitclk\ : SIGNAL IS "U(1,4,B)2";
     SIGNAL \UART_MODX_2:BUART:tx_bitclk_enable_pre\ : bit;
     SIGNAL \UART_MODX_2:BUART:tx_counter_dp\ : bit;
     SIGNAL \UART_MODX_2:BUART:tx_fifo_empty\ : bit;
     SIGNAL \UART_MODX_2:BUART:tx_fifo_notfull\ : bit;
     SIGNAL \UART_MODX_2:BUART:tx_shift_out\ : bit;
     SIGNAL \UART_MODX_2:BUART:tx_state_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_state_0\ : SIGNAL IS "U(1,2,B)0";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_state_0\ : SIGNAL IS "U(1,4,B)3";
     SIGNAL \UART_MODX_2:BUART:tx_state_1\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_state_1\ : SIGNAL IS "U(1,3,B)1";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_state_1\ : SIGNAL IS "U(0,4,B)3";
     SIGNAL \UART_MODX_2:BUART:tx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_state_2\ : SIGNAL IS "U(1,3,B)0";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_state_2\ : SIGNAL IS "U(0,4,B)1";
     SIGNAL \UART_MODX_2:BUART:tx_status_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_status_0\ : SIGNAL IS "U(1,2,B)1";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_status_0\ : SIGNAL IS "U(1,4,B)1";
     SIGNAL \UART_MODX_2:BUART:tx_status_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_status_2\ : SIGNAL IS "U(1,2,A)1";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:tx_status_2\ : SIGNAL IS "U(1,4,A)2";
     SIGNAL \UART_MODX_2:BUART:txn\ : bit;
-    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:txn\ : SIGNAL IS "U(1,2,A)0";
+    ATTRIBUTE placement_force OF \UART_MODX_2:BUART:txn\ : SIGNAL IS "U(0,3,A)0";
     SIGNAL \UART_STIM_0:BUART:counter_load_not\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:counter_load_not\ : SIGNAL IS "U(0,3,B)2";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:counter_load_not\ : SIGNAL IS "U(1,5,B)1";
     SIGNAL \UART_STIM_0:BUART:rx_bitclk_enable\ : bit;
     ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_bitclk_enable\ : SIGNAL IS "U(2,4,B)3";
     SIGNAL \UART_STIM_0:BUART:rx_count7_tc\ : bit;
@@ -574,13 +570,13 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     SIGNAL \UART_STIM_0:BUART:rx_count_1\ : bit;
     SIGNAL \UART_STIM_0:BUART:rx_count_2\ : bit;
     SIGNAL \UART_STIM_0:BUART:rx_counter_load\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_counter_load\ : SIGNAL IS "U(2,5,B)2";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_counter_load\ : SIGNAL IS "U(2,4,A)2";
     SIGNAL \UART_STIM_0:BUART:rx_fifofull\ : bit;
     SIGNAL \UART_STIM_0:BUART:rx_fifonotempty\ : bit;
     SIGNAL \UART_STIM_0:BUART:rx_last\ : bit;
     ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_last\ : SIGNAL IS "U(2,5,B)3";
     SIGNAL \UART_STIM_0:BUART:rx_load_fifo\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_load_fifo\ : SIGNAL IS "U(2,4,A)2";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_load_fifo\ : SIGNAL IS "U(2,5,B)2";
     SIGNAL \UART_STIM_0:BUART:rx_postpoll\ : bit;
     ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_postpoll\ : SIGNAL IS "U(2,4,B)2";
     SIGNAL \UART_STIM_0:BUART:rx_state_0\ : bit;
@@ -594,42 +590,42 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     SIGNAL \UART_STIM_0:BUART:rx_status_3\ : bit;
     ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_status_3\ : SIGNAL IS "U(2,4,A)3";
     SIGNAL \UART_STIM_0:BUART:rx_status_4\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_status_4\ : SIGNAL IS "U(2,3,B)1";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_status_4\ : SIGNAL IS "U(2,2,A)2";
     SIGNAL \UART_STIM_0:BUART:rx_status_5\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_status_5\ : SIGNAL IS "U(2,3,B)2";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:rx_status_5\ : SIGNAL IS "U(2,2,A)3";
     SIGNAL \UART_STIM_0:BUART:tx_bitclk\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_bitclk\ : SIGNAL IS "U(0,3,A)1";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_bitclk\ : SIGNAL IS "U(1,5,A)1";
     SIGNAL \UART_STIM_0:BUART:tx_bitclk_enable_pre\ : bit;
     SIGNAL \UART_STIM_0:BUART:tx_counter_dp\ : bit;
     SIGNAL \UART_STIM_0:BUART:tx_ctrl_mark_last\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_ctrl_mark_last\ : SIGNAL IS "U(1,3,A)3";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_ctrl_mark_last\ : SIGNAL IS "U(1,4,A)3";
     SIGNAL \UART_STIM_0:BUART:tx_fifo_empty\ : bit;
     SIGNAL \UART_STIM_0:BUART:tx_fifo_notfull\ : bit;
     SIGNAL \UART_STIM_0:BUART:tx_shift_out\ : bit;
     SIGNAL \UART_STIM_0:BUART:tx_state_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_state_0\ : SIGNAL IS "U(0,3,A)0";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_state_0\ : SIGNAL IS "U(1,5,A)0";
     SIGNAL \UART_STIM_0:BUART:tx_state_1\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_state_1\ : SIGNAL IS "U(0,3,B)1";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_state_1\ : SIGNAL IS "U(1,5,B)2";
     SIGNAL \UART_STIM_0:BUART:tx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_state_2\ : SIGNAL IS "U(0,3,B)0";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_state_2\ : SIGNAL IS "U(1,5,B)0";
     SIGNAL \UART_STIM_0:BUART:tx_status_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_status_0\ : SIGNAL IS "U(0,3,B)3";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_status_0\ : SIGNAL IS "U(1,5,B)3";
     SIGNAL \UART_STIM_0:BUART:tx_status_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_status_2\ : SIGNAL IS "U(1,3,A)2";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:tx_status_2\ : SIGNAL IS "U(1,5,A)2";
     SIGNAL \UART_STIM_0:BUART:txn\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:txn\ : SIGNAL IS "U(1,3,A)0";
+    ATTRIBUTE placement_force OF \UART_STIM_0:BUART:txn\ : SIGNAL IS "U(1,4,A)0";
     SIGNAL \UART_STIM_0:Net_9\ : bit;
     ATTRIBUTE udbclken_assigned OF \UART_STIM_0:Net_9\ : SIGNAL IS "True";
     ATTRIBUTE global_signal OF \UART_STIM_0:Net_9\ : SIGNAL IS true;
     SIGNAL \UART_STIM_0:Net_9_local\ : bit;
     SIGNAL \UART_STIM_1:BUART:counter_load_not\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:counter_load_not\ : SIGNAL IS "U(0,4,B)2";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:counter_load_not\ : SIGNAL IS "U(0,4,A)1";
     SIGNAL \UART_STIM_1:BUART:pollcount_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:pollcount_0\ : SIGNAL IS "U(2,2,A)2";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:pollcount_0\ : SIGNAL IS "U(3,1,B)2";
     SIGNAL \UART_STIM_1:BUART:pollcount_1\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:pollcount_1\ : SIGNAL IS "U(2,2,A)0";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:pollcount_1\ : SIGNAL IS "U(3,1,B)0";
     SIGNAL \UART_STIM_1:BUART:rx_bitclk_enable\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_bitclk_enable\ : SIGNAL IS "U(2,2,A)3";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_bitclk_enable\ : SIGNAL IS "U(3,1,B)3";
     SIGNAL \UART_STIM_1:BUART:rx_count7_tc\ : bit;
     SIGNAL \UART_STIM_1:BUART:rx_count_0\ : bit;
     SIGNAL \UART_STIM_1:BUART:rx_count_1\ : bit;
@@ -639,50 +635,50 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     SIGNAL \UART_STIM_1:BUART:rx_count_5\ : bit;
     SIGNAL \UART_STIM_1:BUART:rx_count_6\ : bit;
     SIGNAL \UART_STIM_1:BUART:rx_counter_load\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_counter_load\ : SIGNAL IS "U(3,2,A)2";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_counter_load\ : SIGNAL IS "U(2,1,B)1";
     SIGNAL \UART_STIM_1:BUART:rx_fifofull\ : bit;
     SIGNAL \UART_STIM_1:BUART:rx_fifonotempty\ : bit;
     SIGNAL \UART_STIM_1:BUART:rx_last\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_last\ : SIGNAL IS "U(0,4,A)2";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_last\ : SIGNAL IS "U(2,1,B)3";
     SIGNAL \UART_STIM_1:BUART:rx_load_fifo\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_load_fifo\ : SIGNAL IS "U(3,3,A)1";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_load_fifo\ : SIGNAL IS "U(2,1,A)1";
     SIGNAL \UART_STIM_1:BUART:rx_postpoll\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_postpoll\ : SIGNAL IS "U(2,2,A)1";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_postpoll\ : SIGNAL IS "U(3,1,B)1";
     SIGNAL \UART_STIM_1:BUART:rx_state_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_state_0\ : SIGNAL IS "U(3,2,A)0";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_state_0\ : SIGNAL IS "U(2,1,A)0";
     SIGNAL \UART_STIM_1:BUART:rx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_state_2\ : SIGNAL IS "U(3,3,A)0";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_state_2\ : SIGNAL IS "U(2,1,B)0";
     SIGNAL \UART_STIM_1:BUART:rx_state_3\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_state_3\ : SIGNAL IS "U(3,2,A)1";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_state_3\ : SIGNAL IS "U(2,1,A)2";
     SIGNAL \UART_STIM_1:BUART:rx_state_stop1_reg\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(3,3,A)2";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_state_stop1_reg\ : SIGNAL IS "U(2,1,B)2";
     SIGNAL \UART_STIM_1:BUART:rx_status_3\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_status_3\ : SIGNAL IS "U(3,2,A)3";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_status_3\ : SIGNAL IS "U(2,1,A)3";
     SIGNAL \UART_STIM_1:BUART:rx_status_4\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_status_4\ : SIGNAL IS "U(2,3,A)3";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_status_4\ : SIGNAL IS "U(2,0,A)1";
     SIGNAL \UART_STIM_1:BUART:rx_status_5\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_status_5\ : SIGNAL IS "U(3,4,B)3";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:rx_status_5\ : SIGNAL IS "U(2,2,B)2";
     SIGNAL \UART_STIM_1:BUART:tx_bitclk\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_bitclk\ : SIGNAL IS "U(0,4,A)1";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_bitclk\ : SIGNAL IS "U(0,5,A)0";
     SIGNAL \UART_STIM_1:BUART:tx_bitclk_enable_pre\ : bit;
     SIGNAL \UART_STIM_1:BUART:tx_counter_dp\ : bit;
     SIGNAL \UART_STIM_1:BUART:tx_ctrl_mark_last\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_ctrl_mark_last\ : SIGNAL IS "U(2,1,A)3";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_ctrl_mark_last\ : SIGNAL IS "U(2,0,A)3";
     SIGNAL \UART_STIM_1:BUART:tx_fifo_empty\ : bit;
     SIGNAL \UART_STIM_1:BUART:tx_fifo_notfull\ : bit;
     SIGNAL \UART_STIM_1:BUART:tx_shift_out\ : bit;
     SIGNAL \UART_STIM_1:BUART:tx_state_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_state_0\ : SIGNAL IS "U(0,4,A)0";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_state_0\ : SIGNAL IS "U(0,5,A)3";
     SIGNAL \UART_STIM_1:BUART:tx_state_1\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_state_1\ : SIGNAL IS "U(0,4,B)1";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_state_1\ : SIGNAL IS "U(0,4,A)3";
     SIGNAL \UART_STIM_1:BUART:tx_state_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_state_2\ : SIGNAL IS "U(0,4,B)0";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_state_2\ : SIGNAL IS "U(0,4,A)0";
     SIGNAL \UART_STIM_1:BUART:tx_status_0\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_status_0\ : SIGNAL IS "U(0,4,B)3";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_status_0\ : SIGNAL IS "U(0,5,A)2";
     SIGNAL \UART_STIM_1:BUART:tx_status_2\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_status_2\ : SIGNAL IS "U(1,4,B)3";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:tx_status_2\ : SIGNAL IS "U(2,3,B)3";
     SIGNAL \UART_STIM_1:BUART:txn\ : bit;
-    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:txn\ : SIGNAL IS "U(0,5,A)0";
+    ATTRIBUTE placement_force OF \UART_STIM_1:BUART:txn\ : SIGNAL IS "U(0,5,B)0";
     SIGNAL \UART_STIM_1:Net_9\ : bit;
     ATTRIBUTE udbclken_assigned OF \UART_STIM_1:Net_9\ : SIGNAL IS "True";
     ATTRIBUTE global_signal OF \UART_STIM_1:Net_9\ : SIGNAL IS true;
@@ -783,33 +779,33 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     ATTRIBUTE Location OF DIO_14(0) : LABEL IS "P6[3]";
     ATTRIBUTE lib_model OF DIO_15(0) : LABEL IS "iocell32";
     ATTRIBUTE Location OF DIO_15(0) : LABEL IS "P6[2]";
-    ATTRIBUTE lib_model OF ASIO_0(0) : LABEL IS "iocell33";
-    ATTRIBUTE Location OF ASIO_0(0) : LABEL IS "P12[3]";
-    ATTRIBUTE lib_model OF ASIO_1(0) : LABEL IS "iocell34";
-    ATTRIBUTE Location OF ASIO_1(0) : LABEL IS "P12[2]";
-    ATTRIBUTE lib_model OF DSIO_0(0) : LABEL IS "iocell35";
-    ATTRIBUTE Location OF DSIO_0(0) : LABEL IS "P12[5]";
-    ATTRIBUTE lib_model OF MODX_IO_0(0) : LABEL IS "iocell36";
-    ATTRIBUTE Location OF MODX_IO_0(0) : LABEL IS "P5[2]";
-    ATTRIBUTE lib_model OF DSIO_1(0) : LABEL IS "iocell37";
-    ATTRIBUTE Location OF DSIO_1(0) : LABEL IS "P12[4]";
+    ATTRIBUTE lib_model OF SAIO_0(0) : LABEL IS "iocell33";
+    ATTRIBUTE Location OF SAIO_0(0) : LABEL IS "P12[2]";
+    ATTRIBUTE lib_model OF SAIO_1(0) : LABEL IS "iocell34";
+    ATTRIBUTE Location OF SAIO_1(0) : LABEL IS "P12[3]";
+    ATTRIBUTE lib_model OF SDIO_0(0) : LABEL IS "iocell35";
+    ATTRIBUTE Location OF SDIO_0(0) : LABEL IS "P12[4]";
+    ATTRIBUTE lib_model OF MODX_3_IO(0) : LABEL IS "iocell36";
+    ATTRIBUTE Location OF MODX_3_IO(0) : LABEL IS "P5[0]";
+    ATTRIBUTE lib_model OF SDIO_1(0) : LABEL IS "iocell37";
+    ATTRIBUTE Location OF SDIO_1(0) : LABEL IS "P12[5]";
     ATTRIBUTE lib_model OF LED_B(0) : LABEL IS "iocell38";
-    ATTRIBUTE Location OF LED_B(0) : LABEL IS "P5[4]";
+    ATTRIBUTE Location OF LED_B(0) : LABEL IS "P5[7]";
     ATTRIBUTE lib_model OF LED_G(0) : LABEL IS "iocell39";
     ATTRIBUTE Location OF LED_G(0) : LABEL IS "P5[5]";
     ATTRIBUTE lib_model OF LED_R(0) : LABEL IS "iocell40";
     ATTRIBUTE Location OF LED_R(0) : LABEL IS "P5[6]";
     ATTRIBUTE lib_model OF KEY_1(0) : LABEL IS "iocell41";
-    ATTRIBUTE Location OF KEY_1(0) : LABEL IS "P6[1]";
+    ATTRIBUTE Location OF KEY_1(0) : LABEL IS "P6[0]";
     ATTRIBUTE lib_model OF KEY_2(0) : LABEL IS "iocell42";
-    ATTRIBUTE Location OF KEY_2(0) : LABEL IS "P6[0]";
+    ATTRIBUTE Location OF KEY_2(0) : LABEL IS "P6[1]";
     ATTRIBUTE lib_model OF \USBUART_1:Dm(0)\ : LABEL IS "iocell43";
     ATTRIBUTE Location OF \USBUART_1:Dm(0)\ : LABEL IS "P15[7]";
     ATTRIBUTE Location OF \USBUART_1:Dp\ : LABEL IS "F(PICU,8)";
     ATTRIBUTE lib_model OF \USBUART_1:Dp(0)\ : LABEL IS "iocell44";
     ATTRIBUTE Location OF \USBUART_1:Dp(0)\ : LABEL IS "P15[6]";
     ATTRIBUTE lib_model OF BUZZER(0) : LABEL IS "iocell45";
-    ATTRIBUTE Location OF BUZZER(0) : LABEL IS "P5[7]";
+    ATTRIBUTE Location OF BUZZER(0) : LABEL IS "P5[4]";
     ATTRIBUTE lib_model OF CAN_TX(0) : LABEL IS "iocell46";
     ATTRIBUTE Location OF CAN_TX(0) : LABEL IS "P12[7]";
     ATTRIBUTE lib_model OF CAN_RX(0) : LABEL IS "iocell47";
@@ -817,127 +813,123 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     ATTRIBUTE lib_model OF MODX_1_TXD(0) : LABEL IS "iocell48";
     ATTRIBUTE Location OF MODX_1_TXD(0) : LABEL IS "P1[5]";
     ATTRIBUTE lib_model OF MODX_1_RXD(0) : LABEL IS "iocell49";
-    ATTRIBUTE Location OF MODX_1_RXD(0) : LABEL IS "P1[4]";
-    ATTRIBUTE lib_model OF MODX_0_TXD(0) : LABEL IS "iocell50";
-    ATTRIBUTE Location OF MODX_0_TXD(0) : LABEL IS "P5[1]";
-    ATTRIBUTE lib_model OF MODX_0_RXD(0) : LABEL IS "iocell51";
-    ATTRIBUTE Location OF MODX_0_RXD(0) : LABEL IS "P5[0]";
+    ATTRIBUTE Location OF MODX_1_RXD(0) : LABEL IS "P1[6]";
+    ATTRIBUTE lib_model OF MODX_3_TXD(0) : LABEL IS "iocell50";
+    ATTRIBUTE Location OF MODX_3_TXD(0) : LABEL IS "P5[2]";
+    ATTRIBUTE lib_model OF MODX_3_RXD(0) : LABEL IS "iocell51";
+    ATTRIBUTE Location OF MODX_3_RXD(0) : LABEL IS "P5[1]";
     ATTRIBUTE lib_model OF MODX_2_RXD(0) : LABEL IS "iocell52";
-    ATTRIBUTE Location OF MODX_2_RXD(0) : LABEL IS "P1[6]";
+    ATTRIBUTE Location OF MODX_2_RXD(0) : LABEL IS "P1[2]";
     ATTRIBUTE lib_model OF MODX_2_TXD(0) : LABEL IS "iocell53";
-    ATTRIBUTE Location OF MODX_2_TXD(0) : LABEL IS "P1[7]";
-    ATTRIBUTE lib_model OF LINUX_RST(0) : LABEL IS "iocell54";
-    ATTRIBUTE Location OF LINUX_RST(0) : LABEL IS "P15[2]";
-    ATTRIBUTE lib_model OF UART_LINUX_0_TXD(0) : LABEL IS "iocell55";
+    ATTRIBUTE Location OF MODX_2_TXD(0) : LABEL IS "P5[3]";
+    ATTRIBUTE lib_model OF UART_LINUX_0_TXD(0) : LABEL IS "iocell54";
     ATTRIBUTE Location OF UART_LINUX_0_TXD(0) : LABEL IS "P12[0]";
-    ATTRIBUTE lib_model OF UART_LINUX_0_RXD(0) : LABEL IS "iocell56";
+    ATTRIBUTE lib_model OF UART_LINUX_0_RXD(0) : LABEL IS "iocell55";
     ATTRIBUTE Location OF UART_LINUX_0_RXD(0) : LABEL IS "P12[1]";
-    ATTRIBUTE lib_model OF PSOC_RST(0) : LABEL IS "iocell57";
-    ATTRIBUTE Location OF PSOC_RST(0) : LABEL IS "P15[3]";
-    ATTRIBUTE lib_model OF MODX_IO_1(0) : LABEL IS "iocell58";
-    ATTRIBUTE Location OF MODX_IO_1(0) : LABEL IS "P5[3]";
-    ATTRIBUTE lib_model OF MODX_IO_2(0) : LABEL IS "iocell59";
-    ATTRIBUTE Location OF MODX_IO_2(0) : LABEL IS "P1[2]";
+    ATTRIBUTE lib_model OF MODX_1_IO(0) : LABEL IS "iocell56";
+    ATTRIBUTE Location OF MODX_1_IO(0) : LABEL IS "P1[7]";
+    ATTRIBUTE lib_model OF MODX_2_IO(0) : LABEL IS "iocell57";
+    ATTRIBUTE Location OF MODX_2_IO(0) : LABEL IS "P1[4]";
     ATTRIBUTE lib_model OF AMuxHw_1_Decoder_is_active : LABEL IS "macrocell1";
     ATTRIBUTE Location OF AMuxHw_1_Decoder_is_active : LABEL IS "U(2,5)";
     ATTRIBUTE lib_model OF Net_732 : LABEL IS "macrocell2";
-    ATTRIBUTE Location OF Net_732 : LABEL IS "U(2,1)";
+    ATTRIBUTE Location OF Net_732 : LABEL IS "U(2,3)";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:counter_load_not\ : LABEL IS "macrocell3";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:counter_load_not\ : LABEL IS "U(2,2)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:counter_load_not\ : LABEL IS "U(2,3)";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_status_0\ : LABEL IS "macrocell4";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_status_0\ : LABEL IS "U(2,2)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_status_0\ : LABEL IS "U(2,3)";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_status_2\ : LABEL IS "macrocell5";
     ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_status_2\ : LABEL IS "U(2,2)";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_counter_load\ : LABEL IS "macrocell6";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_counter_load\ : LABEL IS "U(0,0)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_counter_load\ : LABEL IS "U(1,1)";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_postpoll\ : LABEL IS "macrocell7";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_postpoll\ : LABEL IS "U(0,1)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_postpoll\ : LABEL IS "U(1,2)";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_status_4\ : LABEL IS "macrocell8";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_status_4\ : LABEL IS "U(0,0)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_status_4\ : LABEL IS "U(1,3)";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_status_5\ : LABEL IS "macrocell9";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_status_5\ : LABEL IS "U(1,0)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_status_5\ : LABEL IS "U(2,2)";
     ATTRIBUTE lib_model OF Net_719 : LABEL IS "macrocell10";
-    ATTRIBUTE Location OF Net_719 : LABEL IS "U(2,0)";
+    ATTRIBUTE Location OF Net_719 : LABEL IS "U(1,2)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:counter_load_not\ : LABEL IS "macrocell11";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:counter_load_not\ : LABEL IS "U(1,4)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:counter_load_not\ : LABEL IS "U(0,2)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:tx_status_0\ : LABEL IS "macrocell12";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_status_0\ : LABEL IS "U(1,4)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_status_0\ : LABEL IS "U(0,2)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:tx_status_2\ : LABEL IS "macrocell13";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_status_2\ : LABEL IS "U(1,5)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_status_2\ : LABEL IS "U(1,3)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_counter_load\ : LABEL IS "macrocell14";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_counter_load\ : LABEL IS "U(1,1)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_counter_load\ : LABEL IS "U(1,0)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_postpoll\ : LABEL IS "macrocell15";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_postpoll\ : LABEL IS "U(1,0)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_postpoll\ : LABEL IS "U(0,0)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_status_4\ : LABEL IS "macrocell16";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_status_4\ : LABEL IS "U(2,0)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_status_4\ : LABEL IS "U(1,3)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_status_5\ : LABEL IS "macrocell17";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_status_5\ : LABEL IS "U(2,1)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_status_5\ : LABEL IS "U(2,0)";
     ATTRIBUTE lib_model OF Net_745 : LABEL IS "macrocell18";
-    ATTRIBUTE Location OF Net_745 : LABEL IS "U(1,2)";
+    ATTRIBUTE Location OF Net_745 : LABEL IS "U(0,3)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:counter_load_not\ : LABEL IS "macrocell19";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:counter_load_not\ : LABEL IS "U(1,3)";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:counter_load_not\ : LABEL IS "U(0,4)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:tx_status_0\ : LABEL IS "macrocell20";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_status_0\ : LABEL IS "U(1,2)";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_status_0\ : LABEL IS "U(1,4)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:tx_status_2\ : LABEL IS "macrocell21";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_status_2\ : LABEL IS "U(1,2)";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_status_2\ : LABEL IS "U(1,4)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_counter_load\ : LABEL IS "macrocell22";
     ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_counter_load\ : LABEL IS "U(0,2)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_postpoll\ : LABEL IS "macrocell23";
     ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_postpoll\ : LABEL IS "U(0,1)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_status_4\ : LABEL IS "macrocell24";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_status_4\ : LABEL IS "U(0,3)";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_status_4\ : LABEL IS "U(0,1)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_status_5\ : LABEL IS "macrocell25";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_status_5\ : LABEL IS "U(0,3)";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_status_5\ : LABEL IS "U(0,1)";
     ATTRIBUTE lib_model OF Net_784 : LABEL IS "macrocell26";
-    ATTRIBUTE Location OF Net_784 : LABEL IS "U(1,3)";
+    ATTRIBUTE Location OF Net_784 : LABEL IS "U(1,4)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:counter_load_not\ : LABEL IS "macrocell27";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:counter_load_not\ : LABEL IS "U(0,3)";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:counter_load_not\ : LABEL IS "U(1,5)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_status_0\ : LABEL IS "macrocell28";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_status_0\ : LABEL IS "U(0,3)";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_status_0\ : LABEL IS "U(1,5)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_status_2\ : LABEL IS "macrocell29";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_status_2\ : LABEL IS "U(1,3)";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_status_2\ : LABEL IS "U(1,5)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_counter_load\ : LABEL IS "macrocell30";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_counter_load\ : LABEL IS "U(2,5)";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_counter_load\ : LABEL IS "U(2,4)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_postpoll\ : LABEL IS "macrocell31";
     ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_postpoll\ : LABEL IS "U(2,4)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_status_4\ : LABEL IS "macrocell32";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_status_4\ : LABEL IS "U(2,3)";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_status_4\ : LABEL IS "U(2,2)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_status_5\ : LABEL IS "macrocell33";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_status_5\ : LABEL IS "U(2,3)";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_status_5\ : LABEL IS "U(2,2)";
     ATTRIBUTE lib_model OF Net_810 : LABEL IS "macrocell34";
-    ATTRIBUTE Location OF Net_810 : LABEL IS "U(2,0)";
+    ATTRIBUTE Location OF Net_810 : LABEL IS "U(2,2)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:counter_load_not\ : LABEL IS "macrocell35";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:counter_load_not\ : LABEL IS "U(0,5)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:counter_load_not\ : LABEL IS "U(3,3)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_status_0\ : LABEL IS "macrocell36";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_status_0\ : LABEL IS "U(1,5)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_status_0\ : LABEL IS "U(3,2)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_status_2\ : LABEL IS "macrocell37";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_status_2\ : LABEL IS "U(1,5)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_status_2\ : LABEL IS "U(3,4)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_counter_load\ : LABEL IS "macrocell38";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_counter_load\ : LABEL IS "U(3,1)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_counter_load\ : LABEL IS "U(3,0)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_postpoll\ : LABEL IS "macrocell39";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_postpoll\ : LABEL IS "U(3,0)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_postpoll\ : LABEL IS "U(3,1)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_status_4\ : LABEL IS "macrocell40";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_status_4\ : LABEL IS "U(3,0)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_status_4\ : LABEL IS "U(2,0)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_status_5\ : LABEL IS "macrocell41";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_status_5\ : LABEL IS "U(3,0)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_status_5\ : LABEL IS "U(3,2)";
     ATTRIBUTE lib_model OF Net_797 : LABEL IS "macrocell42";
-    ATTRIBUTE Location OF Net_797 : LABEL IS "U(2,3)";
+    ATTRIBUTE Location OF Net_797 : LABEL IS "U(0,5)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:counter_load_not\ : LABEL IS "macrocell43";
     ATTRIBUTE Location OF \UART_STIM_1:BUART:counter_load_not\ : LABEL IS "U(0,4)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_status_0\ : LABEL IS "macrocell44";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_status_0\ : LABEL IS "U(0,4)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_status_0\ : LABEL IS "U(0,5)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_status_2\ : LABEL IS "macrocell45";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_status_2\ : LABEL IS "U(1,4)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_status_2\ : LABEL IS "U(2,3)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_counter_load\ : LABEL IS "macrocell46";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_counter_load\ : LABEL IS "U(3,2)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_counter_load\ : LABEL IS "U(2,1)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_postpoll\ : LABEL IS "macrocell47";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_postpoll\ : LABEL IS "U(2,2)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_postpoll\ : LABEL IS "U(3,1)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_status_4\ : LABEL IS "macrocell48";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_status_4\ : LABEL IS "U(2,3)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_status_4\ : LABEL IS "U(2,0)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_status_5\ : LABEL IS "macrocell49";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_status_5\ : LABEL IS "U(3,4)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_status_5\ : LABEL IS "U(2,2)";
     ATTRIBUTE lib_model OF \PWM_1:PWMUDB:status_2\ : LABEL IS "macrocell50";
-    ATTRIBUTE Location OF \PWM_1:PWMUDB:status_2\ : LABEL IS "U(2,0)";
+    ATTRIBUTE Location OF \PWM_1:PWMUDB:status_2\ : LABEL IS "U(0,0)";
     ATTRIBUTE lib_model OF AMuxHw_2_Decoder_is_active : LABEL IS "macrocell51";
     ATTRIBUTE Location OF AMuxHw_2_Decoder_is_active : LABEL IS "U(3,3)";
     ATTRIBUTE Location OF \ADC_SAR_1:IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(0)]";
@@ -954,84 +946,82 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     ATTRIBUTE Location OF \CAN_1:CanIP\ : LABEL IS "F(CAN,0)";
     ATTRIBUTE Location OF \CAN_1:isr\ : LABEL IS "[IntrContainer=(0)][IntrId=(16)]";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:sTX:TxShifter:u0\ : LABEL IS "datapathcell1";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:sTX:TxShifter:u0\ : LABEL IS "U(2,1)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:sTX:TxShifter:u0\ : LABEL IS "U(2,3)";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "datapathcell2";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(2,2)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(2,4)";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:sTX:TxSts\ : LABEL IS "statusicell1";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:sTX:TxSts\ : LABEL IS "U(2,2)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:sTX:TxSts\ : LABEL IS "U(2,3)";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:sRX:RxShifter:u0\ : LABEL IS "datapathcell3";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:sRX:RxShifter:u0\ : LABEL IS "U(0,0)";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:sRX:RxBitCounter\ : LABEL IS "U(0,0)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:sRX:RxShifter:u0\ : LABEL IS "U(1,2)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:sRX:RxBitCounter\ : LABEL IS "U(1,1)";
     ATTRIBUTE lib_model OF \UART_MODX_1:BUART:sRX:RxSts\ : LABEL IS "statusicell2";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:sRX:RxSts\ : LABEL IS "U(1,0)";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:sRX:RxSts\ : LABEL IS "U(3,3)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:sTX:TxShifter:u0\ : LABEL IS "datapathcell4";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:sTX:TxShifter:u0\ : LABEL IS "U(2,5)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:sTX:TxShifter:u0\ : LABEL IS "U(1,3)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "datapathcell5";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(3,5)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(1,1)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:sTX:TxSts\ : LABEL IS "statusicell3";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:sTX:TxSts\ : LABEL IS "U(2,5)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:sTX:TxSts\ : LABEL IS "U(1,3)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:sRX:RxShifter:u0\ : LABEL IS "datapathcell6";
     ATTRIBUTE Location OF \UART_MODX_0:BUART:sRX:RxShifter:u0\ : LABEL IS "U(1,0)";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:sRX:RxBitCounter\ : LABEL IS "U(1,1)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:sRX:RxBitCounter\ : LABEL IS "U(1,0)";
     ATTRIBUTE lib_model OF \UART_MODX_0:BUART:sRX:RxSts\ : LABEL IS "statusicell4";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:sRX:RxSts\ : LABEL IS "U(2,1)";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:sRX:RxSts\ : LABEL IS "U(1,2)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:sTX:TxShifter:u0\ : LABEL IS "datapathcell7";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:sTX:TxShifter:u0\ : LABEL IS "U(1,2)";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:sTX:TxShifter:u0\ : LABEL IS "U(0,3)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "datapathcell8";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(2,3)";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(0,2)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:sTX:TxSts\ : LABEL IS "statusicell5";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:sTX:TxSts\ : LABEL IS "U(1,2)";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:sTX:TxSts\ : LABEL IS "U(1,4)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:sRX:RxShifter:u0\ : LABEL IS "datapathcell9";
     ATTRIBUTE Location OF \UART_MODX_2:BUART:sRX:RxShifter:u0\ : LABEL IS "U(0,1)";
     ATTRIBUTE Location OF \UART_MODX_2:BUART:sRX:RxBitCounter\ : LABEL IS "U(0,2)";
     ATTRIBUTE lib_model OF \UART_MODX_2:BUART:sRX:RxSts\ : LABEL IS "statusicell6";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:sRX:RxSts\ : LABEL IS "U(0,3)";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:sRX:RxSts\ : LABEL IS "U(0,1)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:sTX:TxShifter:u0\ : LABEL IS "datapathcell10";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:sTX:TxShifter:u0\ : LABEL IS "U(1,3)";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:sTX:TxShifter:u0\ : LABEL IS "U(1,4)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "datapathcell11";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(0,3)";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(1,5)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:sTX:TxSts\ : LABEL IS "statusicell7";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:sTX:TxSts\ : LABEL IS "U(1,3)";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:sTX:TxSts\ : LABEL IS "U(1,5)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:sRX:RxShifter:u0\ : LABEL IS "datapathcell12";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:sRX:RxShifter:u0\ : LABEL IS "U(2,4)";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:sRX:RxShifter:u0\ : LABEL IS "U(2,5)";
     ATTRIBUTE Location OF \UART_STIM_0:BUART:sRX:RxBitCounter\ : LABEL IS "U(2,4)";
     ATTRIBUTE lib_model OF \UART_STIM_0:BUART:sRX:RxSts\ : LABEL IS "statusicell8";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:sRX:RxSts\ : LABEL IS "U(2,3)";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:sRX:RxSts\ : LABEL IS "U(2,2)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:sTX:TxShifter:u0\ : LABEL IS "datapathcell13";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sTX:TxShifter:u0\ : LABEL IS "U(1,5)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sTX:TxShifter:u0\ : LABEL IS "U(3,2)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "datapathcell14";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(0,5)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(3,4)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:sTX:TxSts\ : LABEL IS "statusicell9";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sTX:TxSts\ : LABEL IS "U(1,5)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sTX:TxSts\ : LABEL IS "U(3,2)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:sRX:RxShifter:u0\ : LABEL IS "datapathcell15";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sRX:RxShifter:u0\ : LABEL IS "U(3,0)";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sRX:RxBitCounter\ : LABEL IS "U(3,1)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sRX:RxShifter:u0\ : LABEL IS "U(3,1)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sRX:RxBitCounter\ : LABEL IS "U(3,0)";
     ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:sRX:RxSts\ : LABEL IS "statusicell10";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sRX:RxSts\ : LABEL IS "U(3,0)";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:sRX:RxSts\ : LABEL IS "U(3,1)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:sTX:TxShifter:u0\ : LABEL IS "datapathcell16";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:sTX:TxShifter:u0\ : LABEL IS "U(0,4)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:sTX:TxShifter:u0\ : LABEL IS "U(0,5)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "datapathcell17";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(1,4)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:sTX:sCLOCK:TxBitClkGen\ : LABEL IS "U(0,4)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:sTX:TxSts\ : LABEL IS "statusicell11";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:sTX:TxSts\ : LABEL IS "U(1,4)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:sTX:TxSts\ : LABEL IS "U(2,5)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:sRX:RxShifter:u0\ : LABEL IS "datapathcell18";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:sRX:RxShifter:u0\ : LABEL IS "U(3,4)";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:sRX:RxBitCounter\ : LABEL IS "U(3,2)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:sRX:RxShifter:u0\ : LABEL IS "U(2,0)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:sRX:RxBitCounter\ : LABEL IS "U(2,1)";
     ATTRIBUTE lib_model OF \UART_STIM_1:BUART:sRX:RxSts\ : LABEL IS "statusicell12";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:sRX:RxSts\ : LABEL IS "U(3,3)";
-    ATTRIBUTE lib_model OF \Control_Reg_3:Sync:ctrl_reg\ : LABEL IS "controlcell1";
-    ATTRIBUTE Location OF \Control_Reg_3:Sync:ctrl_reg\ : LABEL IS "U(0,1)";
-    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:genblk1:ctrlreg\ : LABEL IS "controlcell2";
-    ATTRIBUTE Location OF \PWM_1:PWMUDB:genblk1:ctrlreg\ : LABEL IS "U(2,0)";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:sRX:RxSts\ : LABEL IS "U(2,0)";
+    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:genblk1:ctrlreg\ : LABEL IS "controlcell1";
+    ATTRIBUTE Location OF \PWM_1:PWMUDB:genblk1:ctrlreg\ : LABEL IS "U(0,0)";
     ATTRIBUTE lib_model OF \PWM_1:PWMUDB:genblk8:stsreg\ : LABEL IS "statusicell13";
-    ATTRIBUTE Location OF \PWM_1:PWMUDB:genblk8:stsreg\ : LABEL IS "U(2,0)";
+    ATTRIBUTE Location OF \PWM_1:PWMUDB:genblk8:stsreg\ : LABEL IS "U(0,0)";
     ATTRIBUTE lib_model OF \PWM_1:PWMUDB:sP8:pwmdp:u0\ : LABEL IS "datapathcell19";
-    ATTRIBUTE Location OF \PWM_1:PWMUDB:sP8:pwmdp:u0\ : LABEL IS "U(2,0)";
-    ATTRIBUTE lib_model OF \Control_Reg_1:Sync:ctrl_reg\ : LABEL IS "controlcell3";
+    ATTRIBUTE Location OF \PWM_1:PWMUDB:sP8:pwmdp:u0\ : LABEL IS "U(0,0)";
+    ATTRIBUTE lib_model OF \Control_Reg_1:Sync:ctrl_reg\ : LABEL IS "controlcell2";
     ATTRIBUTE Location OF \Control_Reg_1:Sync:ctrl_reg\ : LABEL IS "U(2,5)";
     ATTRIBUTE Location OF \ADC_SAR_2:IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(1)]";
     ATTRIBUTE Location OF \ADC_SAR_2:ADC_SAR\ : LABEL IS "F(SAR,1)";
-    ATTRIBUTE lib_model OF \Control_Reg_2:Sync:ctrl_reg\ : LABEL IS "controlcell4";
+    ATTRIBUTE lib_model OF \Control_Reg_2:Sync:ctrl_reg\ : LABEL IS "controlcell3";
     ATTRIBUTE Location OF \Control_Reg_2:Sync:ctrl_reg\ : LABEL IS "U(3,3)";
     ATTRIBUTE lib_model OF \Status_Reg_1:sts:sts_reg\ : LABEL IS "statuscell1";
     ATTRIBUTE Location OF \Status_Reg_1:sts:sts_reg\ : LABEL IS "U(0,5)";
@@ -1059,223 +1049,229 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     ATTRIBUTE Location OF AMuxHw_1_Decoder_one_hot_6 : LABEL IS "U(3,5)";
     ATTRIBUTE lib_model OF AMuxHw_1_Decoder_one_hot_7 : LABEL IS "macrocell62";
     ATTRIBUTE Location OF AMuxHw_1_Decoder_one_hot_7 : LABEL IS "U(3,5)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:txn\ : LABEL IS "macrocell63";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:txn\ : LABEL IS "U(2,1)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_state_1\ : LABEL IS "macrocell64";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_state_1\ : LABEL IS "U(2,3)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_state_0\ : LABEL IS "macrocell65";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_state_0\ : LABEL IS "U(2,2)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_state_2\ : LABEL IS "macrocell66";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_state_2\ : LABEL IS "U(2,3)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_bitclk\ : LABEL IS "macrocell67";
+    ATTRIBUTE lib_model OF LED_BUS_2 : LABEL IS "macrocell63";
+    ATTRIBUTE Location OF LED_BUS_2 : LABEL IS "U(0,0)";
+    ATTRIBUTE lib_model OF LED_BUS_1 : LABEL IS "macrocell64";
+    ATTRIBUTE Location OF LED_BUS_1 : LABEL IS "U(0,0)";
+    ATTRIBUTE lib_model OF LED_BUS_0 : LABEL IS "macrocell65";
+    ATTRIBUTE Location OF LED_BUS_0 : LABEL IS "U(0,0)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:txn\ : LABEL IS "macrocell66";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:txn\ : LABEL IS "U(2,3)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_state_1\ : LABEL IS "macrocell67";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_state_1\ : LABEL IS "U(1,3)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_state_0\ : LABEL IS "macrocell68";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_state_0\ : LABEL IS "U(2,3)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_state_2\ : LABEL IS "macrocell69";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_state_2\ : LABEL IS "U(1,3)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_bitclk\ : LABEL IS "macrocell70";
     ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_bitclk\ : LABEL IS "U(2,3)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_ctrl_mark_last\ : LABEL IS "macrocell68";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_ctrl_mark_last\ : LABEL IS "U(1,1)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_state_0\ : LABEL IS "macrocell69";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_state_0\ : LABEL IS "U(0,0)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_load_fifo\ : LABEL IS "macrocell70";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_load_fifo\ : LABEL IS "U(0,0)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_state_3\ : LABEL IS "macrocell71";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_state_3\ : LABEL IS "U(0,0)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_state_2\ : LABEL IS "macrocell72";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_state_2\ : LABEL IS "U(0,0)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_bitclk_enable\ : LABEL IS "macrocell73";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_bitclk_enable\ : LABEL IS "U(1,0)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell74";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_state_stop1_reg\ : LABEL IS "U(0,0)";
-    ATTRIBUTE lib_model OF MODIN1_1 : LABEL IS "macrocell75";
-    ATTRIBUTE Location OF MODIN1_1 : LABEL IS "U(0,1)";
-    ATTRIBUTE lib_model OF MODIN1_0 : LABEL IS "macrocell76";
-    ATTRIBUTE Location OF MODIN1_0 : LABEL IS "U(0,1)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_status_3\ : LABEL IS "macrocell77";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_status_3\ : LABEL IS "U(0,0)";
-    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_last\ : LABEL IS "macrocell78";
-    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_last\ : LABEL IS "U(0,1)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:txn\ : LABEL IS "macrocell79";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:txn\ : LABEL IS "U(2,3)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:tx_state_1\ : LABEL IS "macrocell80";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_state_1\ : LABEL IS "U(1,4)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:tx_state_0\ : LABEL IS "macrocell81";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_state_0\ : LABEL IS "U(1,4)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:tx_state_2\ : LABEL IS "macrocell82";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_state_2\ : LABEL IS "U(1,4)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:tx_bitclk\ : LABEL IS "macrocell83";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_bitclk\ : LABEL IS "U(1,4)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_state_0\ : LABEL IS "macrocell84";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_state_0\ : LABEL IS "U(1,1)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_load_fifo\ : LABEL IS "macrocell85";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_load_fifo\ : LABEL IS "U(1,1)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_state_3\ : LABEL IS "macrocell86";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_state_3\ : LABEL IS "U(1,1)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_state_2\ : LABEL IS "macrocell87";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_state_2\ : LABEL IS "U(1,1)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_bitclk_enable\ : LABEL IS "macrocell88";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_bitclk_enable\ : LABEL IS "U(1,2)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell89";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_state_stop1_reg\ : LABEL IS "U(1,1)";
-    ATTRIBUTE lib_model OF MODIN5_1 : LABEL IS "macrocell90";
-    ATTRIBUTE Location OF MODIN5_1 : LABEL IS "U(1,0)";
-    ATTRIBUTE lib_model OF MODIN5_0 : LABEL IS "macrocell91";
-    ATTRIBUTE Location OF MODIN5_0 : LABEL IS "U(1,0)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_status_3\ : LABEL IS "macrocell92";
-    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_status_3\ : LABEL IS "U(1,1)";
-    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_last\ : LABEL IS "macrocell93";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:tx_ctrl_mark_last\ : LABEL IS "macrocell71";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:tx_ctrl_mark_last\ : LABEL IS "U(2,2)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_state_0\ : LABEL IS "macrocell72";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_state_0\ : LABEL IS "U(1,1)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_load_fifo\ : LABEL IS "macrocell73";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_load_fifo\ : LABEL IS "U(1,1)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_state_3\ : LABEL IS "macrocell74";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_state_3\ : LABEL IS "U(1,1)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_state_2\ : LABEL IS "macrocell75";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_state_2\ : LABEL IS "U(1,1)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_bitclk_enable\ : LABEL IS "macrocell76";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_bitclk_enable\ : LABEL IS "U(1,2)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell77";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_state_stop1_reg\ : LABEL IS "U(1,1)";
+    ATTRIBUTE lib_model OF MODIN1_1 : LABEL IS "macrocell78";
+    ATTRIBUTE Location OF MODIN1_1 : LABEL IS "U(1,2)";
+    ATTRIBUTE lib_model OF MODIN1_0 : LABEL IS "macrocell79";
+    ATTRIBUTE Location OF MODIN1_0 : LABEL IS "U(1,2)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_status_3\ : LABEL IS "macrocell80";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_status_3\ : LABEL IS "U(1,1)";
+    ATTRIBUTE lib_model OF \UART_MODX_1:BUART:rx_last\ : LABEL IS "macrocell81";
+    ATTRIBUTE Location OF \UART_MODX_1:BUART:rx_last\ : LABEL IS "U(1,1)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:txn\ : LABEL IS "macrocell82";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:txn\ : LABEL IS "U(1,2)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:tx_state_1\ : LABEL IS "macrocell83";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_state_1\ : LABEL IS "U(1,3)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:tx_state_0\ : LABEL IS "macrocell84";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_state_0\ : LABEL IS "U(0,2)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:tx_state_2\ : LABEL IS "macrocell85";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_state_2\ : LABEL IS "U(1,3)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:tx_bitclk\ : LABEL IS "macrocell86";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:tx_bitclk\ : LABEL IS "U(1,3)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_state_0\ : LABEL IS "macrocell87";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_state_0\ : LABEL IS "U(1,0)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_load_fifo\ : LABEL IS "macrocell88";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_load_fifo\ : LABEL IS "U(1,0)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_state_3\ : LABEL IS "macrocell89";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_state_3\ : LABEL IS "U(1,0)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_state_2\ : LABEL IS "macrocell90";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_state_2\ : LABEL IS "U(1,0)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_bitclk_enable\ : LABEL IS "macrocell91";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_bitclk_enable\ : LABEL IS "U(0,0)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell92";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_state_stop1_reg\ : LABEL IS "U(1,0)";
+    ATTRIBUTE lib_model OF MODIN5_1 : LABEL IS "macrocell93";
+    ATTRIBUTE Location OF MODIN5_1 : LABEL IS "U(0,0)";
+    ATTRIBUTE lib_model OF MODIN5_0 : LABEL IS "macrocell94";
+    ATTRIBUTE Location OF MODIN5_0 : LABEL IS "U(0,0)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_status_3\ : LABEL IS "macrocell95";
+    ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_status_3\ : LABEL IS "U(1,0)";
+    ATTRIBUTE lib_model OF \UART_MODX_0:BUART:rx_last\ : LABEL IS "macrocell96";
     ATTRIBUTE Location OF \UART_MODX_0:BUART:rx_last\ : LABEL IS "U(1,0)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:txn\ : LABEL IS "macrocell94";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:txn\ : LABEL IS "U(1,2)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:tx_state_1\ : LABEL IS "macrocell95";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_state_1\ : LABEL IS "U(1,3)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:tx_state_0\ : LABEL IS "macrocell96";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_state_0\ : LABEL IS "U(1,2)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:tx_state_2\ : LABEL IS "macrocell97";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_state_2\ : LABEL IS "U(1,3)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:tx_bitclk\ : LABEL IS "macrocell98";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_bitclk\ : LABEL IS "U(1,2)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_state_0\ : LABEL IS "macrocell99";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:txn\ : LABEL IS "macrocell97";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:txn\ : LABEL IS "U(0,3)";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:tx_state_1\ : LABEL IS "macrocell98";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_state_1\ : LABEL IS "U(0,4)";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:tx_state_0\ : LABEL IS "macrocell99";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_state_0\ : LABEL IS "U(1,4)";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:tx_state_2\ : LABEL IS "macrocell100";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_state_2\ : LABEL IS "U(0,4)";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:tx_bitclk\ : LABEL IS "macrocell101";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:tx_bitclk\ : LABEL IS "U(1,4)";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_state_0\ : LABEL IS "macrocell102";
     ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_state_0\ : LABEL IS "U(0,2)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_load_fifo\ : LABEL IS "macrocell100";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_load_fifo\ : LABEL IS "macrocell103";
     ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_load_fifo\ : LABEL IS "U(0,2)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_state_3\ : LABEL IS "macrocell101";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_state_3\ : LABEL IS "U(0,2)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_state_2\ : LABEL IS "macrocell102";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_state_2\ : LABEL IS "U(0,2)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_bitclk_enable\ : LABEL IS "macrocell103";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_bitclk_enable\ : LABEL IS "U(0,1)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell104";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_state_stop1_reg\ : LABEL IS "U(0,2)";
-    ATTRIBUTE lib_model OF MODIN9_1 : LABEL IS "macrocell105";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_state_3\ : LABEL IS "macrocell104";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_state_3\ : LABEL IS "U(0,3)";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_state_2\ : LABEL IS "macrocell105";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_state_2\ : LABEL IS "U(0,3)";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_bitclk_enable\ : LABEL IS "macrocell106";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_bitclk_enable\ : LABEL IS "U(0,2)";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell107";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_state_stop1_reg\ : LABEL IS "U(0,3)";
+    ATTRIBUTE lib_model OF MODIN9_1 : LABEL IS "macrocell108";
     ATTRIBUTE Location OF MODIN9_1 : LABEL IS "U(0,1)";
-    ATTRIBUTE lib_model OF MODIN9_0 : LABEL IS "macrocell106";
+    ATTRIBUTE lib_model OF MODIN9_0 : LABEL IS "macrocell109";
     ATTRIBUTE Location OF MODIN9_0 : LABEL IS "U(0,1)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_status_3\ : LABEL IS "macrocell107";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_status_3\ : LABEL IS "macrocell110";
     ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_status_3\ : LABEL IS "U(0,2)";
-    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_last\ : LABEL IS "macrocell108";
-    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_last\ : LABEL IS "U(0,2)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:txn\ : LABEL IS "macrocell109";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:txn\ : LABEL IS "U(1,3)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_state_1\ : LABEL IS "macrocell110";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_state_1\ : LABEL IS "U(0,3)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_state_0\ : LABEL IS "macrocell111";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_state_0\ : LABEL IS "U(0,3)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_state_2\ : LABEL IS "macrocell112";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_state_2\ : LABEL IS "U(0,3)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_bitclk\ : LABEL IS "macrocell113";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_bitclk\ : LABEL IS "U(0,3)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_ctrl_mark_last\ : LABEL IS "macrocell114";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_ctrl_mark_last\ : LABEL IS "U(1,3)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_state_0\ : LABEL IS "macrocell115";
+    ATTRIBUTE lib_model OF \UART_MODX_2:BUART:rx_last\ : LABEL IS "macrocell111";
+    ATTRIBUTE Location OF \UART_MODX_2:BUART:rx_last\ : LABEL IS "U(0,1)";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:txn\ : LABEL IS "macrocell112";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:txn\ : LABEL IS "U(1,4)";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_state_1\ : LABEL IS "macrocell113";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_state_1\ : LABEL IS "U(1,5)";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_state_0\ : LABEL IS "macrocell114";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_state_0\ : LABEL IS "U(1,5)";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_state_2\ : LABEL IS "macrocell115";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_state_2\ : LABEL IS "U(1,5)";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_bitclk\ : LABEL IS "macrocell116";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_bitclk\ : LABEL IS "U(1,5)";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:tx_ctrl_mark_last\ : LABEL IS "macrocell117";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:tx_ctrl_mark_last\ : LABEL IS "U(1,4)";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_state_0\ : LABEL IS "macrocell118";
     ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_state_0\ : LABEL IS "U(2,4)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_load_fifo\ : LABEL IS "macrocell116";
-    ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_load_fifo\ : LABEL IS "U(2,4)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_state_3\ : LABEL IS "macrocell117";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_load_fifo\ : LABEL IS "macrocell119";
+    ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_load_fifo\ : LABEL IS "U(2,5)";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_state_3\ : LABEL IS "macrocell120";
     ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_state_3\ : LABEL IS "U(2,5)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_state_2\ : LABEL IS "macrocell118";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_state_2\ : LABEL IS "macrocell121";
     ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_state_2\ : LABEL IS "U(2,5)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_bitclk_enable\ : LABEL IS "macrocell119";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_bitclk_enable\ : LABEL IS "macrocell122";
     ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_bitclk_enable\ : LABEL IS "U(2,4)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell120";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell123";
     ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_state_stop1_reg\ : LABEL IS "U(2,4)";
-    ATTRIBUTE lib_model OF MODIN13_1 : LABEL IS "macrocell121";
+    ATTRIBUTE lib_model OF MODIN13_1 : LABEL IS "macrocell124";
     ATTRIBUTE Location OF MODIN13_1 : LABEL IS "U(2,4)";
-    ATTRIBUTE lib_model OF MODIN13_0 : LABEL IS "macrocell122";
+    ATTRIBUTE lib_model OF MODIN13_0 : LABEL IS "macrocell125";
     ATTRIBUTE Location OF MODIN13_0 : LABEL IS "U(2,4)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_status_3\ : LABEL IS "macrocell123";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_status_3\ : LABEL IS "macrocell126";
     ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_status_3\ : LABEL IS "U(2,4)";
-    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_last\ : LABEL IS "macrocell124";
+    ATTRIBUTE lib_model OF \UART_STIM_0:BUART:rx_last\ : LABEL IS "macrocell127";
     ATTRIBUTE Location OF \UART_STIM_0:BUART:rx_last\ : LABEL IS "U(2,5)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:txn\ : LABEL IS "macrocell125";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:txn\ : LABEL IS "U(1,5)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_state_1\ : LABEL IS "macrocell126";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_state_1\ : LABEL IS "U(0,5)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_state_0\ : LABEL IS "macrocell127";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_state_0\ : LABEL IS "U(1,5)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_state_2\ : LABEL IS "macrocell128";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_state_2\ : LABEL IS "U(0,5)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_bitclk\ : LABEL IS "macrocell129";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_bitclk\ : LABEL IS "U(1,5)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_ctrl_mark_last\ : LABEL IS "macrocell130";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_ctrl_mark_last\ : LABEL IS "U(3,0)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_state_0\ : LABEL IS "macrocell131";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_state_0\ : LABEL IS "U(3,1)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_load_fifo\ : LABEL IS "macrocell132";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_load_fifo\ : LABEL IS "U(3,1)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_state_3\ : LABEL IS "macrocell133";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_state_3\ : LABEL IS "U(3,1)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_state_2\ : LABEL IS "macrocell134";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_state_2\ : LABEL IS "U(3,1)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_bitclk_enable\ : LABEL IS "macrocell135";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_bitclk_enable\ : LABEL IS "U(3,0)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell136";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_state_stop1_reg\ : LABEL IS "U(3,1)";
-    ATTRIBUTE lib_model OF MODIN17_1 : LABEL IS "macrocell137";
-    ATTRIBUTE Location OF MODIN17_1 : LABEL IS "U(3,0)";
-    ATTRIBUTE lib_model OF MODIN17_0 : LABEL IS "macrocell138";
-    ATTRIBUTE Location OF MODIN17_0 : LABEL IS "U(3,0)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_status_3\ : LABEL IS "macrocell139";
-    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_status_3\ : LABEL IS "U(3,1)";
-    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_last\ : LABEL IS "macrocell140";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:txn\ : LABEL IS "macrocell128";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:txn\ : LABEL IS "U(2,2)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_state_1\ : LABEL IS "macrocell129";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_state_1\ : LABEL IS "U(3,3)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_state_0\ : LABEL IS "macrocell130";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_state_0\ : LABEL IS "U(3,2)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_state_2\ : LABEL IS "macrocell131";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_state_2\ : LABEL IS "U(3,3)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_bitclk\ : LABEL IS "macrocell132";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_bitclk\ : LABEL IS "U(3,2)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:tx_ctrl_mark_last\ : LABEL IS "macrocell133";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:tx_ctrl_mark_last\ : LABEL IS "U(3,3)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_state_0\ : LABEL IS "macrocell134";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_state_0\ : LABEL IS "U(3,0)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_load_fifo\ : LABEL IS "macrocell135";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_load_fifo\ : LABEL IS "U(3,0)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_state_3\ : LABEL IS "macrocell136";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_state_3\ : LABEL IS "U(3,0)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_state_2\ : LABEL IS "macrocell137";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_state_2\ : LABEL IS "U(3,0)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_bitclk_enable\ : LABEL IS "macrocell138";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_bitclk_enable\ : LABEL IS "U(3,1)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell139";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_state_stop1_reg\ : LABEL IS "U(3,0)";
+    ATTRIBUTE lib_model OF MODIN17_1 : LABEL IS "macrocell140";
+    ATTRIBUTE Location OF MODIN17_1 : LABEL IS "U(3,1)";
+    ATTRIBUTE lib_model OF MODIN17_0 : LABEL IS "macrocell141";
+    ATTRIBUTE Location OF MODIN17_0 : LABEL IS "U(3,1)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_status_3\ : LABEL IS "macrocell142";
+    ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_status_3\ : LABEL IS "U(3,0)";
+    ATTRIBUTE lib_model OF \UART_LINUX_0:BUART:rx_last\ : LABEL IS "macrocell143";
     ATTRIBUTE Location OF \UART_LINUX_0:BUART:rx_last\ : LABEL IS "U(3,0)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:txn\ : LABEL IS "macrocell141";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:txn\ : LABEL IS "macrocell144";
     ATTRIBUTE Location OF \UART_STIM_1:BUART:txn\ : LABEL IS "U(0,5)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_state_1\ : LABEL IS "macrocell142";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_state_1\ : LABEL IS "macrocell145";
     ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_state_1\ : LABEL IS "U(0,4)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_state_0\ : LABEL IS "macrocell143";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_state_0\ : LABEL IS "U(0,4)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_state_2\ : LABEL IS "macrocell144";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_state_0\ : LABEL IS "macrocell146";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_state_0\ : LABEL IS "U(0,5)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_state_2\ : LABEL IS "macrocell147";
     ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_state_2\ : LABEL IS "U(0,4)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_bitclk\ : LABEL IS "macrocell145";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_bitclk\ : LABEL IS "U(0,4)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_ctrl_mark_last\ : LABEL IS "macrocell146";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_ctrl_mark_last\ : LABEL IS "U(2,1)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_state_0\ : LABEL IS "macrocell147";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_state_0\ : LABEL IS "U(3,2)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_load_fifo\ : LABEL IS "macrocell148";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_load_fifo\ : LABEL IS "U(3,3)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_state_3\ : LABEL IS "macrocell149";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_state_3\ : LABEL IS "U(3,2)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_state_2\ : LABEL IS "macrocell150";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_state_2\ : LABEL IS "U(3,3)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_bitclk_enable\ : LABEL IS "macrocell151";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_bitclk_enable\ : LABEL IS "U(2,2)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell152";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_state_stop1_reg\ : LABEL IS "U(3,3)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:pollcount_1\ : LABEL IS "macrocell153";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:pollcount_1\ : LABEL IS "U(2,2)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:pollcount_0\ : LABEL IS "macrocell154";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:pollcount_0\ : LABEL IS "U(2,2)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_status_3\ : LABEL IS "macrocell155";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_status_3\ : LABEL IS "U(3,2)";
-    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_last\ : LABEL IS "macrocell156";
-    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_last\ : LABEL IS "U(0,4)";
-    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:runmode_enable\ : LABEL IS "macrocell157";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_bitclk\ : LABEL IS "macrocell148";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_bitclk\ : LABEL IS "U(0,5)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:tx_ctrl_mark_last\ : LABEL IS "macrocell149";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:tx_ctrl_mark_last\ : LABEL IS "U(2,0)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_state_0\ : LABEL IS "macrocell150";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_state_0\ : LABEL IS "U(2,1)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_load_fifo\ : LABEL IS "macrocell151";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_load_fifo\ : LABEL IS "U(2,1)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_state_3\ : LABEL IS "macrocell152";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_state_3\ : LABEL IS "U(2,1)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_state_2\ : LABEL IS "macrocell153";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_state_2\ : LABEL IS "U(2,1)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_bitclk_enable\ : LABEL IS "macrocell154";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_bitclk_enable\ : LABEL IS "U(3,1)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_state_stop1_reg\ : LABEL IS "macrocell155";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_state_stop1_reg\ : LABEL IS "U(2,1)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:pollcount_1\ : LABEL IS "macrocell156";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:pollcount_1\ : LABEL IS "U(3,1)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:pollcount_0\ : LABEL IS "macrocell157";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:pollcount_0\ : LABEL IS "U(3,1)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_status_3\ : LABEL IS "macrocell158";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_status_3\ : LABEL IS "U(2,1)";
+    ATTRIBUTE lib_model OF \UART_STIM_1:BUART:rx_last\ : LABEL IS "macrocell159";
+    ATTRIBUTE Location OF \UART_STIM_1:BUART:rx_last\ : LABEL IS "U(2,1)";
+    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:runmode_enable\ : LABEL IS "macrocell160";
     ATTRIBUTE Location OF \PWM_1:PWMUDB:runmode_enable\ : LABEL IS "U(2,0)";
-    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:prevCompare1\ : LABEL IS "macrocell158";
+    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:prevCompare1\ : LABEL IS "macrocell161";
     ATTRIBUTE Location OF \PWM_1:PWMUDB:prevCompare1\ : LABEL IS "U(2,0)";
-    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:status_0\ : LABEL IS "macrocell159";
+    ATTRIBUTE lib_model OF \PWM_1:PWMUDB:status_0\ : LABEL IS "macrocell162";
     ATTRIBUTE Location OF \PWM_1:PWMUDB:status_0\ : LABEL IS "U(2,0)";
-    ATTRIBUTE lib_model OF Net_927 : LABEL IS "macrocell160";
+    ATTRIBUTE lib_model OF Net_927 : LABEL IS "macrocell163";
     ATTRIBUTE Location OF Net_927 : LABEL IS "U(2,0)";
-    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_old_id_2 : LABEL IS "macrocell161";
+    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_old_id_2 : LABEL IS "macrocell164";
     ATTRIBUTE Location OF AMuxHw_2_Decoder_old_id_2 : LABEL IS "U(3,3)";
-    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_old_id_1 : LABEL IS "macrocell162";
+    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_old_id_1 : LABEL IS "macrocell165";
     ATTRIBUTE Location OF AMuxHw_2_Decoder_old_id_1 : LABEL IS "U(3,4)";
-    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_old_id_0 : LABEL IS "macrocell163";
+    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_old_id_0 : LABEL IS "macrocell166";
     ATTRIBUTE Location OF AMuxHw_2_Decoder_old_id_0 : LABEL IS "U(3,3)";
-    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_0 : LABEL IS "macrocell164";
+    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_0 : LABEL IS "macrocell167";
     ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_0 : LABEL IS "U(3,4)";
-    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_1 : LABEL IS "macrocell165";
+    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_1 : LABEL IS "macrocell168";
     ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_1 : LABEL IS "U(3,2)";
-    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_2 : LABEL IS "macrocell166";
-    ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_2 : LABEL IS "U(3,4)";
-    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_3 : LABEL IS "macrocell167";
-    ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_3 : LABEL IS "U(3,2)";
-    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_4 : LABEL IS "macrocell168";
-    ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_4 : LABEL IS "U(3,4)";
-    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_5 : LABEL IS "macrocell169";
+    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_2 : LABEL IS "macrocell169";
+    ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_2 : LABEL IS "U(3,2)";
+    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_3 : LABEL IS "macrocell170";
+    ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_3 : LABEL IS "U(3,4)";
+    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_4 : LABEL IS "macrocell171";
+    ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_4 : LABEL IS "U(3,2)";
+    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_5 : LABEL IS "macrocell172";
     ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_5 : LABEL IS "U(3,2)";
-    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_6 : LABEL IS "macrocell170";
-    ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_6 : LABEL IS "U(3,2)";
-    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_7 : LABEL IS "macrocell171";
+    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_6 : LABEL IS "macrocell173";
+    ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_6 : LABEL IS "U(3,4)";
+    ATTRIBUTE lib_model OF AMuxHw_2_Decoder_one_hot_7 : LABEL IS "macrocell174";
     ATTRIBUTE Location OF AMuxHw_2_Decoder_one_hot_7 : LABEL IS "U(3,4)";
     COMPONENT cancell
         PORT (
@@ -1687,8 +1683,8 @@ BEGIN
             dclk_3 => \UART_STIM_0:Net_9_local\,
             dclk_glb_4 => \UART_STIM_1:Net_9\,
             dclk_4 => \UART_STIM_1:Net_9_local\,
-            dclk_glb_5 => Net_5187,
-            dclk_5 => Net_5187_local,
+            dclk_glb_5 => Net_5287,
+            dclk_5 => Net_5287_local,
             dclk_glb_6 => Net_3027,
             dclk_6 => Net_3027_local,
             dclk_glb_7 => Net_1581,
@@ -4591,7 +4587,7 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    ASIO_0:logicalport
+    SAIO_0:logicalport
         GENERIC MAP(
             drive_mode => "100",
             ibuf_enabled => "1",
@@ -4662,19 +4658,19 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
-    ASIO_0(0):iocell
+    SAIO_0(0):iocell
         GENERIC MAP(
             in_sync_mode => 0,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "ASIO_0",
+            logicalport => "SAIO_0",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
         PORT MAP(
-            pa_out => ASIO_0(0)__PA,
+            pa_out => SAIO_0(0)__PA,
             oe => open,
             fb => Net_802,
-            pad_in => ASIO_0(0)_PAD,
+            pad_in => SAIO_0(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
             in_reset => '0',
@@ -4682,7 +4678,7 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    ASIO_1:logicalport
+    SAIO_1:logicalport
         GENERIC MAP(
             drive_mode => "110",
             ibuf_enabled => "1",
@@ -4753,20 +4749,20 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
-    ASIO_1(0):iocell
+    SAIO_1(0):iocell
         GENERIC MAP(
             in_sync_mode => 0,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "ASIO_1",
+            logicalport => "SAIO_1",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
         PORT MAP(
-            pa_out => ASIO_1(0)__PA,
+            pa_out => SAIO_1(0)__PA,
             oe => open,
             pin_input => Net_797,
-            pad_out => ASIO_1(0)_PAD,
-            pad_in => ASIO_1(0)_PAD,
+            pad_out => SAIO_1(0)_PAD,
+            pad_in => SAIO_1(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
             in_reset => '0',
@@ -4774,7 +4770,7 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    DSIO_0:logicalport
+    SDIO_0:logicalport
         GENERIC MAP(
             drive_mode => "100",
             ibuf_enabled => "1",
@@ -4845,19 +4841,19 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
-    DSIO_0(0):iocell
+    SDIO_0(0):iocell
         GENERIC MAP(
             in_sync_mode => 0,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "DSIO_0",
+            logicalport => "SDIO_0",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
         PORT MAP(
-            pa_out => DSIO_0(0)__PA,
+            pa_out => SDIO_0(0)__PA,
             oe => open,
             fb => Net_789,
-            pad_in => DSIO_0(0)_PAD,
+            pad_in => SDIO_0(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
             in_reset => '0',
@@ -4865,7 +4861,7 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    MODX_IO_0:logicalport
+    MODX_3_IO:logicalport
         GENERIC MAP(
             drive_mode => "100",
             ibuf_enabled => "1",
@@ -4936,18 +4932,18 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
-    MODX_IO_0(0):iocell
+    MODX_3_IO(0):iocell
         GENERIC MAP(
             in_sync_mode => 0,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "MODX_IO_0",
+            logicalport => "MODX_3_IO",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
         PORT MAP(
-            pa_out => MODX_IO_0(0)__PA,
+            pa_out => MODX_3_IO(0)__PA,
             oe => open,
-            pad_in => MODX_IO_0(0)_PAD,
+            pad_in => MODX_3_IO(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
             in_reset => '0',
@@ -4955,7 +4951,7 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    DSIO_1:logicalport
+    SDIO_1:logicalport
         GENERIC MAP(
             drive_mode => "110",
             ibuf_enabled => "1",
@@ -5026,20 +5022,20 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
-    DSIO_1(0):iocell
+    SDIO_1(0):iocell
         GENERIC MAP(
             in_sync_mode => 0,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "DSIO_1",
+            logicalport => "SDIO_1",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
         PORT MAP(
-            pa_out => DSIO_1(0)__PA,
+            pa_out => SDIO_1(0)__PA,
             oe => open,
             pin_input => Net_784,
-            pad_out => DSIO_1(0)_PAD,
-            pad_in => DSIO_1(0)_PAD,
+            pad_out => SDIO_1(0)_PAD,
+            pad_in => SDIO_1(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
             in_reset => '0',
@@ -5129,7 +5125,7 @@ BEGIN
         PORT MAP(
             pa_out => LED_B(0)__PA,
             oe => open,
-            pin_input => Net_4959,
+            pin_input => LED_BUS_2,
             pad_out => LED_B(0)_PAD,
             pad_in => LED_B(0)_PAD,
             in_clock => open,
@@ -5221,7 +5217,7 @@ BEGIN
         PORT MAP(
             pa_out => LED_G(0)__PA,
             oe => open,
-            pin_input => Net_917,
+            pin_input => LED_BUS_1,
             pad_out => LED_G(0)_PAD,
             pad_in => LED_G(0)_PAD,
             in_clock => open,
@@ -5313,7 +5309,7 @@ BEGIN
         PORT MAP(
             pa_out => LED_R(0)__PA,
             oe => open,
-            pin_input => Net_5188,
+            pin_input => LED_BUS_0,
             pad_out => LED_R(0)_PAD,
             pad_in => LED_R(0)_PAD,
             in_clock => open,
@@ -5401,10 +5397,11 @@ BEGIN
             oe_sync_mode => 0,
             logicalport => "KEY_1",
             logicalport_pin_id => 0,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
         PORT MAP(
             pa_out => KEY_1(0)__PA,
             oe => open,
+            fb => Net_4959,
             pad_in => KEY_1(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
@@ -5491,10 +5488,11 @@ BEGIN
             oe_sync_mode => 0,
             logicalport => "KEY_2",
             logicalport_pin_id => 0,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
         PORT MAP(
             pa_out => KEY_2(0)__PA,
             oe => open,
+            fb => Net_5367,
             pad_in => KEY_2(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
@@ -6142,7 +6140,7 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    MODX_0_TXD:logicalport
+    MODX_3_TXD:logicalport
         GENERIC MAP(
             drive_mode => "110",
             ibuf_enabled => "1",
@@ -6213,20 +6211,20 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
-    MODX_0_TXD(0):iocell
+    MODX_3_TXD(0):iocell
         GENERIC MAP(
             in_sync_mode => 0,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "MODX_0_TXD",
+            logicalport => "MODX_3_TXD",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
         PORT MAP(
-            pa_out => MODX_0_TXD(0)__PA,
+            pa_out => MODX_3_TXD(0)__PA,
             oe => open,
             pin_input => Net_719,
-            pad_out => MODX_0_TXD(0)_PAD,
-            pad_in => MODX_0_TXD(0)_PAD,
+            pad_out => MODX_3_TXD(0)_PAD,
+            pad_in => MODX_3_TXD(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
             in_reset => '0',
@@ -6234,7 +6232,7 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    MODX_0_RXD:logicalport
+    MODX_3_RXD:logicalport
         GENERIC MAP(
             drive_mode => "001",
             ibuf_enabled => "1",
@@ -6306,19 +6304,19 @@ BEGIN
             out_reset => open,
             in_clock => open);
 
-    MODX_0_RXD(0):iocell
+    MODX_3_RXD(0):iocell
         GENERIC MAP(
             in_sync_mode => 2,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "MODX_0_RXD",
+            logicalport => "MODX_3_RXD",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
         PORT MAP(
-            pa_out => MODX_0_RXD(0)__PA,
+            pa_out => MODX_3_RXD(0)__PA,
             oe => open,
             fb => Net_724,
-            pad_in => MODX_0_RXD(0)_PAD,
+            pad_in => MODX_3_RXD(0)_PAD,
             in_clock => ClockBlock_BUS_CLK,
             in_clock_en => '1',
             in_reset => '0',
@@ -6510,96 +6508,6 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    LINUX_RST:logicalport
-        GENERIC MAP(
-            drive_mode => "110",
-            ibuf_enabled => "1",
-            id => "e30c3159-f3c1-486a-8c6d-4142e7c5e7ce",
-            init_dr_st => "0",
-            input_buffer_sel => "00",
-            input_clk_en => 0,
-            input_sync => "1",
-            input_sync_mode => "0",
-            intr_mode => "00",
-            invert_in_clock => 0,
-            invert_in_clock_en => 0,
-            invert_in_reset => 0,
-            invert_out_clock => 0,
-            invert_out_clock_en => 0,
-            invert_out_reset => 0,
-            io_voltage => "",
-            layout_mode => "CONTIGUOUS",
-            oe_conn => "0",
-            oe_reset => 0,
-            oe_sync => "0",
-            output_clk_en => 0,
-            output_clock_mode => "0",
-            output_conn => "1",
-            output_mode => "0",
-            output_reset => 0,
-            output_sync => "0",
-            ovt_hyst_trim => "0",
-            ovt_needed => "0",
-            ovt_slew_control => "00",
-            pa_in_clock => -1,
-            pa_in_clock_en => -1,
-            pa_in_reset => -1,
-            pa_out_clock => -1,
-            pa_out_clock_en => -1,
-            pa_out_reset => -1,
-            pin_aliases => "",
-            pin_mode => "O",
-            por_state => 4,
-            port_alias_group => "",
-            port_alias_required => 0,
-            sio_group_cnt => 0,
-            sio_hifreq => "00000000",
-            sio_hyst => "1",
-            sio_ibuf => "00000000",
-            sio_info => "00",
-            sio_obuf => "00000000",
-            sio_refsel => "00000000",
-            sio_vohsel => "00000000",
-            sio_vtrip => "00000000",
-            slew_rate => "0",
-            spanning => 0,
-            sw_only => 0,
-            use_annotation => "1",
-            vtrip => "10",
-            width => 1,
-            in_clk_inv => 0,
-            in_clken_inv => 0,
-            in_clken_mode => 1,
-            in_rst_inv => 0,
-            out_clk_inv => 0,
-            out_clken_inv => 0,
-            out_clken_mode => 1,
-            out_rst_inv => 0)
-        PORT MAP(
-            in_clock_en => open,
-            in_reset => open,
-            out_clock_en => open,
-            out_reset => open);
-
-    LINUX_RST(0):iocell
-        GENERIC MAP(
-            in_sync_mode => 0,
-            out_sync_mode => 0,
-            oe_sync_mode => 0,
-            logicalport => "LINUX_RST",
-            logicalport_pin_id => 0,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
-        PORT MAP(
-            pa_out => LINUX_RST(0)__PA,
-            oe => open,
-            pad_in => LINUX_RST(0)_PAD,
-            in_clock => open,
-            in_clock_en => '1',
-            in_reset => '0',
-            out_clock => open,
-            out_clock_en => '1',
-            out_reset => '0');
-
     UART_LINUX_0_TXD:logicalport
         GENERIC MAP(
             drive_mode => "110",
@@ -6784,97 +6692,7 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    PSOC_RST:logicalport
-        GENERIC MAP(
-            drive_mode => "001",
-            ibuf_enabled => "1",
-            id => "36be04a8-19a8-4169-aa20-3b55d4606f59",
-            init_dr_st => "0",
-            input_buffer_sel => "00",
-            input_clk_en => 0,
-            input_sync => "0",
-            input_sync_mode => "0",
-            intr_mode => "00",
-            invert_in_clock => 0,
-            invert_in_clock_en => 0,
-            invert_in_reset => 0,
-            invert_out_clock => 0,
-            invert_out_clock_en => 0,
-            invert_out_reset => 0,
-            io_voltage => "",
-            layout_mode => "CONTIGUOUS",
-            oe_conn => "0",
-            oe_reset => 0,
-            oe_sync => "0",
-            output_clk_en => 0,
-            output_clock_mode => "0",
-            output_conn => "0",
-            output_mode => "0",
-            output_reset => 0,
-            output_sync => "0",
-            ovt_hyst_trim => "0",
-            ovt_needed => "0",
-            ovt_slew_control => "00",
-            pa_in_clock => -1,
-            pa_in_clock_en => -1,
-            pa_in_reset => -1,
-            pa_out_clock => -1,
-            pa_out_clock_en => -1,
-            pa_out_reset => -1,
-            pin_aliases => "",
-            pin_mode => "I",
-            por_state => 4,
-            port_alias_group => "",
-            port_alias_required => 0,
-            sio_group_cnt => 0,
-            sio_hifreq => "00000000",
-            sio_hyst => "1",
-            sio_ibuf => "00000000",
-            sio_info => "00",
-            sio_obuf => "00000000",
-            sio_refsel => "00000000",
-            sio_vohsel => "00000000",
-            sio_vtrip => "00000000",
-            slew_rate => "0",
-            spanning => 0,
-            sw_only => 0,
-            use_annotation => "1",
-            vtrip => "00",
-            width => 1,
-            in_clk_inv => 0,
-            in_clken_inv => 0,
-            in_clken_mode => 1,
-            in_rst_inv => 0,
-            out_clk_inv => 0,
-            out_clken_inv => 0,
-            out_clken_mode => 1,
-            out_rst_inv => 0)
-        PORT MAP(
-            in_clock_en => open,
-            in_reset => open,
-            out_clock_en => open,
-            out_reset => open);
-
-    PSOC_RST(0):iocell
-        GENERIC MAP(
-            in_sync_mode => 0,
-            out_sync_mode => 0,
-            oe_sync_mode => 0,
-            logicalport => "PSOC_RST",
-            logicalport_pin_id => 0,
-            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
-        PORT MAP(
-            pa_out => PSOC_RST(0)__PA,
-            oe => open,
-            pad_in => PSOC_RST(0)_PAD,
-            in_clock => open,
-            in_clock_en => '1',
-            in_reset => '0',
-            out_clock => open,
-            out_clock_en => '1',
-            out_reset => '0');
-
-    MODX_IO_1:logicalport
+    MODX_1_IO:logicalport
         GENERIC MAP(
             drive_mode => "100",
             ibuf_enabled => "1",
@@ -6945,18 +6763,18 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
-    MODX_IO_1(0):iocell
+    MODX_1_IO(0):iocell
         GENERIC MAP(
             in_sync_mode => 0,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "MODX_IO_1",
+            logicalport => "MODX_1_IO",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
         PORT MAP(
-            pa_out => MODX_IO_1(0)__PA,
+            pa_out => MODX_1_IO(0)__PA,
             oe => open,
-            pad_in => MODX_IO_1(0)_PAD,
+            pad_in => MODX_1_IO(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
             in_reset => '0',
@@ -6964,7 +6782,7 @@ BEGIN
             out_clock_en => '1',
             out_reset => '0');
 
-    MODX_IO_2:logicalport
+    MODX_2_IO:logicalport
         GENERIC MAP(
             drive_mode => "100",
             ibuf_enabled => "1",
@@ -7035,18 +6853,18 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
-    MODX_IO_2(0):iocell
+    MODX_2_IO(0):iocell
         GENERIC MAP(
             in_sync_mode => 0,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "MODX_IO_2",
+            logicalport => "MODX_2_IO",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
         PORT MAP(
-            pa_out => MODX_IO_2(0)__PA,
+            pa_out => MODX_2_IO(0)__PA,
             oe => open,
-            pad_in => MODX_IO_2(0)_PAD,
+            pad_in => MODX_2_IO(0)_PAD,
             in_clock => open,
             in_clock_en => '1',
             in_reset => '0',
@@ -7058,6 +6876,7 @@ BEGIN
         GENERIC MAP(
             soft => 1,
             eqn_main => "(!main_0 * main_1) + (main_0 * !main_1) + (!main_2 * main_3) + (main_2 * !main_3) + (!main_4 * main_5) + (main_4 * !main_5)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => AMuxHw_1_Decoder_is_active,
@@ -7071,6 +6890,7 @@ BEGIN
     Net_732:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => Net_732,
@@ -7079,6 +6899,7 @@ BEGIN
     \UART_MODX_1:BUART:counter_load_not\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2) + (!main_0 * !main_1 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_1:BUART:counter_load_not\,
@@ -7090,6 +6911,7 @@ BEGIN
     \UART_MODX_1:BUART:tx_status_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_1:BUART:tx_status_0\,
@@ -7102,6 +6924,7 @@ BEGIN
     \UART_MODX_1:BUART:tx_status_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_1:BUART:tx_status_2\,
@@ -7110,6 +6933,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_counter_load\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_1:BUART:rx_counter_load\,
@@ -7121,6 +6945,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_postpoll\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_2) + (main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_1:BUART:rx_postpoll\,
@@ -7131,6 +6956,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_status_4\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_1:BUART:rx_status_4\,
@@ -7140,6 +6966,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_status_5\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_1:BUART:rx_status_5\,
@@ -7149,6 +6976,7 @@ BEGIN
     Net_719:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => Net_719,
@@ -7157,6 +6985,7 @@ BEGIN
     \UART_MODX_0:BUART:counter_load_not\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2) + (!main_0 * !main_1 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_0:BUART:counter_load_not\,
@@ -7168,6 +6997,7 @@ BEGIN
     \UART_MODX_0:BUART:tx_status_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_0:BUART:tx_status_0\,
@@ -7180,6 +7010,7 @@ BEGIN
     \UART_MODX_0:BUART:tx_status_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_0:BUART:tx_status_2\,
@@ -7188,6 +7019,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_counter_load\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_0:BUART:rx_counter_load\,
@@ -7199,6 +7031,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_postpoll\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_2) + (main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_0:BUART:rx_postpoll\,
@@ -7209,6 +7042,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_status_4\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_0:BUART:rx_status_4\,
@@ -7218,6 +7052,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_status_5\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_0:BUART:rx_status_5\,
@@ -7227,6 +7062,7 @@ BEGIN
     Net_745:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => Net_745,
@@ -7235,6 +7071,7 @@ BEGIN
     \UART_MODX_2:BUART:counter_load_not\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2) + (!main_0 * !main_1 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_2:BUART:counter_load_not\,
@@ -7246,6 +7083,7 @@ BEGIN
     \UART_MODX_2:BUART:tx_status_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_2:BUART:tx_status_0\,
@@ -7258,6 +7096,7 @@ BEGIN
     \UART_MODX_2:BUART:tx_status_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_2:BUART:tx_status_2\,
@@ -7266,6 +7105,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_counter_load\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_2:BUART:rx_counter_load\,
@@ -7277,6 +7117,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_postpoll\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_2) + (main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_2:BUART:rx_postpoll\,
@@ -7287,6 +7128,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_status_4\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_2:BUART:rx_status_4\,
@@ -7296,6 +7138,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_status_5\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_MODX_2:BUART:rx_status_5\,
@@ -7305,6 +7148,7 @@ BEGIN
     Net_784:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => Net_784,
@@ -7313,6 +7157,7 @@ BEGIN
     \UART_STIM_0:BUART:counter_load_not\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2) + (!main_0 * !main_1 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_0:BUART:counter_load_not\,
@@ -7324,6 +7169,7 @@ BEGIN
     \UART_STIM_0:BUART:tx_status_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_0:BUART:tx_status_0\,
@@ -7336,6 +7182,7 @@ BEGIN
     \UART_STIM_0:BUART:tx_status_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_0:BUART:tx_status_2\,
@@ -7344,6 +7191,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_counter_load\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_0:BUART:rx_counter_load\,
@@ -7355,6 +7203,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_postpoll\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_2) + (main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_0:BUART:rx_postpoll\,
@@ -7365,6 +7214,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_status_4\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_0:BUART:rx_status_4\,
@@ -7374,6 +7224,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_status_5\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_0:BUART:rx_status_5\,
@@ -7383,6 +7234,7 @@ BEGIN
     Net_810:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => Net_810,
@@ -7391,6 +7243,7 @@ BEGIN
     \UART_LINUX_0:BUART:counter_load_not\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2) + (!main_0 * !main_1 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_LINUX_0:BUART:counter_load_not\,
@@ -7402,6 +7255,7 @@ BEGIN
     \UART_LINUX_0:BUART:tx_status_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_LINUX_0:BUART:tx_status_0\,
@@ -7414,6 +7268,7 @@ BEGIN
     \UART_LINUX_0:BUART:tx_status_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_LINUX_0:BUART:tx_status_2\,
@@ -7422,6 +7277,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_counter_load\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_LINUX_0:BUART:rx_counter_load\,
@@ -7433,6 +7289,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_postpoll\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_2) + (main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_LINUX_0:BUART:rx_postpoll\,
@@ -7443,6 +7300,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_status_4\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_LINUX_0:BUART:rx_status_4\,
@@ -7452,6 +7310,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_status_5\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_LINUX_0:BUART:rx_status_5\,
@@ -7461,6 +7320,7 @@ BEGIN
     Net_797:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => Net_797,
@@ -7469,6 +7329,7 @@ BEGIN
     \UART_STIM_1:BUART:counter_load_not\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2) + (!main_0 * !main_1 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_1:BUART:counter_load_not\,
@@ -7480,6 +7341,7 @@ BEGIN
     \UART_STIM_1:BUART:tx_status_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_1:BUART:tx_status_0\,
@@ -7492,6 +7354,7 @@ BEGIN
     \UART_STIM_1:BUART:tx_status_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_1:BUART:tx_status_2\,
@@ -7500,6 +7363,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_counter_load\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_1:BUART:rx_counter_load\,
@@ -7511,6 +7375,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_postpoll\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_2) + (main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_1:BUART:rx_postpoll\,
@@ -7521,6 +7386,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_status_4\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_1:BUART:rx_status_4\,
@@ -7530,6 +7396,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_status_5\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \UART_STIM_1:BUART:rx_status_5\,
@@ -7539,6 +7406,7 @@ BEGIN
     \PWM_1:PWMUDB:status_2\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => \PWM_1:PWMUDB:status_2\,
@@ -7549,6 +7417,7 @@ BEGIN
         GENERIC MAP(
             soft => 1,
             eqn_main => "(!main_0 * main_1) + (main_0 * !main_1) + (!main_2 * main_3) + (main_2 * !main_3) + (!main_4 * main_5) + (main_4 * !main_5)",
+            regmode => 0,
             clken_mode => 1)
         PORT MAP(
             q => AMuxHw_2_Decoder_is_active,
@@ -7561,7 +7430,8 @@ BEGIN
 
     \ADC_SAR_1:IRQ\:interrupt
         GENERIC MAP(
-            int_type => "10")
+            int_type => "10",
+            is_nmi => 0)
         PORT MAP(
             interrupt => Net_2610,
             clock => ClockBlock_BUS_CLK);
@@ -7598,7 +7468,8 @@ BEGIN
 
     \USBUART_1:dp_int\:interrupt
         GENERIC MAP(
-            int_type => "10")
+            int_type => "10",
+            is_nmi => 0)
         PORT MAP(
             interrupt => \USBUART_1:Net_1010\,
             clock => ClockBlock_BUS_CLK);
@@ -7632,49 +7503,56 @@ BEGIN
 
     \USBUART_1:ep_3\:interrupt
         GENERIC MAP(
-            int_type => "10")
+            int_type => "10",
+            is_nmi => 0)
         PORT MAP(
             interrupt => \USBUART_1:ep_int_3\,
             clock => ClockBlock_BUS_CLK);
 
     \USBUART_1:ep_2\:interrupt
         GENERIC MAP(
-            int_type => "10")
+            int_type => "10",
+            is_nmi => 0)
         PORT MAP(
             interrupt => \USBUART_1:ep_int_2\,
             clock => ClockBlock_BUS_CLK);
 
     \USBUART_1:ep_1\:interrupt
         GENERIC MAP(
-            int_type => "10")
+            int_type => "10",
+            is_nmi => 0)
         PORT MAP(
             interrupt => \USBUART_1:ep_int_1\,
             clock => ClockBlock_BUS_CLK);
 
     \USBUART_1:ep_0\:interrupt
         GENERIC MAP(
-            int_type => "10")
+            int_type => "10",
+            is_nmi => 0)
         PORT MAP(
             interrupt => \USBUART_1:ep_int_0\,
             clock => ClockBlock_BUS_CLK);
 
     \USBUART_1:bus_reset\:interrupt
         GENERIC MAP(
-            int_type => "10")
+            int_type => "10",
+            is_nmi => 0)
         PORT MAP(
             interrupt => \USBUART_1:Net_1876\,
             clock => ClockBlock_BUS_CLK);
 
     \USBUART_1:arb_int\:interrupt
         GENERIC MAP(
-            int_type => "10")
+            int_type => "10",
+            is_nmi => 0)
         PORT MAP(
             interrupt => \USBUART_1:Net_1889\,
             clock => ClockBlock_BUS_CLK);
 
     \USBUART_1:sof_int\:interrupt
         GENERIC MAP(
-            int_type => "10")
+            int_type => "10",
+            is_nmi => 0)
         PORT MAP(
             interrupt => Net_629,
             clock => ClockBlock_BUS_CLK);
@@ -7691,7 +7569,8 @@ BEGIN
 
     \CAN_1:isr\:interrupt
         GENERIC MAP(
-            int_type => "10")
+            int_type => "10",
+            is_nmi => 0)
         PORT MAP(
             interrupt => Net_929,
             clock => ClockBlock_BUS_CLK);
@@ -8722,25 +8601,6 @@ BEGIN
             status_1 => open,
             status_0 => open);
 
-    \Control_Reg_3:Sync:ctrl_reg\:controlcell
-        GENERIC MAP(
-            cy_ctrl_mode_0 => "00000000",
-            cy_ctrl_mode_1 => "00000000",
-            cy_ext_reset => 0,
-            cy_force_order => 1,
-            cy_init_value => "00000000",
-            clken_mode => 1)
-        PORT MAP(
-            control_7 => \Control_Reg_3:control_7\,
-            control_6 => \Control_Reg_3:control_6\,
-            control_5 => \Control_Reg_3:control_5\,
-            control_4 => \Control_Reg_3:control_4\,
-            control_3 => \Control_Reg_3:control_3\,
-            control_2 => Net_4959,
-            control_1 => Net_917,
-            control_0 => Net_5188,
-            busclk => ClockBlock_BUS_CLK);
-
     \PWM_1:PWMUDB:genblk1:ctrlreg\:controlcell
         GENERIC MAP(
             cy_ctrl_mode_0 => "11111111",
@@ -8751,7 +8611,7 @@ BEGIN
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
-            clock => Net_5187,
+            clock => Net_5287,
             control_7 => \PWM_1:PWMUDB:control_7\,
             control_6 => \PWM_1:PWMUDB:control_6\,
             control_5 => \PWM_1:PWMUDB:control_5\,
@@ -8770,7 +8630,7 @@ BEGIN
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
-            clock => Net_5187,
+            clock => Net_5287,
             status_6 => open,
             status_5 => open,
             status_4 => open,
@@ -8807,7 +8667,7 @@ BEGIN
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
-            clock => Net_5187,
+            clock => Net_5287,
             cs_addr_2 => \PWM_1:PWMUDB:tc_i\,
             cs_addr_1 => \PWM_1:PWMUDB:runmode_enable\,
             cl0_comb => \PWM_1:PWMUDB:cmp1_less\,
@@ -8836,7 +8696,8 @@ BEGIN
 
     \ADC_SAR_2:IRQ\:interrupt
         GENERIC MAP(
-            int_type => "10")
+            int_type => "10",
+            is_nmi => 0)
         PORT MAP(
             interrupt => Net_2930,
             clock => ClockBlock_BUS_CLK);
@@ -8925,6 +8786,7 @@ BEGIN
     AMuxHw_1_Decoder_old_id_2:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -8935,6 +8797,7 @@ BEGIN
     AMuxHw_1_Decoder_old_id_1:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -8945,6 +8808,7 @@ BEGIN
     AMuxHw_1_Decoder_old_id_0:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -8955,6 +8819,7 @@ BEGIN
     AMuxHw_1_Decoder_one_hot_0:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -8968,6 +8833,7 @@ BEGIN
     AMuxHw_1_Decoder_one_hot_1:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * !main_1 * !main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -8981,6 +8847,7 @@ BEGIN
     AMuxHw_1_Decoder_one_hot_2:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * !main_1 * main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -8994,6 +8861,7 @@ BEGIN
     AMuxHw_1_Decoder_one_hot_3:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * !main_1 * main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9007,6 +8875,7 @@ BEGIN
     AMuxHw_1_Decoder_one_hot_4:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * !main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9020,6 +8889,7 @@ BEGIN
     AMuxHw_1_Decoder_one_hot_5:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * !main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9033,6 +8903,7 @@ BEGIN
     AMuxHw_1_Decoder_one_hot_6:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9046,6 +8917,7 @@ BEGIN
     AMuxHw_1_Decoder_one_hot_7:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9056,9 +8928,52 @@ BEGIN
             main_2 => AMuxHw_1_Decoder_old_id_1,
             main_3 => AMuxHw_1_Decoder_old_id_0);
 
+    LED_BUS_2:macrocell
+        GENERIC MAP(
+            eqn_main => "(main_0 * main_3) + (main_1 * main_2 * !main_3)",
+            regmode => 2,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => LED_BUS_2,
+            clk_en => open,
+            clock_0 => Net_4959,
+            main_0 => LED_BUS_2,
+            main_1 => LED_BUS_1,
+            main_2 => LED_BUS_0,
+            main_3 => Net_5367);
+
+    LED_BUS_1:macrocell
+        GENERIC MAP(
+            eqn_main => "(!main_0 * main_1 * !main_2) + (main_0 * !main_1 * !main_2)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => LED_BUS_1,
+            clk_en => open,
+            clock_0 => Net_4959,
+            main_0 => LED_BUS_1,
+            main_1 => LED_BUS_0,
+            main_2 => Net_5367);
+
+    LED_BUS_0:macrocell
+        GENERIC MAP(
+            eqn_main => "(!main_0 * !main_1)",
+            regmode => 1,
+            clk_inv => '0',
+            clken_mode => 1)
+        PORT MAP(
+            q => LED_BUS_0,
+            clk_en => open,
+            clock_0 => Net_4959,
+            main_0 => LED_BUS_0,
+            main_1 => Net_5367);
+
     \UART_MODX_1:BUART:txn\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * !main_6) + (main_0 * main_4) + (!main_1 * main_2 * !main_3 * !main_4) + (!main_1 * main_2 * !main_4 * !main_6) + (main_1 * !main_2 * !main_3 * !main_4 * !main_5 * main_6)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9075,6 +8990,7 @@ BEGIN
     \UART_MODX_1:BUART:tx_state_1\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * main_2 * main_3) + (main_0 * !main_3 * main_4 * main_5) + (main_1 * !main_3 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9090,6 +9006,7 @@ BEGIN
     \UART_MODX_1:BUART:tx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * !main_3) + (!main_0 * !main_1 * !main_3 * !main_4) + (main_0 * main_1 * main_2 * main_3 * main_4) + (main_1 * !main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9105,6 +9022,7 @@ BEGIN
     \UART_MODX_1:BUART:tx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3) + (main_0 * main_1 * main_2 * main_3) + (main_0 * main_1 * !main_3 * main_5) + (main_0 * !main_3 * main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9120,6 +9038,7 @@ BEGIN
     \UART_MODX_1:BUART:tx_bitclk\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_3) + (!main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9133,6 +9052,7 @@ BEGIN
     \UART_MODX_1:BUART:tx_ctrl_mark_last\:macrocell
         GENERIC MAP(
             eqn_main => "1'b0",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9142,6 +9062,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3 * !main_4 * main_5 * !main_6) + (!main_1 * !main_2 * main_3 * !main_4 * main_5 * !main_6 * !main_7) + (!main_1 * main_2 * !main_4 * !main_5 * !main_8 * !main_9) + (!main_1 * main_2 * !main_4 * !main_5 * !main_8 * !main_10)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9162,6 +9083,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_load_fifo\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * !main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9179,6 +9101,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_state_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9196,6 +9119,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * !main_4 * !main_5 * main_6) + (!main_1 * !main_2 * main_3 * main_4) + (!main_1 * !main_2 * main_3 * main_5) + (!main_1 * main_2 * !main_4 * !main_5 * !main_7 * !main_8) + (!main_1 * main_2 * !main_4 * !main_5 * !main_7 * !main_9)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9215,6 +9139,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_bitclk_enable\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9227,6 +9152,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_state_stop1_reg\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9240,6 +9166,7 @@ BEGIN
     MODIN1_1:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (main_0 * !main_1 * !main_2 * !main_3 * main_4) + (!main_1 * !main_2 * main_3 * !main_4)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9254,6 +9181,7 @@ BEGIN
     MODIN1_0:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9267,6 +9195,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_status_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3 * main_4 * main_5 * !main_6) + (!main_1 * !main_2 * main_3 * main_4 * main_5 * !main_6 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9284,6 +9213,7 @@ BEGIN
     \UART_MODX_1:BUART:rx_last\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9294,6 +9224,7 @@ BEGIN
     \UART_MODX_0:BUART:txn\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * !main_6) + (main_0 * main_4) + (!main_1 * main_2 * !main_3 * !main_4) + (!main_1 * main_2 * !main_4 * !main_6) + (main_1 * !main_2 * !main_3 * !main_4 * !main_5 * main_6)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9310,6 +9241,7 @@ BEGIN
     \UART_MODX_0:BUART:tx_state_1\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * main_2 * main_3) + (main_0 * !main_3 * main_4 * main_5) + (main_1 * !main_3 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9325,6 +9257,7 @@ BEGIN
     \UART_MODX_0:BUART:tx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * !main_3) + (!main_0 * !main_1 * !main_3 * !main_4) + (main_0 * main_1 * main_2 * main_3 * main_4) + (main_1 * !main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9340,6 +9273,7 @@ BEGIN
     \UART_MODX_0:BUART:tx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3) + (main_0 * main_1 * main_2 * main_3) + (main_0 * main_1 * !main_3 * main_5) + (main_0 * !main_3 * main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9355,6 +9289,7 @@ BEGIN
     \UART_MODX_0:BUART:tx_bitclk\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_3) + (!main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9368,6 +9303,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3 * !main_4 * main_5 * !main_6) + (!main_0 * !main_2 * main_3 * !main_4 * main_5 * !main_6 * !main_7) + (!main_0 * main_2 * !main_4 * !main_5 * !main_8 * !main_9) + (!main_0 * main_2 * !main_4 * !main_5 * !main_8 * !main_10)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9388,6 +9324,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_load_fifo\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * !main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9405,6 +9342,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_state_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9422,6 +9360,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * !main_4 * !main_5 * main_6) + (!main_0 * !main_2 * main_3 * main_4) + (!main_0 * !main_2 * main_3 * main_5) + (!main_0 * main_2 * !main_4 * !main_5 * !main_7 * !main_8) + (!main_0 * main_2 * !main_4 * !main_5 * !main_7 * !main_9)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9441,6 +9380,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_bitclk_enable\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9453,6 +9393,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_state_stop1_reg\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9466,6 +9407,7 @@ BEGIN
     MODIN5_1:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (main_0 * !main_1 * !main_2 * !main_3 * main_4) + (!main_1 * !main_2 * main_3 * !main_4)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9480,6 +9422,7 @@ BEGIN
     MODIN5_0:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9493,6 +9436,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_status_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3 * main_4 * main_5 * !main_6) + (!main_0 * !main_2 * main_3 * main_4 * main_5 * !main_6 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9510,6 +9454,7 @@ BEGIN
     \UART_MODX_0:BUART:rx_last\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9520,6 +9465,7 @@ BEGIN
     \UART_MODX_2:BUART:txn\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * !main_6) + (main_0 * main_4) + (!main_1 * main_2 * !main_3 * !main_4) + (!main_1 * main_2 * !main_4 * !main_6) + (main_1 * !main_2 * !main_3 * !main_4 * !main_5 * main_6)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9536,6 +9482,7 @@ BEGIN
     \UART_MODX_2:BUART:tx_state_1\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * main_2 * main_3) + (main_0 * !main_3 * main_4 * main_5) + (main_1 * !main_3 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9551,6 +9498,7 @@ BEGIN
     \UART_MODX_2:BUART:tx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * !main_3) + (!main_0 * !main_1 * !main_3 * !main_4) + (main_0 * main_1 * main_2 * main_3 * main_4) + (main_1 * !main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9566,6 +9514,7 @@ BEGIN
     \UART_MODX_2:BUART:tx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3) + (main_0 * main_1 * main_2 * main_3) + (main_0 * main_1 * !main_3 * main_5) + (main_0 * !main_3 * main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9581,6 +9530,7 @@ BEGIN
     \UART_MODX_2:BUART:tx_bitclk\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_3) + (!main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9594,6 +9544,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * !main_3 * main_4 * !main_5 * !main_6) + (!main_0 * !main_1 * main_2 * !main_3 * main_4 * !main_6 * !main_7) + (!main_0 * main_1 * !main_3 * !main_4 * !main_8 * !main_9) + (!main_0 * main_1 * !main_3 * !main_4 * !main_8 * !main_10)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9614,6 +9565,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_load_fifo\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * !main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9631,6 +9583,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_state_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9648,6 +9601,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3) + (!main_0 * !main_1 * main_2 * main_4) + (!main_0 * !main_1 * !main_3 * !main_4 * !main_5 * main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_7 * !main_8) + (!main_0 * main_1 * !main_3 * !main_4 * !main_7 * !main_9)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9667,6 +9621,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_bitclk_enable\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9679,6 +9634,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_state_stop1_reg\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9692,6 +9648,7 @@ BEGIN
     MODIN9_1:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (!main_0 * !main_1 * main_2 * !main_3 * main_4) + (!main_0 * !main_1 * main_3 * !main_4)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9706,6 +9663,7 @@ BEGIN
     MODIN9_0:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (!main_0 * !main_1 * main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9719,6 +9677,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_status_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4 * !main_5 * !main_6) + (!main_0 * !main_1 * main_2 * main_3 * main_4 * !main_6 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9736,6 +9695,7 @@ BEGIN
     \UART_MODX_2:BUART:rx_last\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9746,6 +9706,7 @@ BEGIN
     \UART_STIM_0:BUART:txn\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * !main_6) + (main_0 * main_4) + (!main_1 * main_2 * !main_3 * !main_4) + (!main_1 * main_2 * !main_4 * !main_6) + (main_1 * !main_2 * !main_3 * !main_4 * !main_5 * main_6)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9762,6 +9723,7 @@ BEGIN
     \UART_STIM_0:BUART:tx_state_1\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * main_2 * main_3) + (main_0 * !main_3 * main_4 * main_5) + (main_1 * !main_3 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9777,6 +9739,7 @@ BEGIN
     \UART_STIM_0:BUART:tx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * !main_3) + (!main_0 * !main_1 * !main_3 * !main_4) + (main_0 * main_1 * main_2 * main_3 * main_4) + (main_1 * !main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9792,6 +9755,7 @@ BEGIN
     \UART_STIM_0:BUART:tx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3) + (main_0 * main_1 * main_2 * main_3) + (main_0 * main_1 * !main_3 * main_5) + (main_0 * !main_3 * main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9807,6 +9771,7 @@ BEGIN
     \UART_STIM_0:BUART:tx_bitclk\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_3) + (!main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9820,6 +9785,7 @@ BEGIN
     \UART_STIM_0:BUART:tx_ctrl_mark_last\:macrocell
         GENERIC MAP(
             eqn_main => "1'b0",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9829,6 +9795,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3 * !main_4 * main_5 * !main_6) + (!main_1 * !main_2 * main_3 * !main_4 * main_5 * !main_6 * !main_7) + (!main_1 * main_2 * !main_4 * !main_5 * !main_8 * !main_9) + (!main_1 * main_2 * !main_4 * !main_5 * !main_8 * !main_10)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9849,6 +9816,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_load_fifo\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * !main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9866,6 +9834,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_state_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9883,6 +9852,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * !main_4 * !main_5 * main_6) + (!main_1 * !main_2 * main_3 * main_4) + (!main_1 * !main_2 * main_3 * main_5) + (!main_1 * main_2 * !main_4 * !main_5 * !main_7 * !main_8) + (!main_1 * main_2 * !main_4 * !main_5 * !main_7 * !main_9)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9902,6 +9872,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_bitclk_enable\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9914,6 +9885,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_state_stop1_reg\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9927,6 +9899,7 @@ BEGIN
     MODIN13_1:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (main_0 * !main_1 * !main_2 * !main_3 * main_4) + (!main_1 * !main_2 * main_3 * !main_4)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9941,6 +9914,7 @@ BEGIN
     MODIN13_0:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9954,6 +9928,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_status_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3 * main_4 * main_5 * !main_6) + (!main_1 * !main_2 * main_3 * main_4 * main_5 * !main_6 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9971,6 +9946,7 @@ BEGIN
     \UART_STIM_0:BUART:rx_last\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9981,6 +9957,7 @@ BEGIN
     \UART_LINUX_0:BUART:txn\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * !main_6) + (main_0 * main_4) + (!main_1 * main_2 * !main_3 * !main_4) + (!main_1 * main_2 * !main_4 * !main_6) + (main_1 * !main_2 * !main_3 * !main_4 * !main_5 * main_6)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -9997,6 +9974,7 @@ BEGIN
     \UART_LINUX_0:BUART:tx_state_1\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * main_2 * main_3) + (main_0 * !main_3 * main_4 * main_5) + (main_1 * !main_3 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10012,6 +9990,7 @@ BEGIN
     \UART_LINUX_0:BUART:tx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * !main_3) + (!main_0 * !main_1 * !main_3 * !main_4) + (main_0 * main_1 * main_2 * main_3 * main_4) + (main_1 * !main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10027,6 +10006,7 @@ BEGIN
     \UART_LINUX_0:BUART:tx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3) + (main_0 * main_1 * main_2 * main_3) + (main_0 * main_1 * !main_3 * main_5) + (main_0 * !main_3 * main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10042,6 +10022,7 @@ BEGIN
     \UART_LINUX_0:BUART:tx_bitclk\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_3) + (!main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10055,6 +10036,7 @@ BEGIN
     \UART_LINUX_0:BUART:tx_ctrl_mark_last\:macrocell
         GENERIC MAP(
             eqn_main => "1'b0",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10064,6 +10046,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * !main_3 * main_4 * !main_5 * !main_6) + (!main_0 * !main_1 * main_2 * !main_3 * main_4 * !main_6 * !main_7) + (!main_0 * main_1 * !main_3 * !main_4 * !main_8 * !main_9) + (!main_0 * main_1 * !main_3 * !main_4 * !main_8 * !main_10)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10084,6 +10067,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_load_fifo\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * !main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10101,6 +10085,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_state_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10118,6 +10103,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3) + (!main_0 * !main_1 * main_2 * main_4) + (!main_0 * !main_1 * !main_3 * !main_4 * !main_5 * main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_7 * !main_8) + (!main_0 * main_1 * !main_3 * !main_4 * !main_7 * !main_9)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10137,6 +10123,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_bitclk_enable\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10149,6 +10136,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_state_stop1_reg\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10162,6 +10150,7 @@ BEGIN
     MODIN17_1:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (!main_0 * !main_1 * main_2 * !main_3 * main_4) + (!main_0 * !main_1 * main_3 * !main_4)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10176,6 +10165,7 @@ BEGIN
     MODIN17_0:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (!main_0 * !main_1 * main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10189,6 +10179,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_status_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4 * !main_5 * !main_6) + (!main_0 * !main_1 * main_2 * main_3 * main_4 * !main_6 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10206,6 +10197,7 @@ BEGIN
     \UART_LINUX_0:BUART:rx_last\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10216,6 +10208,7 @@ BEGIN
     \UART_STIM_1:BUART:txn\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * !main_6) + (main_0 * main_4) + (!main_1 * main_2 * !main_3 * !main_4) + (!main_1 * main_2 * !main_4 * !main_6) + (main_1 * !main_2 * !main_3 * !main_4 * !main_5 * main_6)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10232,6 +10225,7 @@ BEGIN
     \UART_STIM_1:BUART:tx_state_1\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * main_2 * main_3) + (main_0 * !main_3 * main_4 * main_5) + (main_1 * !main_3 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10247,6 +10241,7 @@ BEGIN
     \UART_STIM_1:BUART:tx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * !main_3) + (!main_0 * !main_1 * !main_3 * !main_4) + (main_0 * main_1 * main_2 * main_3 * main_4) + (main_1 * !main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10262,6 +10257,7 @@ BEGIN
     \UART_STIM_1:BUART:tx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3) + (main_0 * main_1 * main_2 * main_3) + (main_0 * main_1 * !main_3 * main_5) + (main_0 * !main_3 * main_4 * main_5)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10277,6 +10273,7 @@ BEGIN
     \UART_STIM_1:BUART:tx_bitclk\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_3) + (!main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10290,6 +10287,7 @@ BEGIN
     \UART_STIM_1:BUART:tx_ctrl_mark_last\:macrocell
         GENERIC MAP(
             eqn_main => "1'b0",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10299,6 +10297,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_state_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3 * !main_4 * main_5 * !main_9) + (!main_1 * !main_2 * main_3 * !main_4 * main_5 * !main_9 * !main_10) + (!main_1 * main_2 * !main_4 * !main_5 * !main_6 * !main_7) + (!main_1 * main_2 * !main_4 * !main_5 * !main_6 * !main_8)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10319,6 +10318,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_load_fifo\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * !main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10336,6 +10336,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_state_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3 * main_4) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_6) + (!main_0 * main_1 * !main_3 * !main_4 * !main_5 * !main_7)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10353,6 +10354,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_state_2\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * !main_4 * !main_5 * main_9) + (!main_1 * !main_2 * main_3 * main_4) + (!main_1 * !main_2 * main_3 * main_5) + (!main_1 * main_2 * !main_4 * !main_5 * !main_6 * !main_7) + (!main_1 * main_2 * !main_4 * !main_5 * !main_6 * !main_8)",
+            regmode => 2,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10372,6 +10374,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_bitclk_enable\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10384,6 +10387,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_state_stop1_reg\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10397,6 +10401,7 @@ BEGIN
     \UART_STIM_1:BUART:pollcount_1\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (main_0 * !main_1 * !main_2 * !main_3 * main_4) + (!main_1 * !main_2 * main_3 * !main_4)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10411,6 +10416,7 @@ BEGIN
     \UART_STIM_1:BUART:pollcount_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3) + (main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10424,6 +10430,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_status_3\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * !main_1 * !main_2 * main_3 * main_4 * main_5 * !main_6) + (!main_1 * !main_2 * main_3 * main_4 * main_5 * !main_6 * !main_7)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10441,6 +10448,7 @@ BEGIN
     \UART_STIM_1:BUART:rx_last\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10451,48 +10459,53 @@ BEGIN
     \PWM_1:PWMUDB:runmode_enable\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
             q => \PWM_1:PWMUDB:runmode_enable\,
-            clock_0 => Net_5187,
+            clock_0 => Net_5287,
             main_0 => \PWM_1:PWMUDB:control_7\);
 
     \PWM_1:PWMUDB:prevCompare1\:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
             q => \PWM_1:PWMUDB:prevCompare1\,
-            clock_0 => Net_5187,
+            clock_0 => Net_5287,
             main_0 => \PWM_1:PWMUDB:cmp1_less\);
 
     \PWM_1:PWMUDB:status_0\:macrocell
         GENERIC MAP(
             eqn_main => "(!main_0 * main_1)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
             q => \PWM_1:PWMUDB:status_0\,
-            clock_0 => Net_5187,
+            clock_0 => Net_5287,
             main_0 => \PWM_1:PWMUDB:prevCompare1\,
             main_1 => \PWM_1:PWMUDB:cmp1_less\);
 
     Net_927:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
             q => Net_927,
-            clock_0 => Net_5187,
+            clock_0 => Net_5287,
             main_0 => \PWM_1:PWMUDB:runmode_enable\,
             main_1 => \PWM_1:PWMUDB:cmp1_less\);
 
     AMuxHw_2_Decoder_old_id_2:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10503,6 +10516,7 @@ BEGIN
     AMuxHw_2_Decoder_old_id_1:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10513,6 +10527,7 @@ BEGIN
     AMuxHw_2_Decoder_old_id_0:macrocell
         GENERIC MAP(
             eqn_main => "(main_0)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10523,6 +10538,7 @@ BEGIN
     AMuxHw_2_Decoder_one_hot_0:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * !main_1 * !main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10536,6 +10552,7 @@ BEGIN
     AMuxHw_2_Decoder_one_hot_1:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * !main_1 * !main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10549,6 +10566,7 @@ BEGIN
     AMuxHw_2_Decoder_one_hot_2:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * !main_1 * main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10562,6 +10580,7 @@ BEGIN
     AMuxHw_2_Decoder_one_hot_3:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * !main_1 * main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10575,6 +10594,7 @@ BEGIN
     AMuxHw_2_Decoder_one_hot_4:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * !main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10588,6 +10608,7 @@ BEGIN
     AMuxHw_2_Decoder_one_hot_5:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * !main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10601,6 +10622,7 @@ BEGIN
     AMuxHw_2_Decoder_one_hot_6:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * main_2 * !main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(
@@ -10614,6 +10636,7 @@ BEGIN
     AMuxHw_2_Decoder_one_hot_7:macrocell
         GENERIC MAP(
             eqn_main => "(main_0 * main_1 * main_2 * main_3)",
+            regmode => 1,
             clk_inv => '0',
             clken_mode => 1)
         PORT MAP(

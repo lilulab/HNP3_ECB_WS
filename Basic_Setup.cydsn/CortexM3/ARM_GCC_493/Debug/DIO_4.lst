@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 1
 
 
    1              		.syntax unified
@@ -26,81 +26,81 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
   23              		.type	DIO_4_Write, %function
   24              	DIO_4_Write:
   25              	.LFB0:
-  26              		.file 1 ".\\Generated_Source\\PSoC5\\DIO_4.c"
-   1:.\Generated_Source\PSoC5/DIO_4.c **** /*******************************************************************************
-   2:.\Generated_Source\PSoC5/DIO_4.c **** * File Name: DIO_4.c  
-   3:.\Generated_Source\PSoC5/DIO_4.c **** * Version 2.20
-   4:.\Generated_Source\PSoC5/DIO_4.c **** *
-   5:.\Generated_Source\PSoC5/DIO_4.c **** * Description:
-   6:.\Generated_Source\PSoC5/DIO_4.c **** *  This file contains API to enable firmware control of a Pins component.
-   7:.\Generated_Source\PSoC5/DIO_4.c **** *
-   8:.\Generated_Source\PSoC5/DIO_4.c **** * Note:
-   9:.\Generated_Source\PSoC5/DIO_4.c **** *
-  10:.\Generated_Source\PSoC5/DIO_4.c **** ********************************************************************************
-  11:.\Generated_Source\PSoC5/DIO_4.c **** * Copyright 2008-2015, Cypress Semiconductor Corporation.  All rights reserved.
-  12:.\Generated_Source\PSoC5/DIO_4.c **** * You may use this file only in accordance with the license, terms, conditions, 
-  13:.\Generated_Source\PSoC5/DIO_4.c **** * disclaimers, and limitations in the end user license agreement accompanying 
-  14:.\Generated_Source\PSoC5/DIO_4.c **** * the software package with which this file was provided.
-  15:.\Generated_Source\PSoC5/DIO_4.c **** *******************************************************************************/
-  16:.\Generated_Source\PSoC5/DIO_4.c **** 
-  17:.\Generated_Source\PSoC5/DIO_4.c **** #include "cytypes.h"
-  18:.\Generated_Source\PSoC5/DIO_4.c **** #include "DIO_4.h"
-  19:.\Generated_Source\PSoC5/DIO_4.c **** 
-  20:.\Generated_Source\PSoC5/DIO_4.c **** /* APIs are not generated for P15[7:6] on PSoC 5 */
-  21:.\Generated_Source\PSoC5/DIO_4.c **** #if !(CY_PSOC5A &&\
-  22:.\Generated_Source\PSoC5/DIO_4.c **** 	 DIO_4__PORT == 15 && ((DIO_4__MASK & 0xC0) != 0))
-  23:.\Generated_Source\PSoC5/DIO_4.c **** 
-  24:.\Generated_Source\PSoC5/DIO_4.c **** 
-  25:.\Generated_Source\PSoC5/DIO_4.c **** /*******************************************************************************
-  26:.\Generated_Source\PSoC5/DIO_4.c **** * Function Name: DIO_4_Write
-  27:.\Generated_Source\PSoC5/DIO_4.c **** ****************************************************************************//**
-  28:.\Generated_Source\PSoC5/DIO_4.c **** *
-  29:.\Generated_Source\PSoC5/DIO_4.c **** * \brief Writes the value to the physical port (data output register), masking
-  30:.\Generated_Source\PSoC5/DIO_4.c **** *  and shifting the bits appropriately. 
-  31:.\Generated_Source\PSoC5/DIO_4.c **** *
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 2
+  26              		.file 1 "Generated_Source\\PSoC5\\DIO_4.c"
+   1:Generated_Source\PSoC5/DIO_4.c **** /*******************************************************************************
+   2:Generated_Source\PSoC5/DIO_4.c **** * File Name: DIO_4.c  
+   3:Generated_Source\PSoC5/DIO_4.c **** * Version 2.20
+   4:Generated_Source\PSoC5/DIO_4.c **** *
+   5:Generated_Source\PSoC5/DIO_4.c **** * Description:
+   6:Generated_Source\PSoC5/DIO_4.c **** *  This file contains API to enable firmware control of a Pins component.
+   7:Generated_Source\PSoC5/DIO_4.c **** *
+   8:Generated_Source\PSoC5/DIO_4.c **** * Note:
+   9:Generated_Source\PSoC5/DIO_4.c **** *
+  10:Generated_Source\PSoC5/DIO_4.c **** ********************************************************************************
+  11:Generated_Source\PSoC5/DIO_4.c **** * Copyright 2008-2015, Cypress Semiconductor Corporation.  All rights reserved.
+  12:Generated_Source\PSoC5/DIO_4.c **** * You may use this file only in accordance with the license, terms, conditions, 
+  13:Generated_Source\PSoC5/DIO_4.c **** * disclaimers, and limitations in the end user license agreement accompanying 
+  14:Generated_Source\PSoC5/DIO_4.c **** * the software package with which this file was provided.
+  15:Generated_Source\PSoC5/DIO_4.c **** *******************************************************************************/
+  16:Generated_Source\PSoC5/DIO_4.c **** 
+  17:Generated_Source\PSoC5/DIO_4.c **** #include "cytypes.h"
+  18:Generated_Source\PSoC5/DIO_4.c **** #include "DIO_4.h"
+  19:Generated_Source\PSoC5/DIO_4.c **** 
+  20:Generated_Source\PSoC5/DIO_4.c **** /* APIs are not generated for P15[7:6] on PSoC 5 */
+  21:Generated_Source\PSoC5/DIO_4.c **** #if !(CY_PSOC5A &&\
+  22:Generated_Source\PSoC5/DIO_4.c **** 	 DIO_4__PORT == 15 && ((DIO_4__MASK & 0xC0) != 0))
+  23:Generated_Source\PSoC5/DIO_4.c **** 
+  24:Generated_Source\PSoC5/DIO_4.c **** 
+  25:Generated_Source\PSoC5/DIO_4.c **** /*******************************************************************************
+  26:Generated_Source\PSoC5/DIO_4.c **** * Function Name: DIO_4_Write
+  27:Generated_Source\PSoC5/DIO_4.c **** ****************************************************************************//**
+  28:Generated_Source\PSoC5/DIO_4.c **** *
+  29:Generated_Source\PSoC5/DIO_4.c **** * \brief Writes the value to the physical port (data output register), masking
+  30:Generated_Source\PSoC5/DIO_4.c **** *  and shifting the bits appropriately. 
+  31:Generated_Source\PSoC5/DIO_4.c **** *
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 2
 
 
-  32:.\Generated_Source\PSoC5/DIO_4.c **** * The data output register controls the signal applied to the physical pin in 
-  33:.\Generated_Source\PSoC5/DIO_4.c **** * conjunction with the drive mode parameter. This function avoids changing 
-  34:.\Generated_Source\PSoC5/DIO_4.c **** * other bits in the port by using the appropriate method (read-modify-write or
-  35:.\Generated_Source\PSoC5/DIO_4.c **** * bit banding).
-  36:.\Generated_Source\PSoC5/DIO_4.c **** *
-  37:.\Generated_Source\PSoC5/DIO_4.c **** * <b>Note</b> This function should not be used on a hardware digital output pin 
-  38:.\Generated_Source\PSoC5/DIO_4.c **** * as it is driven by the hardware signal attached to it.
-  39:.\Generated_Source\PSoC5/DIO_4.c **** *
-  40:.\Generated_Source\PSoC5/DIO_4.c **** * \param value
-  41:.\Generated_Source\PSoC5/DIO_4.c **** *  Value to write to the component instance.
-  42:.\Generated_Source\PSoC5/DIO_4.c **** *
-  43:.\Generated_Source\PSoC5/DIO_4.c **** * \return 
-  44:.\Generated_Source\PSoC5/DIO_4.c **** *  None 
-  45:.\Generated_Source\PSoC5/DIO_4.c **** *
-  46:.\Generated_Source\PSoC5/DIO_4.c **** * \sideeffect
-  47:.\Generated_Source\PSoC5/DIO_4.c **** *  If you use read-modify-write operations that are not atomic; the Interrupt 
-  48:.\Generated_Source\PSoC5/DIO_4.c **** *  Service Routines (ISR) can cause corruption of this function. An ISR that 
-  49:.\Generated_Source\PSoC5/DIO_4.c **** *  interrupts this function and performs writes to the Pins component data 
-  50:.\Generated_Source\PSoC5/DIO_4.c **** *  register can cause corrupted port data. To avoid this issue, you should 
-  51:.\Generated_Source\PSoC5/DIO_4.c **** *  either use the Per-Pin APIs (primary method) or disable interrupts around 
-  52:.\Generated_Source\PSoC5/DIO_4.c **** *  this function.
-  53:.\Generated_Source\PSoC5/DIO_4.c **** *
-  54:.\Generated_Source\PSoC5/DIO_4.c **** * \funcusage
-  55:.\Generated_Source\PSoC5/DIO_4.c **** *  \snippet DIO_4_SUT.c usage_DIO_4_Write
-  56:.\Generated_Source\PSoC5/DIO_4.c **** *******************************************************************************/
-  57:.\Generated_Source\PSoC5/DIO_4.c **** void DIO_4_Write(uint8 value)
-  58:.\Generated_Source\PSoC5/DIO_4.c **** {
+  32:Generated_Source\PSoC5/DIO_4.c **** * The data output register controls the signal applied to the physical pin in 
+  33:Generated_Source\PSoC5/DIO_4.c **** * conjunction with the drive mode parameter. This function avoids changing 
+  34:Generated_Source\PSoC5/DIO_4.c **** * other bits in the port by using the appropriate method (read-modify-write or
+  35:Generated_Source\PSoC5/DIO_4.c **** * bit banding).
+  36:Generated_Source\PSoC5/DIO_4.c **** *
+  37:Generated_Source\PSoC5/DIO_4.c **** * <b>Note</b> This function should not be used on a hardware digital output pin 
+  38:Generated_Source\PSoC5/DIO_4.c **** * as it is driven by the hardware signal attached to it.
+  39:Generated_Source\PSoC5/DIO_4.c **** *
+  40:Generated_Source\PSoC5/DIO_4.c **** * \param value
+  41:Generated_Source\PSoC5/DIO_4.c **** *  Value to write to the component instance.
+  42:Generated_Source\PSoC5/DIO_4.c **** *
+  43:Generated_Source\PSoC5/DIO_4.c **** * \return 
+  44:Generated_Source\PSoC5/DIO_4.c **** *  None 
+  45:Generated_Source\PSoC5/DIO_4.c **** *
+  46:Generated_Source\PSoC5/DIO_4.c **** * \sideeffect
+  47:Generated_Source\PSoC5/DIO_4.c **** *  If you use read-modify-write operations that are not atomic; the Interrupt 
+  48:Generated_Source\PSoC5/DIO_4.c **** *  Service Routines (ISR) can cause corruption of this function. An ISR that 
+  49:Generated_Source\PSoC5/DIO_4.c **** *  interrupts this function and performs writes to the Pins component data 
+  50:Generated_Source\PSoC5/DIO_4.c **** *  register can cause corrupted port data. To avoid this issue, you should 
+  51:Generated_Source\PSoC5/DIO_4.c **** *  either use the Per-Pin APIs (primary method) or disable interrupts around 
+  52:Generated_Source\PSoC5/DIO_4.c **** *  this function.
+  53:Generated_Source\PSoC5/DIO_4.c **** *
+  54:Generated_Source\PSoC5/DIO_4.c **** * \funcusage
+  55:Generated_Source\PSoC5/DIO_4.c **** *  \snippet DIO_4_SUT.c usage_DIO_4_Write
+  56:Generated_Source\PSoC5/DIO_4.c **** *******************************************************************************/
+  57:Generated_Source\PSoC5/DIO_4.c **** void DIO_4_Write(uint8 value)
+  58:Generated_Source\PSoC5/DIO_4.c **** {
   27              		.loc 1 58 0
   28              		.cfi_startproc
   29              		@ args = 0, pretend = 0, frame = 0
   30              		@ frame_needed = 0, uses_anonymous_args = 0
   31              		@ link register save eliminated.
   32              	.LVL0:
-  59:.\Generated_Source\PSoC5/DIO_4.c ****     uint8 staticBits = (DIO_4_DR & (uint8)(~DIO_4_MASK));
+  59:Generated_Source\PSoC5/DIO_4.c ****     uint8 staticBits = (DIO_4_DR & (uint8)(~DIO_4_MASK));
   33              		.loc 1 59 0
   34 0000 044A     		ldr	r2, .L2
   35 0002 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
   36 0004 03F07F03 		and	r3, r3, #127
   37              	.LVL1:
-  60:.\Generated_Source\PSoC5/DIO_4.c ****     DIO_4_DR = staticBits | ((uint8)(value << DIO_4_SHIFT) & DIO_4_MASK);
+  60:Generated_Source\PSoC5/DIO_4.c ****     DIO_4_DR = staticBits | ((uint8)(value << DIO_4_SHIFT) & DIO_4_MASK);
   38              		.loc 1 60 0
   39 0008 C001     		lsls	r0, r0, #7
   40              	.LVL2:
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
   52              		.size	DIO_4_Write, .-DIO_4_Write
   53              		.section	.text.DIO_4_SetDriveMode,"ax",%progbits
   54              		.align	2
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 3
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 3
 
 
   55              		.global	DIO_4_SetDriveMode
@@ -127,44 +127,44 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
   58              		.type	DIO_4_SetDriveMode, %function
   59              	DIO_4_SetDriveMode:
   60              	.LFB1:
-  61:.\Generated_Source\PSoC5/DIO_4.c **** }
-  62:.\Generated_Source\PSoC5/DIO_4.c **** 
-  63:.\Generated_Source\PSoC5/DIO_4.c **** 
-  64:.\Generated_Source\PSoC5/DIO_4.c **** /*******************************************************************************
-  65:.\Generated_Source\PSoC5/DIO_4.c **** * Function Name: DIO_4_SetDriveMode
-  66:.\Generated_Source\PSoC5/DIO_4.c **** ****************************************************************************//**
-  67:.\Generated_Source\PSoC5/DIO_4.c **** *
-  68:.\Generated_Source\PSoC5/DIO_4.c **** * \brief Sets the drive mode for each of the Pins component's pins.
-  69:.\Generated_Source\PSoC5/DIO_4.c **** * 
-  70:.\Generated_Source\PSoC5/DIO_4.c **** * <b>Note</b> This affects all pins in the Pins component instance. Use the
-  71:.\Generated_Source\PSoC5/DIO_4.c **** * Per-Pin APIs if you wish to control individual pin's drive modes.
-  72:.\Generated_Source\PSoC5/DIO_4.c **** *
-  73:.\Generated_Source\PSoC5/DIO_4.c **** * \param mode
-  74:.\Generated_Source\PSoC5/DIO_4.c **** *  Mode for the selected signals. Valid options are documented in 
-  75:.\Generated_Source\PSoC5/DIO_4.c **** *  \ref driveMode.
-  76:.\Generated_Source\PSoC5/DIO_4.c **** *
-  77:.\Generated_Source\PSoC5/DIO_4.c **** * \return
-  78:.\Generated_Source\PSoC5/DIO_4.c **** *  None
-  79:.\Generated_Source\PSoC5/DIO_4.c **** *
-  80:.\Generated_Source\PSoC5/DIO_4.c **** * \sideeffect
-  81:.\Generated_Source\PSoC5/DIO_4.c **** *  If you use read-modify-write operations that are not atomic, the ISR can
-  82:.\Generated_Source\PSoC5/DIO_4.c **** *  cause corruption of this function. An ISR that interrupts this function 
-  83:.\Generated_Source\PSoC5/DIO_4.c **** *  and performs writes to the Pins component Drive Mode registers can cause 
-  84:.\Generated_Source\PSoC5/DIO_4.c **** *  corrupted port data. To avoid this issue, you should either use the Per-Pin
-  85:.\Generated_Source\PSoC5/DIO_4.c **** *  APIs (primary method) or disable interrupts around this function.
-  86:.\Generated_Source\PSoC5/DIO_4.c **** *
-  87:.\Generated_Source\PSoC5/DIO_4.c **** * \funcusage
-  88:.\Generated_Source\PSoC5/DIO_4.c **** *  \snippet DIO_4_SUT.c usage_DIO_4_SetDriveMode
-  89:.\Generated_Source\PSoC5/DIO_4.c **** *******************************************************************************/
-  90:.\Generated_Source\PSoC5/DIO_4.c **** void DIO_4_SetDriveMode(uint8 mode)
-  91:.\Generated_Source\PSoC5/DIO_4.c **** {
+  61:Generated_Source\PSoC5/DIO_4.c **** }
+  62:Generated_Source\PSoC5/DIO_4.c **** 
+  63:Generated_Source\PSoC5/DIO_4.c **** 
+  64:Generated_Source\PSoC5/DIO_4.c **** /*******************************************************************************
+  65:Generated_Source\PSoC5/DIO_4.c **** * Function Name: DIO_4_SetDriveMode
+  66:Generated_Source\PSoC5/DIO_4.c **** ****************************************************************************//**
+  67:Generated_Source\PSoC5/DIO_4.c **** *
+  68:Generated_Source\PSoC5/DIO_4.c **** * \brief Sets the drive mode for each of the Pins component's pins.
+  69:Generated_Source\PSoC5/DIO_4.c **** * 
+  70:Generated_Source\PSoC5/DIO_4.c **** * <b>Note</b> This affects all pins in the Pins component instance. Use the
+  71:Generated_Source\PSoC5/DIO_4.c **** * Per-Pin APIs if you wish to control individual pin's drive modes.
+  72:Generated_Source\PSoC5/DIO_4.c **** *
+  73:Generated_Source\PSoC5/DIO_4.c **** * \param mode
+  74:Generated_Source\PSoC5/DIO_4.c **** *  Mode for the selected signals. Valid options are documented in 
+  75:Generated_Source\PSoC5/DIO_4.c **** *  \ref driveMode.
+  76:Generated_Source\PSoC5/DIO_4.c **** *
+  77:Generated_Source\PSoC5/DIO_4.c **** * \return
+  78:Generated_Source\PSoC5/DIO_4.c **** *  None
+  79:Generated_Source\PSoC5/DIO_4.c **** *
+  80:Generated_Source\PSoC5/DIO_4.c **** * \sideeffect
+  81:Generated_Source\PSoC5/DIO_4.c **** *  If you use read-modify-write operations that are not atomic, the ISR can
+  82:Generated_Source\PSoC5/DIO_4.c **** *  cause corruption of this function. An ISR that interrupts this function 
+  83:Generated_Source\PSoC5/DIO_4.c **** *  and performs writes to the Pins component Drive Mode registers can cause 
+  84:Generated_Source\PSoC5/DIO_4.c **** *  corrupted port data. To avoid this issue, you should either use the Per-Pin
+  85:Generated_Source\PSoC5/DIO_4.c **** *  APIs (primary method) or disable interrupts around this function.
+  86:Generated_Source\PSoC5/DIO_4.c **** *
+  87:Generated_Source\PSoC5/DIO_4.c **** * \funcusage
+  88:Generated_Source\PSoC5/DIO_4.c **** *  \snippet DIO_4_SUT.c usage_DIO_4_SetDriveMode
+  89:Generated_Source\PSoC5/DIO_4.c **** *******************************************************************************/
+  90:Generated_Source\PSoC5/DIO_4.c **** void DIO_4_SetDriveMode(uint8 mode)
+  91:Generated_Source\PSoC5/DIO_4.c **** {
   61              		.loc 1 91 0
   62              		.cfi_startproc
   63              		@ args = 0, pretend = 0, frame = 0
   64              		@ frame_needed = 0, uses_anonymous_args = 0
   65              		@ link register save eliminated.
   66              	.LVL4:
-  92:.\Generated_Source\PSoC5/DIO_4.c **** 	CyPins_SetPinDriveMode(DIO_4_0, mode);
+  92:Generated_Source\PSoC5/DIO_4.c **** 	CyPins_SetPinDriveMode(DIO_4_0, mode);
   67              		.loc 1 92 0
   68 0000 044A     		ldr	r2, .L5
   69 0002 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
   77 0012 00BF     		.align	2
   78              	.L5:
   79 0014 17500040 		.word	1073762327
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 4
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 4
 
 
   80              		.cfi_endproc
@@ -192,38 +192,38 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
   88              		.type	DIO_4_Read, %function
   89              	DIO_4_Read:
   90              	.LFB2:
-  93:.\Generated_Source\PSoC5/DIO_4.c **** }
-  94:.\Generated_Source\PSoC5/DIO_4.c **** 
-  95:.\Generated_Source\PSoC5/DIO_4.c **** 
-  96:.\Generated_Source\PSoC5/DIO_4.c **** /*******************************************************************************
-  97:.\Generated_Source\PSoC5/DIO_4.c **** * Function Name: DIO_4_Read
-  98:.\Generated_Source\PSoC5/DIO_4.c **** ****************************************************************************//**
-  99:.\Generated_Source\PSoC5/DIO_4.c **** *
- 100:.\Generated_Source\PSoC5/DIO_4.c **** * \brief Reads the associated physical port (pin status register) and masks 
- 101:.\Generated_Source\PSoC5/DIO_4.c **** *  the required bits according to the width and bit position of the component
- 102:.\Generated_Source\PSoC5/DIO_4.c **** *  instance. 
- 103:.\Generated_Source\PSoC5/DIO_4.c **** *
- 104:.\Generated_Source\PSoC5/DIO_4.c **** * The pin's status register returns the current logic level present on the 
- 105:.\Generated_Source\PSoC5/DIO_4.c **** * physical pin.
- 106:.\Generated_Source\PSoC5/DIO_4.c **** *
- 107:.\Generated_Source\PSoC5/DIO_4.c **** * \return 
- 108:.\Generated_Source\PSoC5/DIO_4.c **** *  The current value for the pins in the component as a right justified number.
- 109:.\Generated_Source\PSoC5/DIO_4.c **** *
- 110:.\Generated_Source\PSoC5/DIO_4.c **** * \funcusage
- 111:.\Generated_Source\PSoC5/DIO_4.c **** *  \snippet DIO_4_SUT.c usage_DIO_4_Read  
- 112:.\Generated_Source\PSoC5/DIO_4.c **** *******************************************************************************/
- 113:.\Generated_Source\PSoC5/DIO_4.c **** uint8 DIO_4_Read(void)
- 114:.\Generated_Source\PSoC5/DIO_4.c **** {
+  93:Generated_Source\PSoC5/DIO_4.c **** }
+  94:Generated_Source\PSoC5/DIO_4.c **** 
+  95:Generated_Source\PSoC5/DIO_4.c **** 
+  96:Generated_Source\PSoC5/DIO_4.c **** /*******************************************************************************
+  97:Generated_Source\PSoC5/DIO_4.c **** * Function Name: DIO_4_Read
+  98:Generated_Source\PSoC5/DIO_4.c **** ****************************************************************************//**
+  99:Generated_Source\PSoC5/DIO_4.c **** *
+ 100:Generated_Source\PSoC5/DIO_4.c **** * \brief Reads the associated physical port (pin status register) and masks 
+ 101:Generated_Source\PSoC5/DIO_4.c **** *  the required bits according to the width and bit position of the component
+ 102:Generated_Source\PSoC5/DIO_4.c **** *  instance. 
+ 103:Generated_Source\PSoC5/DIO_4.c **** *
+ 104:Generated_Source\PSoC5/DIO_4.c **** * The pin's status register returns the current logic level present on the 
+ 105:Generated_Source\PSoC5/DIO_4.c **** * physical pin.
+ 106:Generated_Source\PSoC5/DIO_4.c **** *
+ 107:Generated_Source\PSoC5/DIO_4.c **** * \return 
+ 108:Generated_Source\PSoC5/DIO_4.c **** *  The current value for the pins in the component as a right justified number.
+ 109:Generated_Source\PSoC5/DIO_4.c **** *
+ 110:Generated_Source\PSoC5/DIO_4.c **** * \funcusage
+ 111:Generated_Source\PSoC5/DIO_4.c **** *  \snippet DIO_4_SUT.c usage_DIO_4_Read  
+ 112:Generated_Source\PSoC5/DIO_4.c **** *******************************************************************************/
+ 113:Generated_Source\PSoC5/DIO_4.c **** uint8 DIO_4_Read(void)
+ 114:Generated_Source\PSoC5/DIO_4.c **** {
   91              		.loc 1 114 0
   92              		.cfi_startproc
   93              		@ args = 0, pretend = 0, frame = 0
   94              		@ frame_needed = 0, uses_anonymous_args = 0
   95              		@ link register save eliminated.
- 115:.\Generated_Source\PSoC5/DIO_4.c ****     return (DIO_4_PS & DIO_4_MASK) >> DIO_4_SHIFT;
+ 115:Generated_Source\PSoC5/DIO_4.c ****     return (DIO_4_PS & DIO_4_MASK) >> DIO_4_SHIFT;
   96              		.loc 1 115 0
   97 0000 014B     		ldr	r3, .L8
   98 0002 1878     		ldrb	r0, [r3]	@ zero_extendqisi2
- 116:.\Generated_Source\PSoC5/DIO_4.c **** }
+ 116:Generated_Source\PSoC5/DIO_4.c **** }
   99              		.loc 1 116 0
  100 0004 C009     		lsrs	r0, r0, #7
  101 0006 7047     		bx	lr
@@ -238,49 +238,49 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
  110              		.align	2
  111              		.global	DIO_4_ReadDataReg
  112              		.thumb
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 5
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 5
 
 
  113              		.thumb_func
  114              		.type	DIO_4_ReadDataReg, %function
  115              	DIO_4_ReadDataReg:
  116              	.LFB3:
- 117:.\Generated_Source\PSoC5/DIO_4.c **** 
- 118:.\Generated_Source\PSoC5/DIO_4.c **** 
- 119:.\Generated_Source\PSoC5/DIO_4.c **** /*******************************************************************************
- 120:.\Generated_Source\PSoC5/DIO_4.c **** * Function Name: DIO_4_ReadDataReg
- 121:.\Generated_Source\PSoC5/DIO_4.c **** ****************************************************************************//**
- 122:.\Generated_Source\PSoC5/DIO_4.c **** *
- 123:.\Generated_Source\PSoC5/DIO_4.c **** * \brief Reads the associated physical port's data output register and masks 
- 124:.\Generated_Source\PSoC5/DIO_4.c **** *  the correct bits according to the width and bit position of the component 
- 125:.\Generated_Source\PSoC5/DIO_4.c **** *  instance. 
- 126:.\Generated_Source\PSoC5/DIO_4.c **** *
- 127:.\Generated_Source\PSoC5/DIO_4.c **** * The data output register controls the signal applied to the physical pin in 
- 128:.\Generated_Source\PSoC5/DIO_4.c **** * conjunction with the drive mode parameter. This is not the same as the 
- 129:.\Generated_Source\PSoC5/DIO_4.c **** * preferred DIO_4_Read() API because the 
- 130:.\Generated_Source\PSoC5/DIO_4.c **** * DIO_4_ReadDataReg() reads the data register instead of the status 
- 131:.\Generated_Source\PSoC5/DIO_4.c **** * register. For output pins this is a useful function to determine the value 
- 132:.\Generated_Source\PSoC5/DIO_4.c **** * just written to the pin.
- 133:.\Generated_Source\PSoC5/DIO_4.c **** *
- 134:.\Generated_Source\PSoC5/DIO_4.c **** * \return 
- 135:.\Generated_Source\PSoC5/DIO_4.c **** *  The current value of the data register masked and shifted into a right 
- 136:.\Generated_Source\PSoC5/DIO_4.c **** *  justified number for the component instance.
- 137:.\Generated_Source\PSoC5/DIO_4.c **** *
- 138:.\Generated_Source\PSoC5/DIO_4.c **** * \funcusage
- 139:.\Generated_Source\PSoC5/DIO_4.c **** *  \snippet DIO_4_SUT.c usage_DIO_4_ReadDataReg 
- 140:.\Generated_Source\PSoC5/DIO_4.c **** *******************************************************************************/
- 141:.\Generated_Source\PSoC5/DIO_4.c **** uint8 DIO_4_ReadDataReg(void)
- 142:.\Generated_Source\PSoC5/DIO_4.c **** {
+ 117:Generated_Source\PSoC5/DIO_4.c **** 
+ 118:Generated_Source\PSoC5/DIO_4.c **** 
+ 119:Generated_Source\PSoC5/DIO_4.c **** /*******************************************************************************
+ 120:Generated_Source\PSoC5/DIO_4.c **** * Function Name: DIO_4_ReadDataReg
+ 121:Generated_Source\PSoC5/DIO_4.c **** ****************************************************************************//**
+ 122:Generated_Source\PSoC5/DIO_4.c **** *
+ 123:Generated_Source\PSoC5/DIO_4.c **** * \brief Reads the associated physical port's data output register and masks 
+ 124:Generated_Source\PSoC5/DIO_4.c **** *  the correct bits according to the width and bit position of the component 
+ 125:Generated_Source\PSoC5/DIO_4.c **** *  instance. 
+ 126:Generated_Source\PSoC5/DIO_4.c **** *
+ 127:Generated_Source\PSoC5/DIO_4.c **** * The data output register controls the signal applied to the physical pin in 
+ 128:Generated_Source\PSoC5/DIO_4.c **** * conjunction with the drive mode parameter. This is not the same as the 
+ 129:Generated_Source\PSoC5/DIO_4.c **** * preferred DIO_4_Read() API because the 
+ 130:Generated_Source\PSoC5/DIO_4.c **** * DIO_4_ReadDataReg() reads the data register instead of the status 
+ 131:Generated_Source\PSoC5/DIO_4.c **** * register. For output pins this is a useful function to determine the value 
+ 132:Generated_Source\PSoC5/DIO_4.c **** * just written to the pin.
+ 133:Generated_Source\PSoC5/DIO_4.c **** *
+ 134:Generated_Source\PSoC5/DIO_4.c **** * \return 
+ 135:Generated_Source\PSoC5/DIO_4.c **** *  The current value of the data register masked and shifted into a right 
+ 136:Generated_Source\PSoC5/DIO_4.c **** *  justified number for the component instance.
+ 137:Generated_Source\PSoC5/DIO_4.c **** *
+ 138:Generated_Source\PSoC5/DIO_4.c **** * \funcusage
+ 139:Generated_Source\PSoC5/DIO_4.c **** *  \snippet DIO_4_SUT.c usage_DIO_4_ReadDataReg 
+ 140:Generated_Source\PSoC5/DIO_4.c **** *******************************************************************************/
+ 141:Generated_Source\PSoC5/DIO_4.c **** uint8 DIO_4_ReadDataReg(void)
+ 142:Generated_Source\PSoC5/DIO_4.c **** {
  117              		.loc 1 142 0
  118              		.cfi_startproc
  119              		@ args = 0, pretend = 0, frame = 0
  120              		@ frame_needed = 0, uses_anonymous_args = 0
  121              		@ link register save eliminated.
- 143:.\Generated_Source\PSoC5/DIO_4.c ****     return (DIO_4_DR & DIO_4_MASK) >> DIO_4_SHIFT;
+ 143:Generated_Source\PSoC5/DIO_4.c ****     return (DIO_4_DR & DIO_4_MASK) >> DIO_4_SHIFT;
  122              		.loc 1 143 0
  123 0000 014B     		ldr	r3, .L11
  124 0002 1878     		ldrb	r0, [r3]	@ zero_extendqisi2
- 144:.\Generated_Source\PSoC5/DIO_4.c **** }
+ 144:Generated_Source\PSoC5/DIO_4.c **** }
  125              		.loc 1 144 0
  126 0004 C009     		lsrs	r0, r0, #7
  127 0006 7047     		bx	lr
@@ -293,56 +293,56 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
  134              		.size	DIO_4_ReadDataReg, .-DIO_4_ReadDataReg
  135              		.text
  136              	.Letext0:
- 137              		.file 2 ".\\Generated_Source\\PSoC5\\cytypes.h"
+ 137              		.file 2 "Generated_Source\\PSoC5\\cytypes.h"
  138              		.section	.debug_info,"",%progbits
  139              	.Ldebug_info0:
  140 0000 1D010000 		.4byte	0x11d
  141 0004 0400     		.2byte	0x4
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 6
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 6
 
 
  142 0006 00000000 		.4byte	.Ldebug_abbrev0
  143 000a 04       		.byte	0x4
  144 000b 01       		.uleb128 0x1
- 145 000c D0000000 		.4byte	.LASF20
+ 145 000c BB000000 		.4byte	.LASF20
  146 0010 01       		.byte	0x1
- 147 0011 24000000 		.4byte	.LASF21
- 148 0015 A8000000 		.4byte	.LASF22
+ 147 0011 72010000 		.4byte	.LASF21
+ 148 0015 00000000 		.4byte	.LASF22
  149 0019 00000000 		.4byte	.Ldebug_ranges0+0
  150 001d 00000000 		.4byte	0
  151 0021 00000000 		.4byte	.Ldebug_line0
  152 0025 02       		.uleb128 0x2
  153 0026 01       		.byte	0x1
  154 0027 06       		.byte	0x6
- 155 0028 BE010000 		.4byte	.LASF0
+ 155 0028 C8010000 		.4byte	.LASF0
  156 002c 02       		.uleb128 0x2
  157 002d 01       		.byte	0x1
  158 002e 08       		.byte	0x8
- 159 002f 4B000000 		.4byte	.LASF1
+ 159 002f 57000000 		.4byte	.LASF1
  160 0033 02       		.uleb128 0x2
  161 0034 02       		.byte	0x2
  162 0035 05       		.byte	0x5
- 163 0036 9A010000 		.4byte	.LASF2
+ 163 0036 A4010000 		.4byte	.LASF2
  164 003a 02       		.uleb128 0x2
  165 003b 02       		.byte	0x2
  166 003c 07       		.byte	0x7
- 167 003d 70000000 		.4byte	.LASF3
+ 167 003d 7C000000 		.4byte	.LASF3
  168 0041 02       		.uleb128 0x2
  169 0042 04       		.byte	0x4
  170 0043 05       		.byte	0x5
- 171 0044 B5010000 		.4byte	.LASF4
+ 171 0044 BF010000 		.4byte	.LASF4
  172 0048 02       		.uleb128 0x2
  173 0049 04       		.byte	0x4
  174 004a 07       		.byte	0x7
- 175 004b 5E000000 		.4byte	.LASF5
+ 175 004b 6A000000 		.4byte	.LASF5
  176 004f 02       		.uleb128 0x2
  177 0050 08       		.byte	0x8
  178 0051 05       		.byte	0x5
- 179 0052 87010000 		.4byte	.LASF6
+ 179 0052 91010000 		.4byte	.LASF6
  180 0056 02       		.uleb128 0x2
  181 0057 08       		.byte	0x8
  182 0058 07       		.byte	0x7
- 183 0059 6B010000 		.4byte	.LASF7
+ 183 0059 56010000 		.4byte	.LASF7
  184 005d 03       		.uleb128 0x3
  185 005e 04       		.byte	0x4
  186 005f 05       		.byte	0x5
@@ -350,36 +350,36 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
  188 0064 02       		.uleb128 0x2
  189 0065 04       		.byte	0x4
  190 0066 07       		.byte	0x7
- 191 0067 5E010000 		.4byte	.LASF8
+ 191 0067 49010000 		.4byte	.LASF8
  192 006b 04       		.uleb128 0x4
- 193 006c A4010000 		.4byte	.LASF12
+ 193 006c AE010000 		.4byte	.LASF12
  194 0070 02       		.byte	0x2
  195 0071 9201     		.2byte	0x192
  196 0073 2C000000 		.4byte	0x2c
  197 0077 02       		.uleb128 0x2
  198 0078 04       		.byte	0x4
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 7
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 7
 
 
  199 0079 04       		.byte	0x4
- 200 007a 45000000 		.4byte	.LASF9
+ 200 007a 51000000 		.4byte	.LASF9
  201 007e 02       		.uleb128 0x2
  202 007f 08       		.byte	0x8
  203 0080 04       		.byte	0x4
- 204 0081 1D000000 		.4byte	.LASF10
+ 204 0081 B4000000 		.4byte	.LASF10
  205 0085 02       		.uleb128 0x2
  206 0086 01       		.byte	0x1
  207 0087 08       		.byte	0x8
- 208 0088 95010000 		.4byte	.LASF11
+ 208 0088 9F010000 		.4byte	.LASF11
  209 008c 04       		.uleb128 0x4
- 210 008d 59000000 		.4byte	.LASF13
+ 210 008d 65000000 		.4byte	.LASF13
  211 0091 02       		.byte	0x2
  212 0092 3C02     		.2byte	0x23c
  213 0094 98000000 		.4byte	0x98
  214 0098 05       		.uleb128 0x5
  215 0099 6B000000 		.4byte	0x6b
  216 009d 06       		.uleb128 0x6
- 217 009e 00000000 		.4byte	.LASF14
+ 217 009e 34000000 		.4byte	.LASF14
  218 00a2 01       		.byte	0x1
  219 00a3 39       		.byte	0x39
  220 00a4 00000000 		.4byte	.LFB0
@@ -388,20 +388,20 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
  223 00ad 9C       		.byte	0x9c
  224 00ae D1000000 		.4byte	0xd1
  225 00b2 07       		.uleb128 0x7
- 226 00b3 0C000000 		.4byte	.LASF16
+ 226 00b3 40000000 		.4byte	.LASF16
  227 00b7 01       		.byte	0x1
  228 00b8 39       		.byte	0x39
  229 00b9 6B000000 		.4byte	0x6b
  230 00bd 00000000 		.4byte	.LLST0
  231 00c1 08       		.uleb128 0x8
- 232 00c2 12000000 		.4byte	.LASF23
+ 232 00c2 46000000 		.4byte	.LASF23
  233 00c6 01       		.byte	0x1
  234 00c7 3B       		.byte	0x3b
  235 00c8 6B000000 		.4byte	0x6b
  236 00cc 21000000 		.4byte	.LLST1
  237 00d0 00       		.byte	0
  238 00d1 06       		.uleb128 0x6
- 239 00d2 95000000 		.4byte	.LASF15
+ 239 00d2 A1000000 		.4byte	.LASF15
  240 00d6 01       		.byte	0x1
  241 00d7 5A       		.byte	0x5a
  242 00d8 00000000 		.4byte	.LFB1
@@ -410,15 +410,15 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
  245 00e1 9C       		.byte	0x9c
  246 00e2 F6000000 		.4byte	0xf6
  247 00e6 07       		.uleb128 0x7
- 248 00e7 82010000 		.4byte	.LASF17
+ 248 00e7 6D010000 		.4byte	.LASF17
  249 00eb 01       		.byte	0x1
  250 00ec 5A       		.byte	0x5a
  251 00ed 6B000000 		.4byte	0x6b
  252 00f1 34000000 		.4byte	.LLST2
  253 00f5 00       		.byte	0
  254 00f6 09       		.uleb128 0x9
- 255 00f7 AA010000 		.4byte	.LASF18
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 8
+ 255 00f7 B4010000 		.4byte	.LASF18
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 8
 
 
  256 00fb 01       		.byte	0x1
@@ -429,7 +429,7 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
  261 0109 01       		.uleb128 0x1
  262 010a 9C       		.byte	0x9c
  263 010b 09       		.uleb128 0x9
- 264 010c 83000000 		.4byte	.LASF19
+ 264 010c 8F000000 		.4byte	.LASF19
  265 0110 01       		.byte	0x1
  266 0111 8D       		.byte	0x8d
  267 0112 6B000000 		.4byte	0x6b
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
  310 0023 3E       		.uleb128 0x3e
  311 0024 0B       		.uleb128 0xb
  312 0025 03       		.uleb128 0x3
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 9
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 9
 
 
  313 0026 08       		.uleb128 0x8
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
  367 005d 0B       		.uleb128 0xb
  368 005e 3B       		.uleb128 0x3b
  369 005f 0B       		.uleb128 0xb
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 10
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 10
 
 
  370 0060 49       		.uleb128 0x49
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
  424 000b 0A000000 		.4byte	.LVL2
  425 000f 18000000 		.4byte	.LFE0
  426 0013 0400     		.2byte	0x4
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 11
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 11
 
 
  427 0015 F3       		.byte	0xf3
@@ -658,138 +658,140 @@ ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 1
  481 001c 0C000000 		.4byte	.LFE3
  482 0020 00000000 		.4byte	0
  483 0024 00000000 		.4byte	0
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 12
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 12
 
 
  484              		.section	.debug_line,"",%progbits
  485              	.Ldebug_line0:
- 486 0000 90000000 		.section	.debug_str,"MS",%progbits,1
- 486      02004400 
+ 486 0000 8E000000 		.section	.debug_str,"MS",%progbits,1
+ 486      02004200 
  486      00000201 
  486      FB0E0D00 
  486      01010101 
- 487              	.LASF14:
- 488 0000 44494F5F 		.ascii	"DIO_4_Write\000"
- 488      345F5772 
- 488      69746500 
- 489              	.LASF16:
- 490 000c 76616C75 		.ascii	"value\000"
- 490      6500
- 491              	.LASF23:
- 492 0012 73746174 		.ascii	"staticBits\000"
- 492      69634269 
- 492      747300
- 493              	.LASF10:
- 494 001d 646F7562 		.ascii	"double\000"
- 494      6C6500
- 495              	.LASF21:
- 496 0024 2E5C4765 		.ascii	".\\Generated_Source\\PSoC5\\DIO_4.c\000"
- 496      6E657261 
- 496      7465645F 
- 496      536F7572 
- 496      63655C50 
- 497              	.LASF9:
- 498 0045 666C6F61 		.ascii	"float\000"
- 498      7400
- 499              	.LASF1:
- 500 004b 756E7369 		.ascii	"unsigned char\000"
- 500      676E6564 
- 500      20636861 
- 500      7200
- 501              	.LASF13:
- 502 0059 72656738 		.ascii	"reg8\000"
- 502      00
- 503              	.LASF5:
- 504 005e 6C6F6E67 		.ascii	"long unsigned int\000"
- 504      20756E73 
- 504      69676E65 
- 504      6420696E 
- 504      7400
- 505              	.LASF3:
- 506 0070 73686F72 		.ascii	"short unsigned int\000"
- 506      7420756E 
- 506      7369676E 
- 506      65642069 
- 506      6E7400
- 507              	.LASF19:
- 508 0083 44494F5F 		.ascii	"DIO_4_ReadDataReg\000"
- 508      345F5265 
- 508      61644461 
- 508      74615265 
- 508      6700
- 509              	.LASF15:
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 13
+ 487              	.LASF22:
+ 488 0000 443A5C4D 		.ascii	"D:\\MyPSoC\\HNP3_ECB_WS\\HNP3_ECB_WS\\Basic_Setup.c"
+ 488      7950536F 
+ 488      435C484E 
+ 488      50335F45 
+ 488      43425F57 
+ 489 002f 7964736E 		.ascii	"ydsn\000"
+ 489      00
+ 490              	.LASF14:
+ 491 0034 44494F5F 		.ascii	"DIO_4_Write\000"
+ 491      345F5772 
+ 491      69746500 
+ 492              	.LASF16:
+ 493 0040 76616C75 		.ascii	"value\000"
+ 493      6500
+ 494              	.LASF23:
+ 495 0046 73746174 		.ascii	"staticBits\000"
+ 495      69634269 
+ 495      747300
+ 496              	.LASF9:
+ 497 0051 666C6F61 		.ascii	"float\000"
+ 497      7400
+ 498              	.LASF1:
+ 499 0057 756E7369 		.ascii	"unsigned char\000"
+ 499      676E6564 
+ 499      20636861 
+ 499      7200
+ 500              	.LASF13:
+ 501 0065 72656738 		.ascii	"reg8\000"
+ 501      00
+ 502              	.LASF5:
+ 503 006a 6C6F6E67 		.ascii	"long unsigned int\000"
+ 503      20756E73 
+ 503      69676E65 
+ 503      6420696E 
+ 503      7400
+ 504              	.LASF3:
+ 505 007c 73686F72 		.ascii	"short unsigned int\000"
+ 505      7420756E 
+ 505      7369676E 
+ 505      65642069 
+ 505      6E7400
+ 506              	.LASF19:
+ 507 008f 44494F5F 		.ascii	"DIO_4_ReadDataReg\000"
+ 507      345F5265 
+ 507      61644461 
+ 507      74615265 
+ 507      6700
+ 508              	.LASF15:
+ 509 00a1 44494F5F 		.ascii	"DIO_4_SetDriveMode\000"
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 13
 
 
- 510 0095 44494F5F 		.ascii	"DIO_4_SetDriveMode\000"
- 510      345F5365 
- 510      74447269 
- 510      76654D6F 
- 510      646500
- 511              	.LASF22:
- 512 00a8 443A5C4D 		.ascii	"D:\\MyPSoC\\HNP3_ECB_WS\\Basic_Setup.cydsn\000"
- 512      7950536F 
- 512      435C484E 
- 512      50335F45 
- 512      43425F57 
- 513              	.LASF20:
- 514 00d0 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 514      4320342E 
- 514      392E3320 
- 514      32303135 
- 514      30333033 
- 515 0103 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m3 -mthumb -g -O"
- 515      20726576 
- 515      6973696F 
- 515      6E203232 
- 515      31323230 
- 516 0136 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 516      66756E63 
- 516      74696F6E 
- 516      2D736563 
- 516      74696F6E 
- 517              	.LASF8:
- 518 015e 756E7369 		.ascii	"unsigned int\000"
- 518      676E6564 
- 518      20696E74 
- 518      00
- 519              	.LASF7:
- 520 016b 6C6F6E67 		.ascii	"long long unsigned int\000"
- 520      206C6F6E 
- 520      6720756E 
- 520      7369676E 
- 520      65642069 
- 521              	.LASF17:
- 522 0182 6D6F6465 		.ascii	"mode\000"
- 522      00
- 523              	.LASF6:
- 524 0187 6C6F6E67 		.ascii	"long long int\000"
- 524      206C6F6E 
- 524      6720696E 
- 524      7400
- 525              	.LASF11:
- 526 0195 63686172 		.ascii	"char\000"
- 526      00
- 527              	.LASF2:
- 528 019a 73686F72 		.ascii	"short int\000"
- 528      7420696E 
- 528      7400
- 529              	.LASF12:
- 530 01a4 75696E74 		.ascii	"uint8\000"
- 530      3800
- 531              	.LASF18:
-ARM GAS  C:\Users\lilu1\AppData\Local\Temp\cc27VhjM.s 			page 14
+ 509      345F5365 
+ 509      74447269 
+ 509      76654D6F 
+ 509      646500
+ 510              	.LASF10:
+ 511 00b4 646F7562 		.ascii	"double\000"
+ 511      6C6500
+ 512              	.LASF20:
+ 513 00bb 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 513      4320342E 
+ 513      392E3320 
+ 513      32303135 
+ 513      30333033 
+ 514 00ee 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m3 -mthumb -g -O"
+ 514      20726576 
+ 514      6973696F 
+ 514      6E203232 
+ 514      31323230 
+ 515 0121 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 515      66756E63 
+ 515      74696F6E 
+ 515      2D736563 
+ 515      74696F6E 
+ 516              	.LASF8:
+ 517 0149 756E7369 		.ascii	"unsigned int\000"
+ 517      676E6564 
+ 517      20696E74 
+ 517      00
+ 518              	.LASF7:
+ 519 0156 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 519      206C6F6E 
+ 519      6720756E 
+ 519      7369676E 
+ 519      65642069 
+ 520              	.LASF17:
+ 521 016d 6D6F6465 		.ascii	"mode\000"
+ 521      00
+ 522              	.LASF21:
+ 523 0172 47656E65 		.ascii	"Generated_Source\\PSoC5\\DIO_4.c\000"
+ 523      72617465 
+ 523      645F536F 
+ 523      75726365 
+ 523      5C50536F 
+ 524              	.LASF6:
+ 525 0191 6C6F6E67 		.ascii	"long long int\000"
+ 525      206C6F6E 
+ 525      6720696E 
+ 525      7400
+ 526              	.LASF11:
+ 527 019f 63686172 		.ascii	"char\000"
+ 527      00
+ 528              	.LASF2:
+ 529 01a4 73686F72 		.ascii	"short int\000"
+ 529      7420696E 
+ 529      7400
+ 530              	.LASF12:
+ 531 01ae 75696E74 		.ascii	"uint8\000"
+ARM GAS  C:\Users\lilu1\AppData\Local\Temp\ccXkkQD2.s 			page 14
 
 
- 532 01aa 44494F5F 		.ascii	"DIO_4_Read\000"
- 532      345F5265 
- 532      616400
- 533              	.LASF4:
- 534 01b5 6C6F6E67 		.ascii	"long int\000"
- 534      20696E74 
- 534      00
- 535              	.LASF0:
- 536 01be 7369676E 		.ascii	"signed char\000"
- 536      65642063 
- 536      68617200 
- 537              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
+ 531      3800
+ 532              	.LASF18:
+ 533 01b4 44494F5F 		.ascii	"DIO_4_Read\000"
+ 533      345F5265 
+ 533      616400
+ 534              	.LASF4:
+ 535 01bf 6C6F6E67 		.ascii	"long int\000"
+ 535      20696E74 
+ 535      00
+ 536              	.LASF0:
+ 537 01c8 7369676E 		.ascii	"signed char\000"
+ 537      65642063 
+ 537      68617200 
+ 538              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br
