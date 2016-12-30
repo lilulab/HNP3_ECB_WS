@@ -7,14 +7,14 @@
       <Tool Name="prebuild" Command="" Options="" />
       <Tool Name="assembler" Command="arm-none-eabi-as.exe" Options="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -alh=${OutputDir}/${CompileFile}.lst -g -W" />
       <Tool Name="compiler" Command="arm-none-eabi-gcc.exe" Options="-mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
-      <Tool Name="linker" Command="arm-none-eabi-gcc.exe" Options="-mcpu=cortex-m3 -mthumb -g -ffunction-sections -Og -ffat-lto-objects -L Generated_Source\PSoC5 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn\Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections" />
+      <Tool Name="linker" Command="arm-none-eabi-gcc.exe" Options="-mcpu=cortex-m3 -mthumb -g -ffunction-sections -Og -ffat-lto-objects -L Generated_Source\PSoC5 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn\Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections" />
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
     <Toolchain Name="ARM MDK Generic" Selected="False">
       <Tool Name="prebuild" Command="" Options="" />
       <Tool Name="assembler" Command="armasm.exe" Options="--cpu=Cortex-M3 --diag_style=gnu --thumb -i. -iGenerated_Source\PSoC5 -g --list=${OutputDir}/${CompileFile}.lst" />
       <Tool Name="compiler" Command="armcc.exe" Options="--cpu=Cortex-M3 --diag_style=gnu -I. -IGenerated_Source\PSoC5 --list --signed_chars -g -D DEBUG -O0 --split_sections" />
-      <Tool Name="linker" Command="armlink.exe" Options="--cpu=Cortex-M3 --diag_style=gnu --no_startup --library_type=microlib --map --list ${OutputDir}/${ProjectShortName}.map --scatter D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn\Generated_Source\PSoC5\Cm3RealView.scat" />
+      <Tool Name="linker" Command="armlink.exe" Options="--cpu=Cortex-M3 --diag_style=gnu --no_startup --library_type=microlib --map --list ${OutputDir}/${ProjectShortName}.map --scatter D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn\Generated_Source\PSoC5\Cm3RealView.scat" />
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
     <Toolchain Name="ARM IAR Generic" Selected="False">
@@ -25,7 +25,7 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
-  <Project Name="Basic_Setup" Path="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" Version="5.40" Type="Normal">
+  <Project Name="Basic_Setup" Path="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" Version="5.40" Type="Normal">
     <CMSIS_SVD_File>Basic_Setup.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
@@ -34,14 +34,14 @@
       <LinkerFile Toolchain="ARM IAR Generic">.\Generated_Source\PSoC5\Cm3Iar.icf</LinkerFile>
     </LinkerFiles>
     <Folders>
-      <Folder BuildType="STRICT" Path="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn">
+      <Folder BuildType="STRICT" Path="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn">
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn">
           <File BuildType="BUILD" Toolchain="">main.c</File>
           <File BuildType="BUILD" Toolchain="">cyapicallbacks.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn\Generated_Source\PSoC5">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn">
+      <Folder BuildType="STRICT" Path="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn\Generated_Source\PSoC5">
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn">
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter_cfg.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter_cfg.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cymetadata.c</File>
@@ -255,11 +255,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_STIM_0_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_STIM_0_INT.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_STIM_0_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_LINUX_0.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_LINUX_0.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_LINUX_0_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_LINUX_0_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_LINUX_0_BOOT.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_STIM_1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_STIM_1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_STIM_1_PM.c</File>
@@ -280,43 +275,10 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_Dp.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_STIM_0_IntClock.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_STIM_0_IntClock.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_LINUX_0_IntClock.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_LINUX_0_IntClock.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_STIM_1_IntClock.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\UART_STIM_1_IntClock.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Control_Reg_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Control_Reg_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Control_Reg_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_3.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_3.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_IRQ.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_IRQ.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_theACLK.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_theACLK.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\CyScBoostClk.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\CyScBoostClk.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_2_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_2_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Control_Reg_2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Control_Reg_2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Control_Reg_2_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_2_IRQ.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_2_IRQ.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_2_theACLK.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_2_theACLK.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Control_Reg_3.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Control_Reg_3.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Control_Reg_3_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Status_Reg_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Status_Reg_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Status_Reg_2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Status_Reg_2.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SAIO_0_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SAIO_0.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SAIO_0.h</File>
@@ -338,58 +300,100 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\MODX_3_IO_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\MODX_3_IO.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\MODX_3_IO.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_6_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_6.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_6.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_5_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_5.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_5.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_4_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_4.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_4.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_3.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_3.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_0_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_0.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_0.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_7_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_7.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_7.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_8_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_8.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_8.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_9_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_9.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_9.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_10_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_10.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_10.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_11_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_11.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_11.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_12_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_12.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_12.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_13_RST_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_13_RST.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\LIO_13_RST.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn\Export\ARM_GCC_Generic">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn">
+      <Folder BuildType="STRICT" Path="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn\Export\ARM_GCC_Generic">
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn">
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">.\Export\ARM_GCC_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn\Export\ARM_MDK_Generic">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn">
+      <Folder BuildType="STRICT" Path="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn\Export\ARM_MDK_Generic">
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn">
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">.\Export\ARM_MDK_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn\Export\ARM_IAR_Generic">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn">
+      <Folder BuildType="STRICT" Path="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn\Export\ARM_IAR_Generic">
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn">
           <File BuildType="BUILD" Toolchain="ARM IAR Generic">.\Export\ARM_IAR_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_473">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051_Keil_952">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0p">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM3">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM4">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM7">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\Generated_Source\PSoC3">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\Generated_Source\PSoC4">
-        <Files Root="D:\MyPSoC\HNP3_ECB_WS\HNP3_ECB_WS\Basic_Setup.cydsn" />
+        <Files Root="D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn" />
       </Folder>
     </Folders>
   </Project>
