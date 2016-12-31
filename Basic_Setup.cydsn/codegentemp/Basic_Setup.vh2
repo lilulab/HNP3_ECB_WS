@@ -2,7 +2,7 @@
 --	Conversion of Basic_Setup.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Thu Dec 29 22:29:18 2016
+--	Sat Dec 31 00:18:44 2016
 --
 
 USE cypress.cypress.all;
@@ -278,7 +278,7 @@ SIGNAL \USBUART_1:tmpFB_0__Dp_net_0\ : bit;
 TERMINAL \USBUART_1:Net_1000\ : bit;
 SIGNAL \USBUART_1:tmpIO_0__Dp_net_0\ : bit;
 TERMINAL \USBUART_1:tmpSIOVREF__Dp_net_0\ : bit;
-SIGNAL Net_629 : bit;
+SIGNAL Net_5638 : bit;
 SIGNAL \USBUART_1:Net_1889\ : bit;
 SIGNAL \USBUART_1:Net_1876\ : bit;
 SIGNAL \USBUART_1:ep_int_8\ : bit;
@@ -6473,7 +6473,7 @@ KEY_2:cy_psoc3_pins_v1_10
 	GENERIC MAP(cy_registers=>"")
 	PORT MAP(dp=>\USBUART_1:Net_1000\,
 		dm=>\USBUART_1:Net_597\,
-		sof_int=>Net_629,
+		sof_int=>Net_5638,
 		arb_int=>\USBUART_1:Net_1889\,
 		usb_int=>\USBUART_1:Net_1876\,
 		ept_int=>(\USBUART_1:ep_int_8\, \USBUART_1:ep_int_7\, \USBUART_1:ep_int_6\, \USBUART_1:ep_int_5\,
@@ -6510,7 +6510,7 @@ KEY_2:cy_psoc3_pins_v1_10
 \USBUART_1:sof_int\:cy_isr_v1_0
 	GENERIC MAP(int_type=>"10",
 		is_nmi=>'0')
-	PORT MAP(int_signal=>Net_629);
+	PORT MAP(int_signal=>Net_5638);
 SPK_1:cy_annotation_universal_v1_0
 	GENERIC MAP(comp_name=>"Speaker_v1_0",
 		port_names=>"T1, T2",

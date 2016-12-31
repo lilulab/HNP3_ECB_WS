@@ -1,4 +1,4 @@
---------------- Clean Started: 12/30/2016 00:12:15 Project: Basic_Setup, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
+--------------- Clean Started: 12/31/2016 01:04:14 Project: Basic_Setup, Configuration: ARM GCC 4.9-2015-q1-update Debug ---------------
 Deleting file ".\CortexM3\ARM_GCC_493\Debug\main.o"
 Deleting file ".\CortexM3\ARM_GCC_493\Debug\cyfitter_cfg.o"
 Deleting file ".\CortexM3\ARM_GCC_493\Debug\cymetadata.o"
@@ -127,4 +127,4 @@ Deleting file ".\Basic_Setup.rpt"
 Deleting file ".\Basic_Setup_timing.html"
 Deleting file ".\CortexM3\ARM_GCC_493\Debug\.deps\SOURCE_C__ARM_GCC_GENERIC.P"
 Deleting file ".\CortexM3\ARM_GCC_493\Debug\.deps\SOURCE_ASM__ARM_GCC_GENERIC.P"
---------------- Clean Succeeded: 12/30/2016 00:12:15 ---------------
+--------------- Clean Succeeded: 12/31/2016 01:04:14 ---------------

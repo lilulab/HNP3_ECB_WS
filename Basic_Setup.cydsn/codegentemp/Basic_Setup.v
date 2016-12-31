@@ -1,6 +1,6 @@
 // ======================================================================
 // Basic_Setup.v generated from TopDesign.cysch
-// 12/29/2016 at 22:29
+// 12/31/2016 at 00:18
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -1239,8 +1239,8 @@ module top ;
           wire  Net_929;
           wire  Net_928;
           wire  Net_927;
-          wire  Net_630;
-          wire  Net_629;
+          wire  Net_5639;
+          wire  Net_5638;
     electrical  Net_5438;
     electrical  Net_603;
     electrical  Net_5425;
@@ -1269,9 +1269,10 @@ module top ;
     electrical  Net_306;
           wire  Net_5388;
           wire  Net_5389;
+          wire  Net_5422;
+    electrical  Net_605;
           wire  Net_5439;
           wire  Net_5427;
-          wire  Net_5422;
           wire  Net_5403;
           wire  Net_5404;
           wire  Net_5287;
@@ -1297,7 +1298,6 @@ module top ;
     electrical  Net_597;
     electrical  Net_602;
     electrical  Net_607;
-    electrical  Net_605;
     electrical  Net_632;
           wire  Net_12;
           wire  Net_11;
@@ -4701,7 +4701,7 @@ module top ;
 	assign tmpOE__KEY_2_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
 
     USBFS_v3_0_0 USBUART_1 (
-        .sof(Net_629),
+        .sof(Net_5638),
         .vbusdet(1'b0));
     defparam USBUART_1.epDMAautoOptimization = 0;
 

@@ -1,5 +1,5 @@
 -- Project:   D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\Basic_Setup.cydsn\Basic_Setup.cyprj
--- Generated: 12/29/2016 22:29:27
+-- Generated: 12/31/2016 00:18:52
 -- PSoC Creator  4.0
 
 ENTITY Basic_Setup IS
@@ -209,7 +209,7 @@ ARCHITECTURE __DEFAULT__ OF Basic_Setup IS
     ATTRIBUTE placement_force OF Net_5404 : SIGNAL IS "U(2,3,B)1";
     SIGNAL Net_5422 : bit;
     SIGNAL Net_5439 : bit;
-    SIGNAL Net_629 : bit;
+    SIGNAL Net_5638 : bit;
     SIGNAL Net_719 : bit;
     ATTRIBUTE placement_force OF Net_719 : SIGNAL IS "U(2,0,B)0";
     SIGNAL Net_724 : bit;
@@ -8091,7 +8091,7 @@ BEGIN
         GENERIC MAP(
             cy_registers => "")
         PORT MAP(
-            sof_int => Net_629,
+            sof_int => Net_5638,
             arb_int => \USBUART_1:Net_1889\,
             usb_int => \USBUART_1:Net_1876\,
             ept_int_8 => \USBUART_1:ep_int_8\,
@@ -8167,7 +8167,7 @@ BEGIN
             int_type => "10",
             is_nmi => 0)
         PORT MAP(
-            interrupt => Net_629,
+            interrupt => Net_5638,
             clock => ClockBlock_BUS_CLK);
 
     \CAN_1:CanIP\:cancell
