@@ -18,10 +18,13 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="HNP3_ECB_WS\GaitStateMachine">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="HNP3_ECB_WS\01_Basic_Setup\TopDesign">
 <ExpandedNodeIds>
 <v>HNP3_ECB_WS</v>
+<v>HNP3_ECB_WS\01_Basic_Setup</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\TopDesign</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Header Files</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Source Files</v>
 <v>HNP3_ECB_WS\02_USB_UART\TopDesign</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test\TopDesign</v>
 <v>HNP3_ECB_WS\GaitStateMachine\Header Files</v>
@@ -30,6 +33,13 @@
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
 <v>HNP3_ECB_WS\01_Basic_Setup</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\TopDesign</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Header Files</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Header Files\cyapicallbacks.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Source Files</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Source Files\main.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source</v>
 <v>HNP3_ECB_WS\02_USB_UART</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test</v>
 <v>HNP3_ECB_WS\GaitStateMachine</v>
@@ -477,6 +487,18 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyScBoostClk.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_0.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_1.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_10.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_11.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_12.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_13.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -496,6 +518,7 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\cy_pins_v2_20</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\GlitchFilter_v2_0.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Gnd_v1_0</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Gnd_v1_0\Gnd_v1_0.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\LED_v1_0</v>
@@ -576,10 +599,9 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\Basic_Setup.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Basic_Setup.cydsn\Basic_Setup.cydwr" />
-<name v=".\Basic_Setup.cydsn\main.c" />
 <name v=".\GaitStateMachine.cylib\StateMachine\StateMachine.cyudb" />
+<name v=".\01_Basic_Setup.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\01_Basic_Setup.cydsn\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -587,7 +609,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="972, 583" SelectedTabbedMdiWindow="677f6c38-1038-4ea8-8046-2e1fb58f0f09"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="333b8c6c-6134-489e-ba37-81e2cf6492bd" /><DocumentWindow Key="17769c02-a588-46d7-aa5d-106a53c3406b" Guid="b4345fca-4c24-40bd-bdde-680bb67faffc" /><DocumentWindow Key="597f46a9-21c2-41a4-ae96-ac214981351b" Guid="55351ac9-c853-4735-8e91-7eb8a5a9cb02" /><DocumentWindow Key="51a32fbf-f44a-4c81-a3b3-30c0bae4c04a" Guid="1c2e5680-d4f5-4b98-b51b-3c4d5348af5b" /><DocumentWindow Key="58b820ab-d2d6-4f22-8ce5-2a8498f4620f" Guid="677f6c38-1038-4ea8-8046-2e1fb58f0f09" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1482, 746" SelectedTabbedMdiWindow="e463aaa1-d39f-4a39-ba2c-0d3f52279793"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="333b8c6c-6134-489e-ba37-81e2cf6492bd" /><DocumentWindow Key="fd4ee305-06f8-4ddf-b376-961c783979b4" Guid="99b7a103-7f5b-4e83-a0e7-cca80522186a" /><DocumentWindow Key="76f321e6-e934-4e00-aa3b-4f1e00e5c4cf" Guid="e463aaa1-d39f-4a39-ba2c-0d3f52279793" /><DocumentWindow Key="7f96f356-a2e5-4c10-b1ac-00c7d07078b8" Guid="ca5d545c-b966-4027-afd4-23000cc3c3b2" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
