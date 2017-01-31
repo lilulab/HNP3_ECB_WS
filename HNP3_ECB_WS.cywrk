@@ -8,10 +8,8 @@
 <files />
 <projects>
 <v>.\01_Basic_Setup.cydsn\01_Basic_Setup.cyprj</v>
-<v>.\GaitStateMachine.cylib\GaitStateMachine.cyprj</v>
 <v>.\ELinux_IO_Test.cydsn\ELinux_IO_Test.cyprj</v>
 <v>.\02_USB_UART.cydsn\02_USB_UART.cyprj</v>
-<v>.\HNP3_ECB_Blank.cylib\HNP3_ECB_Blank.cyprj</v>
 </projects>
 <workspace_id v="a98401f8-3d52-45e3-85b5-a13b7473ce0c" />
 <WriteAppVersionLastSavedWith v="4.0.0.432" />

@@ -1610,6 +1610,60 @@
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
 <v>HNP3_ECB_WS\01_Basic_Setup</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_0.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_1.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_10.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_11.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_12.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_13.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_14.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_15.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_2.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_3.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_4.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_5.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_6.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_7.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_8.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_9.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\BUZZER.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1_INT.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1_PM.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1_TX_RX_func.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_RX.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_TX.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_2.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyScBoostClk.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_0.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_1.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_10.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_11.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_12.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_13.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_14.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_15.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_2.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_3.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_4.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_5.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_6.lst</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_7.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -1767,10 +1821,8 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\02_USB_UART.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\02_USB_UART.cydsn\main.c" />
-<name v=".\02_USB_UART.cydsn\Generated_Source\PSoC5\USBUART_1_episr.c" />
-<name v=".\02_USB_UART.cydsn\02_USB_UART.cydwr" />
+<name v=".\01_Basic_Setup.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\01_Basic_Setup.cydsn\01_Basic_Setup.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -1778,7 +1830,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1251, 669" SelectedTabbedMdiWindow="d9456f64-5f0b-4dce-94bc-d58340a1b0db"><DocumentWindow Key="17804152-11fa-4f8a-99fd-67ce6e2d583b" Guid="54f5948a-6550-4fbb-a9a5-a83227f4b5da" /><DocumentWindow Key="37594e2b-93fa-458a-b82a-605bccd438c8" Guid="d9456f64-5f0b-4dce-94bc-d58340a1b0db" /><DocumentWindow Key="bafe3a68-2217-4f37-ae98-bd40ed64753d" Guid="6f76d770-a7a9-4e79-b762-d9972cdc3dfd" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="abe15f32-d724-495e-bdfe-9b29525a3e33" /><DocumentWindow Key="865cae19-4efb-4327-8360-c7c29c47157a" Guid="2d15479a-851b-438a-b1d5-0f33a76be565" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1294, 679" SelectedTabbedMdiWindow="228d55ea-f4e8-49a3-ad0d-2f5c06b0dbf9"><DocumentWindow Key="bcb35288-11c7-4c8a-89d1-237a13b0dddc" Guid="228d55ea-f4e8-49a3-ad0d-2f5c06b0dbf9" /><DocumentWindow Key="a6de5e4c-51f0-4d98-9eca-47c71f447a4b" Guid="10bb3550-2b7d-4fb4-8f2b-fa3885a1501c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
