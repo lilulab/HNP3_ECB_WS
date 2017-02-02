@@ -27,8 +27,6 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\Source Files</v>
 <v>HNP3_ECB_WS\02_USB_UART\TopDesign</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test\TopDesign</v>
-<v>HNP3_ECB_WS\GaitStateMachine\Header Files</v>
-<v>HNP3_ECB_WS\GaitStateMachine\Source Files</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
@@ -42,24 +40,17 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source</v>
 <v>HNP3_ECB_WS\02_USB_UART</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test</v>
-<v>HNP3_ECB_WS\GaitStateMachine</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>HNP3_ECB_WS</v>
-<v>HNP3_ECB_WS\GaitStateMachine</v>
-<v>HNP3_ECB_WS\GaitStateMachine\StateMachine</v>
-<v>HNP3_ECB_WS\GaitStateMachine\StateMachine\StateMachine.cyudb</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
 <v>HNP3_ECB_WS\01_Basic_Setup</v>
 <v>HNP3_ECB_WS\02_USB_UART</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test</v>
-<v>HNP3_ECB_WS\GaitStateMachine</v>
-<v>HNP3_ECB_WS\GaitStateMachine\StateMachine</v>
-<v>HNP3_ECB_WS\GaitStateMachine\StateMachine\StateMachine.cyudb</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="HNP3_ECB_WS">
@@ -226,6 +217,7 @@
 <v>HNP3_ECB_WS\02_USB_UART\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
 <v>HNP3_ECB_WS\02_USB_UART\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
 <v>HNP3_ECB_WS\02_USB_UART\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>HNP3_ECB_WS\02_USB_UART\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
 <v>HNP3_ECB_WS\02_USB_UART\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
 <v>HNP3_ECB_WS\02_USB_UART\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
 <v>HNP3_ECB_WS\02_USB_UART\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
@@ -444,11 +436,6 @@
 <v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\ELinux_IO_Test.hex</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\ELinux_IO_Test.map</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test\ELinux_IO_Test.gpdsc</v>
-<v>HNP3_ECB_WS\GaitStateMachine</v>
-<v>HNP3_ECB_WS\GaitStateMachine\CortexM0</v>
-<v>HNP3_ECB_WS\GaitStateMachine\CortexM0\ARM_GCC_493</v>
-<v>HNP3_ECB_WS\GaitStateMachine\CortexM0\ARM_GCC_493\Debug</v>
-<v>HNP3_ECB_WS\GaitStateMachine\CortexM0\ARM_GCC_493\Debug\GaitStateMachine.a</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
@@ -514,11 +501,9 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\System Reference Guides</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\System Reference Guides\cy_boot_v5_40</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CAN_v3_0.pdf</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\cy_clock_v2_20</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\cy_clock_v2_20.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\cy_pins_v2_20</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\GlitchFilter_v2_0.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Gnd_v1_0</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Gnd_v1_0\Gnd_v1_0.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\LED_v1_0</v>
@@ -526,7 +511,6 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\not_v1_0</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\not_v1_0\not_v1_0.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Power_v1_0.pdf</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\PWM_v3_30.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Resistor_v1_0</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Resistor_v1_0\Resistor_v1_0.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Speaker_v1_0.pdf</v>
@@ -599,9 +583,9 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\GaitStateMachine.cylib\StateMachine\StateMachine.cyudb" />
 <name v=".\01_Basic_Setup.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\01_Basic_Setup.cydsn\main.c" />
+<name v=".\01_Basic_Setup.cydsn\01_Basic_Setup.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -609,7 +593,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1482, 746" SelectedTabbedMdiWindow="e463aaa1-d39f-4a39-ba2c-0d3f52279793"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="333b8c6c-6134-489e-ba37-81e2cf6492bd" /><DocumentWindow Key="fd4ee305-06f8-4ddf-b376-961c783979b4" Guid="99b7a103-7f5b-4e83-a0e7-cca80522186a" /><DocumentWindow Key="76f321e6-e934-4e00-aa3b-4f1e00e5c4cf" Guid="e463aaa1-d39f-4a39-ba2c-0d3f52279793" /><DocumentWindow Key="7f96f356-a2e5-4c10-b1ac-00c7d07078b8" Guid="ca5d545c-b966-4027-afd4-23000cc3c3b2" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1482, 633" SelectedTabbedMdiWindow="6c4e64d7-0a27-4866-afe3-82af8d8b2853"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="333b8c6c-6134-489e-ba37-81e2cf6492bd" /><DocumentWindow Key="05ca104b-a1c9-4b3f-bbbb-5054eb3cb9c1" Guid="6c4e64d7-0a27-4866-afe3-82af8d8b2853" /><DocumentWindow Key="dab3f197-f964-49ef-88f8-3efec63a9c5f" Guid="e2bfe145-12d0-4b03-9bcf-ade5c0388885" /><DocumentWindow Key="b22eef5a-b23a-4a86-b9f2-0f7cae558f0d" Guid="ce227356-0bef-46ef-9a54-0f87e6d93f91" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

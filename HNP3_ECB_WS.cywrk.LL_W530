@@ -27,6 +27,7 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr\Flash Security</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr\EEPROM</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Header Files\cyapicallbacks.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Source Files</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Source Files\main.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_0</v>
@@ -111,9 +112,6 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_TX\CAN_TX.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_TX\CAN_TX.h</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_TX\CAN_TX_aliases.h</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\Clock_1</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\Clock_1\Clock_1.c</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\Clock_1\Clock_1.h</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\Clock_2</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\Clock_2\Clock_2.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\Clock_2\Clock_2.h</v>
@@ -299,10 +297,6 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO.h</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO_aliases.h</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\PWM_1</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\PWM_1\PWM_1.c</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\PWM_1\PWM_1.h</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\PWM_1\PWM_1_PM.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SAIO_0</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SAIO_0\SAIO_0.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SAIO_0\SAIO_0.h</v>
@@ -343,18 +337,12 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_BOOT.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_INT.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_PM.c</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0_IntClock</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0_IntClock\UART_STIM_0_IntClock.c</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0_IntClock\UART_STIM_0_IntClock.h</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1.h</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_BOOT.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_INT.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_PM.c</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1_IntClock</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1_IntClock\UART_STIM_1_IntClock.c</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1_IntClock\UART_STIM_1_IntClock.h</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1.c</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1.h</v>
@@ -1248,7 +1236,6 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1_TX_RX_func.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_RX.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_TX.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_2.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
@@ -1300,8 +1287,6 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\MODX_1_IO.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\MODX_2_IO.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\MODX_3_IO.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\PWM_1.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\PWM_1_PM.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\SAIO_0.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\SAIO_1.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\SDIO_0.lst</v>
@@ -1321,12 +1306,10 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_0.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_0_BOOT.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_0_INT.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_0_IntClock.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_0_PM.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_1.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_1_BOOT.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_1_INT.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_1_IntClock.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_1_PM.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_audio.lst</v>
@@ -1610,60 +1593,6 @@
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
 <v>HNP3_ECB_WS\01_Basic_Setup</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_0.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_1.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_10.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_11.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_12.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_13.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_14.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_15.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_2.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_3.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_4.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_5.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_6.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_7.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_8.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_9.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\BUZZER.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1_INT.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1_PM.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1_TX_RX_func.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_RX.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_TX.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_2.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyScBoostClk.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_0.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_1.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_10.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_11.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_12.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_13.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_14.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_15.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_2.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_3.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_4.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_5.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_6.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_7.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -1681,6 +1610,7 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\System Reference Guides\cy_boot_v5_40</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CAN_v3_0.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\cy_clock_v2_20.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\cy_constant_v1_0.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\cy_pins_v2_20</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Gnd_v1_0</v>
@@ -1759,6 +1689,7 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\System Reference Guides\cy_boot_v5_40</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CAN_v3_0.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\cy_clock_v2_20.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\cy_constant_v1_0.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\cy_pins_v2_20</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Gnd_v1_0</v>
@@ -1806,7 +1737,6 @@
 <v>HNP3_ECB_WS\ELinux_IO_Test\CY8C58LP Family Datasheet</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test\System Reference Guides</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test\System Reference Guides\cy_boot_v5_40</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CAN_v3_0.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>

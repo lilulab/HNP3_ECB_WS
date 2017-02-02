@@ -33,7 +33,7 @@
 #define UART_STIM_0_HD_ENABLED                     (0u)
 #define UART_STIM_0_RX_INTERRUPT_ENABLED           (0u)
 #define UART_STIM_0_TX_INTERRUPT_ENABLED           (0u)
-#define UART_STIM_0_INTERNAL_CLOCK_USED            (1u)
+#define UART_STIM_0_INTERNAL_CLOCK_USED            (0u)
 #define UART_STIM_0_RXHW_ADDRESS_ENABLED           (0u)
 #define UART_STIM_0_OVER_SAMPLE_COUNT              (8u)
 #define UART_STIM_0_PARITY_TYPE                    (0u)

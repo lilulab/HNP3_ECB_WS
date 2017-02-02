@@ -1,6 +1,6 @@
 // ======================================================================
 // 02_USB_UART.v generated from TopDesign.cysch
-// 01/17/2017 at 00:24
+// 02/01/2017 at 18:39
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 

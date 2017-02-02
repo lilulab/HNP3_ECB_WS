@@ -1,5 +1,5 @@
 -- Project:   02_USB_UART
--- Generated: 01/17/2017 00:24:56
+-- Generated: 02/01/2017 18:39:09
 -- PSoC Creator  4.0
 
 ENTITY \02_USB_UART\ IS

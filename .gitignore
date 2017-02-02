@@ -1,28 +1,10 @@
-<<<<<<< HEAD
-# Altium
-*.asv
-__Previews/
-History/
-
-=======
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# PSOC
 
 # Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*~
-_autosave-*
-*.tmp
+Debug/
+codegentemp/
 
-# Netlist files (exported from Eeschema)
-*.net
 
-# Autorouter files (exported from Pcbnew)
-.dsn
 
-# Exported BOM files
-*.xml
-*.csv
->>>>>>> 2982aa97a44d4d0fd9bda2d0be56ed6879e93680
+
+
