@@ -11,6 +11,7 @@
 <v>.\ELinux_IO_Test.cydsn\ELinux_IO_Test.cyprj</v>
 <v>.\02_USB_UART.cydsn\02_USB_UART.cyprj</v>
 <v>.\03_PWM.cydsn\03_PWM.cyprj</v>
+<v>.\ECB_Library.cylib\ECB_Library.cyprj</v>
 </projects>
 <workspace_id v="a98401f8-3d52-45e3-85b5-a13b7473ce0c" />
 <WriteAppVersionLastSavedWith v="4.0.0.432" />
