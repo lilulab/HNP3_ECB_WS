@@ -2,19 +2,14 @@
 <CyXmlSerializer>
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
-<CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="HNP3_ECB_WS" persistent="HNP3_ECB_WS.cywrk" platform="NOT_USED">
-<current_project name=".\04_CAN_Bus_Basic.cydsn\04_CAN_Bus_Basic.cyprj" />
+<CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="GaitStateMachine-000" persistent="GaitStateMachine-000.cywrk" platform="NOT_USED">
+<current_project name="" />
 <wrkspc_folders />
 <files />
 <projects>
-<v>.\01_Basic_Setup.cydsn\01_Basic_Setup.cyprj</v>
-<v>.\ELinux_IO_Test.cydsn\ELinux_IO_Test.cyprj</v>
-<v>.\02_USB_UART.cydsn\02_USB_UART.cyprj</v>
-<v>.\03_PWM.cydsn\03_PWM.cyprj</v>
-<v>.\ECB_Library.cylib\ECB_Library.cyprj</v>
-<v>.\04_CAN_Bus_Basic.cydsn\04_CAN_Bus_Basic.cyprj</v>
+<v>.\GaitStateMachine.cyprj</v>
 </projects>
-<workspace_id v="a98401f8-3d52-45e3-85b5-a13b7473ce0c" />
+<workspace_id v="23525d8a-9526-4556-83a8-b9a755d1273e" />
 <WriteAppVersionLastSavedWith v="4.0.0.432" />
 <WriteAppMarketingVersionLastSavedWith v="4.0 Update 1" />
 <CyGuid_dcbd9771-0334-43dc-9cc3-fe99dc3c5316 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize+CyPrjDependencyList" version="4">

@@ -1,7 +1,7 @@
 /*******************************************************************************
 * File Name: project.h
 * 
-* PSoC Creator  4.0
+* PSoC Creator  4.0 Update 1
 *
 * Description:
 * It contains references to all generated header files and should not be modified.
@@ -157,6 +157,8 @@
 #include "KEY_2.h"
 #include "KEY_1_aliases.h"
 #include "KEY_1.h"
+#include "PWM_LED.h"
+#include "Clock_1.h"
 #include "USBUART_1_Dm_aliases.h"
 #include "USBUART_1_Dm.h"
 #include "USBUART_1_Dp_aliases.h"

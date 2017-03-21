@@ -3,6 +3,7 @@
 # Temporary files
 Debug/
 codegentemp/
+Generated_Source/
 
 *.log
 
