@@ -5,11 +5,6 @@
 <CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
 <CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
 <userData>
-<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
-<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
-<indicators />
-</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
-</dataGuid>
 <dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
 <CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
 <TreeKeys>
@@ -18,15 +13,1166 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="HNP3_ECB_WS\04_CAN_Basic">
 <ExpandedNodeIds>
 <v>HNP3_ECB_WS</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\TopDesign</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr\Pins</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr\Analog</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr\Clocks</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr\Interrupts</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr\DMA</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr\System</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr\Directives</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr\Flash Security</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.cydwr\EEPROM</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Header Files</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Header Files\cyapicallbacks.h</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\Source Files</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Source Files\main.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_0\AIO_0.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_0\AIO_0.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_0\AIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_1</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_1\AIO_1.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_1\AIO_1.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_1\AIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_10</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_10\AIO_10.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_10\AIO_10.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_10\AIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_11</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_11\AIO_11.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_11\AIO_11.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_11\AIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_12</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_12\AIO_12.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_12\AIO_12.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_12\AIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_13</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_13\AIO_13.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_13\AIO_13.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_13\AIO_13_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_14</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_14\AIO_14.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_14\AIO_14.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_14\AIO_14_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_15</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_15\AIO_15.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_15\AIO_15.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_15\AIO_15_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_2</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_2\AIO_2.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_2\AIO_2.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_2\AIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_3</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_3\AIO_3.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_3\AIO_3.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_3\AIO_3_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_4</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_4\AIO_4.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_4\AIO_4.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_4\AIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_5</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_5\AIO_5.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_5\AIO_5.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_5\AIO_5_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_6</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_6\AIO_6.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_6\AIO_6.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_6\AIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_7</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_7\AIO_7.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_7\AIO_7.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_7\AIO_7_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_8</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_8\AIO_8.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_8\AIO_8.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_8\AIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_9</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_9\AIO_9.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_9\AIO_9.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\AIO_9\AIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\BUZZER</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\BUZZER\BUZZER.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\BUZZER\BUZZER.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\BUZZER\BUZZER_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_1</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_1\CAN_1.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_1\CAN_1.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_1\CAN_1_INT.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_1\CAN_1_PM.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_1\CAN_1_TX_RX_func.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_RX</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_RX\CAN_RX.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_RX\CAN_RX.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_RX\CAN_RX_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_TX</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_TX\CAN_TX.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_TX\CAN_TX.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CAN_TX\CAN_TX_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\Clock_2</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\Clock_2\Clock_2.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\Clock_2\Clock_2.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CyScBoostClk</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CyScBoostClk\CyScBoostClk.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\CyScBoostClk\CyScBoostClk.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_0\DIO_0.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_0\DIO_0.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_0\DIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_1</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_1\DIO_1.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_1\DIO_1.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_1\DIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_10</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_10\DIO_10.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_10\DIO_10.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_10\DIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_11</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_11\DIO_11.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_11\DIO_11.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_11\DIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_12</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_12\DIO_12.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_12\DIO_12.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_12\DIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_13</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_13\DIO_13.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_13\DIO_13.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_13\DIO_13_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_14</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_14\DIO_14.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_14\DIO_14.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_14\DIO_14_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_15</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_15\DIO_15.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_15\DIO_15.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_15\DIO_15_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_2</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_2\DIO_2.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_2\DIO_2.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_2\DIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_3</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_3\DIO_3.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_3\DIO_3.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_3\DIO_3_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_4</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_4\DIO_4.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_4\DIO_4.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_4\DIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_5</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_5\DIO_5.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_5\DIO_5.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_5\DIO_5_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_6</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_6\DIO_6.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_6\DIO_6.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_6\DIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_7</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_7\DIO_7.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_7\DIO_7.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_7\DIO_7_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_8</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_8\DIO_8.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_8\DIO_8.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_8\DIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_9</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_9\DIO_9.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_9\DIO_9.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\DIO_9\DIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\KEY_1</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\KEY_1\KEY_1.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\KEY_1\KEY_1.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\KEY_1\KEY_1_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\KEY_2</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\KEY_2\KEY_2.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\KEY_2\KEY_2.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\KEY_2\KEY_2_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_B</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_B\LED_B.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_B\LED_B.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_B\LED_B_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_G</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_G\LED_G.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_G\LED_G.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_G\LED_G_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_R</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_R\LED_R.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_R\LED_R.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LED_R\LED_R_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_0\LIO_0.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_0\LIO_0.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_0\LIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_1</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_1\LIO_1.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_1\LIO_1.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_1\LIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_10</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_10\LIO_10.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_10\LIO_10.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_10\LIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_11</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_11\LIO_11.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_11\LIO_11.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_11\LIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_12</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_12\LIO_12.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_12\LIO_12.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_12\LIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_13_RST</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_2</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_2\LIO_2.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_2\LIO_2.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_2\LIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_3</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_3\LIO_3.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_3\LIO_3.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_3\LIO_3_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_4</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_4\LIO_4.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_4\LIO_4.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_4\LIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_5</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_5\LIO_5.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_5\LIO_5.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_5\LIO_5_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_6</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_6\LIO_6.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_6\LIO_6.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_6\LIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_7</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_7\LIO_7.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_7\LIO_7.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_7\LIO_7_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_8</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_8\LIO_8.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_8\LIO_8.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_8\LIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_9</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_9\LIO_9.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_9\LIO_9.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\LIO_9\LIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_1_IO</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_1_IO\MODX_1_IO.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_1_IO\MODX_1_IO.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_1_IO\MODX_1_IO_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_2_IO</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_2_IO\MODX_2_IO.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_2_IO\MODX_2_IO.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_2_IO\MODX_2_IO_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_3_IO</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SAIO_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SAIO_0\SAIO_0.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SAIO_0\SAIO_0.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SAIO_0\SAIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SAIO_1</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SAIO_1\SAIO_1.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SAIO_1\SAIO_1.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SAIO_1\SAIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SDIO_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SDIO_0\SDIO_0.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SDIO_0\SDIO_0.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SDIO_0\SDIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SDIO_1</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SDIO_1\SDIO_1.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SDIO_1\SDIO_1.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\SDIO_1\SDIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0_BOOT.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0_INT.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0_PM.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_1</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1_BOOT.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1_INT.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1_PM.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_2</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2_BOOT.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2_INT.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2_PM.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_BOOT.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_INT.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_PM.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_BOOT.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_INT.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_PM.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_audio.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_audio.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_boot.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.inf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_cls.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_cydmac.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_descr.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_drv.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_episr.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_hid.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_hid.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_midi.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_midi.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_msc.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_msc.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_pm.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_pvt.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_std.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1\USBUART_1_vnd.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1_Dm</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1_Dp</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp_aliases.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cydevice.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cyfitter.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\cymetadata.c</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Generated_Source\PSoC5\project.h</v>
 <v>HNP3_ECB_WS\02_USB_UART\TopDesign</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.cydwr</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.cydwr\Pins</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.cydwr\Analog</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.cydwr\Clocks</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.cydwr\Interrupts</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.cydwr\DMA</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.cydwr\System</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.cydwr\Directives</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.cydwr\Flash Security</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.cydwr\EEPROM</v>
+<v>HNP3_ECB_WS\02_USB_UART\Header Files</v>
+<v>HNP3_ECB_WS\02_USB_UART\Header Files\cyapicallbacks.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Source Files</v>
+<v>HNP3_ECB_WS\02_USB_UART\Source Files\main.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_0</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_0\AIO_0.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_0\AIO_0.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_0\AIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_1</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_1\AIO_1.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_1\AIO_1.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_1\AIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_10</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_10\AIO_10.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_10\AIO_10.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_10\AIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_11</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_11\AIO_11.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_11\AIO_11.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_11\AIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_12</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_12\AIO_12.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_12\AIO_12.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_12\AIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_13</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_13\AIO_13.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_13\AIO_13.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_13\AIO_13_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_14</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_14\AIO_14.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_14\AIO_14.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_14\AIO_14_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_15</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_15\AIO_15.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_15\AIO_15.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_15\AIO_15_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_2</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_2\AIO_2.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_2\AIO_2.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_2\AIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_3</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_3\AIO_3.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_3\AIO_3.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_3\AIO_3_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_4</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_4\AIO_4.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_4\AIO_4.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_4\AIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_5</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_5\AIO_5.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_5\AIO_5.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_5\AIO_5_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_6</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_6\AIO_6.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_6\AIO_6.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_6\AIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_7</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_7\AIO_7.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_7\AIO_7.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_7\AIO_7_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_8</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_8\AIO_8.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_8\AIO_8.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_8\AIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_9</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_9\AIO_9.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_9\AIO_9.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\AIO_9\AIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\BUZZER</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\BUZZER\BUZZER.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\BUZZER\BUZZER.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\BUZZER\BUZZER_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_1</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_1\CAN_1.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_1\CAN_1.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_1\CAN_1_INT.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_1\CAN_1_PM.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_1\CAN_1_TX_RX_func.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_RX</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_RX\CAN_RX.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_RX\CAN_RX.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_RX\CAN_RX_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_TX</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_TX\CAN_TX.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_TX\CAN_TX.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CAN_TX\CAN_TX_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\Clock_1</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\Clock_1\Clock_1.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\Clock_1\Clock_1.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\Clock_2</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\Clock_2\Clock_2.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\Clock_2\Clock_2.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CyScBoostClk</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CyScBoostClk\CyScBoostClk.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\CyScBoostClk\CyScBoostClk.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_0</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_0\DIO_0.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_0\DIO_0.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_0\DIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_1</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_1\DIO_1.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_1\DIO_1.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_1\DIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_10</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_10\DIO_10.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_10\DIO_10.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_10\DIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_11</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_11\DIO_11.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_11\DIO_11.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_11\DIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_12</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_12\DIO_12.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_12\DIO_12.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_12\DIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_13</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_13\DIO_13.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_13\DIO_13.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_13\DIO_13_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_14</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_14\DIO_14.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_14\DIO_14.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_14\DIO_14_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_15</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_15\DIO_15.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_15\DIO_15.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_15\DIO_15_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_2</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_2\DIO_2.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_2\DIO_2.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_2\DIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_3</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_3\DIO_3.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_3\DIO_3.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_3\DIO_3_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_4</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_4\DIO_4.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_4\DIO_4.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_4\DIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_5</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_5\DIO_5.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_5\DIO_5.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_5\DIO_5_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_6</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_6\DIO_6.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_6\DIO_6.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_6\DIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_7</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_7\DIO_7.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_7\DIO_7.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_7\DIO_7_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_8</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_8\DIO_8.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_8\DIO_8.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_8\DIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_9</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_9\DIO_9.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_9\DIO_9.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\DIO_9\DIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\KEY_1</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\KEY_1\KEY_1.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\KEY_1\KEY_1.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\KEY_1\KEY_1_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\KEY_2</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\KEY_2\KEY_2.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\KEY_2\KEY_2.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\KEY_2\KEY_2_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_B</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_B\LED_B.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_B\LED_B.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_B\LED_B_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_G</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_G\LED_G.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_G\LED_G.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_G\LED_G_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_R</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_R\LED_R.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_R\LED_R.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LED_R\LED_R_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_0</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_0\LIO_0.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_0\LIO_0.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_0\LIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_1</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_1\LIO_1.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_1\LIO_1.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_1\LIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_10</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_10\LIO_10.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_10\LIO_10.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_10\LIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_11</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_11\LIO_11.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_11\LIO_11.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_11\LIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_12</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_12\LIO_12.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_12\LIO_12.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_12\LIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_13_RST</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_2</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_2\LIO_2.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_2\LIO_2.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_2\LIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_3</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_3\LIO_3.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_3\LIO_3.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_3\LIO_3_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_4</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_4\LIO_4.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_4\LIO_4.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_4\LIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_5</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_5\LIO_5.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_5\LIO_5.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_5\LIO_5_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_6</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_6\LIO_6.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_6\LIO_6.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_6\LIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_7</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_7\LIO_7.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_7\LIO_7.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_7\LIO_7_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_8</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_8\LIO_8.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_8\LIO_8.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_8\LIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_9</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_9\LIO_9.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_9\LIO_9.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\LIO_9\LIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_1_IO</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_1_IO\MODX_1_IO.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_1_IO\MODX_1_IO.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_1_IO\MODX_1_IO_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_2_IO</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_2_IO\MODX_2_IO.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_2_IO\MODX_2_IO.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_2_IO\MODX_2_IO_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_3_IO</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\PWM_LED</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\PWM_LED\PWM_LED.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\PWM_LED\PWM_LED.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\PWM_LED\PWM_LED_PM.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SAIO_0</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SAIO_0\SAIO_0.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SAIO_0\SAIO_0.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SAIO_0\SAIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SAIO_1</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SAIO_1\SAIO_1.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SAIO_1\SAIO_1.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SAIO_1\SAIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SDIO_0</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SDIO_0\SDIO_0.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SDIO_0\SDIO_0.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SDIO_0\SDIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SDIO_1</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SDIO_1\SDIO_1.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SDIO_1\SDIO_1.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\SDIO_1\SDIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_0</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0_BOOT.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0_INT.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0_PM.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_1</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1_BOOT.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1_INT.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1_PM.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_2</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2_BOOT.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2_INT.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2_PM.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_0</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_BOOT.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_INT.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_PM.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_1</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_BOOT.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_INT.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_PM.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_audio.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_audio.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_boot.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.inf</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_cls.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_cydmac.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_descr.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_drv.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_episr.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_hid.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_hid.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_midi.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_midi.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_msc.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_msc.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_pm.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_pvt.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_std.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1\USBUART_1_vnd.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1_Dm</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1_Dp</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp_aliases.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cydevice.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cyfitter.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\cymetadata.c</v>
+<v>HNP3_ECB_WS\02_USB_UART\Generated_Source\PSoC5\project.h</v>
 <v>HNP3_ECB_WS\03_PWM\TopDesign</v>
-<v>HNP3_ECB_WS\04_CAN_Basic</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.cydwr</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.cydwr\Pins</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.cydwr\Analog</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.cydwr\Clocks</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.cydwr\Interrupts</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.cydwr\DMA</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.cydwr\System</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.cydwr\Directives</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.cydwr\Flash Security</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.cydwr\EEPROM</v>
+<v>HNP3_ECB_WS\03_PWM\Header Files</v>
+<v>HNP3_ECB_WS\03_PWM\Header Files\cyapicallbacks.h</v>
+<v>HNP3_ECB_WS\03_PWM\Source Files</v>
+<v>HNP3_ECB_WS\03_PWM\Source Files\main.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_0</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_0\AIO_0.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_0\AIO_0.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_0\AIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_1</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_1\AIO_1.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_1\AIO_1.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_1\AIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_10</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_10\AIO_10.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_10\AIO_10.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_10\AIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_11</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_11\AIO_11.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_11\AIO_11.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_11\AIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_12</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_12\AIO_12.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_12\AIO_12.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_12\AIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_13</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_13\AIO_13.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_13\AIO_13.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_13\AIO_13_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_14</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_14\AIO_14.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_14\AIO_14.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_14\AIO_14_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_15</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_15\AIO_15.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_15\AIO_15.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_15\AIO_15_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_2</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_2\AIO_2.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_2\AIO_2.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_2\AIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_3</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_3\AIO_3.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_3\AIO_3.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_3\AIO_3_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_4</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_4\AIO_4.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_4\AIO_4.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_4\AIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_5</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_5\AIO_5.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_5\AIO_5.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_5\AIO_5_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_6</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_6\AIO_6.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_6\AIO_6.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_6\AIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_7</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_7\AIO_7.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_7\AIO_7.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_7\AIO_7_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_8</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_8\AIO_8.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_8\AIO_8.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_8\AIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_9</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_9\AIO_9.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_9\AIO_9.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\AIO_9\AIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\BUZZER</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\BUZZER\BUZZER.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\BUZZER\BUZZER.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\BUZZER\BUZZER_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_1</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_1\CAN_1.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_1\CAN_1.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_1\CAN_1_INT.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_1\CAN_1_PM.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_1\CAN_1_TX_RX_func.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_RX</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_RX\CAN_RX.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_RX\CAN_RX.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_RX\CAN_RX_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_TX</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_TX\CAN_TX.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_TX\CAN_TX.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CAN_TX\CAN_TX_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\Clock_2</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\Clock_2\Clock_2.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\Clock_2\Clock_2.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CyScBoostClk</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CyScBoostClk\CyScBoostClk.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\CyScBoostClk\CyScBoostClk.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_0</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_0\DIO_0.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_0\DIO_0.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_0\DIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_1</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_1\DIO_1.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_1\DIO_1.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_1\DIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_10</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_10\DIO_10.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_10\DIO_10.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_10\DIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_11</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_11\DIO_11.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_11\DIO_11.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_11\DIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_12</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_12\DIO_12.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_12\DIO_12.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_12\DIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_13</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_13\DIO_13.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_13\DIO_13.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_13\DIO_13_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_14</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_14\DIO_14.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_14\DIO_14.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_14\DIO_14_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_15</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_15\DIO_15.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_15\DIO_15.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_15\DIO_15_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_2</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_2\DIO_2.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_2\DIO_2.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_2\DIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_3</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_3\DIO_3.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_3\DIO_3.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_3\DIO_3_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_4</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_4\DIO_4.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_4\DIO_4.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_4\DIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_5</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_5\DIO_5.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_5\DIO_5.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_5\DIO_5_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_6</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_6\DIO_6.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_6\DIO_6.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_6\DIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_7</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_7\DIO_7.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_7\DIO_7.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_7\DIO_7_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_8</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_8\DIO_8.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_8\DIO_8.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_8\DIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_9</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_9\DIO_9.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_9\DIO_9.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\DIO_9\DIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\KEY_1</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\KEY_1\KEY_1.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\KEY_1\KEY_1.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\KEY_1\KEY_1_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\KEY_2</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\KEY_2\KEY_2.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\KEY_2\KEY_2.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\KEY_2\KEY_2_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_B</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_B\LED_B.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_B\LED_B.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_B\LED_B_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_G</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_G\LED_G.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_G\LED_G.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_G\LED_G_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_R</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_R\LED_R.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_R\LED_R.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LED_R\LED_R_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_0</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_0\LIO_0.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_0\LIO_0.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_0\LIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_1</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_1\LIO_1.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_1\LIO_1.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_1\LIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_10</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_10\LIO_10.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_10\LIO_10.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_10\LIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_11</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_11\LIO_11.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_11\LIO_11.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_11\LIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_12</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_12\LIO_12.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_12\LIO_12.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_12\LIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_13_RST</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_2</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_2\LIO_2.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_2\LIO_2.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_2\LIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_3</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_3\LIO_3.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_3\LIO_3.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_3\LIO_3_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_4</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_4\LIO_4.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_4\LIO_4.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_4\LIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_5</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_5\LIO_5.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_5\LIO_5.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_5\LIO_5_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_6</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_6\LIO_6.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_6\LIO_6.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_6\LIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_7</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_7\LIO_7.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_7\LIO_7.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_7\LIO_7_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_8</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_8\LIO_8.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_8\LIO_8.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_8\LIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_9</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_9\LIO_9.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_9\LIO_9.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\LIO_9\LIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_1_IO</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_1_IO\MODX_1_IO.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_1_IO\MODX_1_IO.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_1_IO\MODX_1_IO_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_2_IO</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_2_IO\MODX_2_IO.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_2_IO\MODX_2_IO.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_2_IO\MODX_2_IO_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_3_IO</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\PWM_LED</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\PWM_LED\PWM_LED.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\PWM_LED\PWM_LED.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\PWM_LED\PWM_LED_PM.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SAIO_0</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SAIO_0\SAIO_0.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SAIO_0\SAIO_0.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SAIO_0\SAIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SAIO_1</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SAIO_1\SAIO_1.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SAIO_1\SAIO_1.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SAIO_1\SAIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SDIO_0</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SDIO_0\SDIO_0.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SDIO_0\SDIO_0.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SDIO_0\SDIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SDIO_1</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SDIO_1\SDIO_1.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SDIO_1\SDIO_1.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\SDIO_1\SDIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_0</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0_BOOT.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0_INT.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_0\UART_MODX_0_PM.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_1</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1_BOOT.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1_INT.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_1\UART_MODX_1_PM.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_2</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2_BOOT.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2_INT.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_MODX_2\UART_MODX_2_PM.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_0</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_BOOT.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_INT.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_0\UART_STIM_0_PM.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_1</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_BOOT.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_INT.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\UART_STIM_1\UART_STIM_1_PM.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_audio.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_audio.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_boot.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.inf</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_cls.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_cydmac.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_descr.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_drv.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_episr.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_hid.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_hid.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_midi.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_midi.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_msc.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_msc.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_pm.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_pvt.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_std.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1\USBUART_1_vnd.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1_Dm</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1_Dp</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp_aliases.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cydevice.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cyfitter.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\cymetadata.c</v>
+<v>HNP3_ECB_WS\03_PWM\Generated_Source\PSoC5\project.h</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\TopDesign</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr\Pins</v>
@@ -43,6 +1189,7 @@
 <v>HNP3_ECB_WS\04_CAN_Basic\Source Files</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\Source Files\main.c</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source</v>
+<v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5\AIO_0</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5\AIO_0\AIO_0.c</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5\AIO_0\AIO_0.h</v>
@@ -415,7 +1562,6 @@
 <v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5\cyfitterrv.inc</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5\cymetadata.c</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5\project.h</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\TopDesign</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
@@ -423,30 +1569,20 @@
 <v>HNP3_ECB_WS\02_USB_UART</v>
 <v>HNP3_ECB_WS\03_PWM</v>
 <v>HNP3_ECB_WS\04_CAN_Basic</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\TopDesign</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr\Pins</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr\Analog</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr\Clocks</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr\Interrupts</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr\DMA</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr\System</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr\Directives</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr\Flash Security</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.cydwr\EEPROM</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Header Files</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Header Files\cyapicallbacks.h</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Source Files</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Source Files\main.c</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5</v>
-<v>HNP3_ECB_WS\ECB_Library</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>HNP3_ECB_WS</v>
+<v>HNP3_ECB_WS\01_Basic_Setup</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\TopDesign</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\TopDesign\TopDesign.cysch</v>
+<v>HNP3_ECB_WS\02_USB_UART</v>
+<v>HNP3_ECB_WS\02_USB_UART\TopDesign</v>
+<v>HNP3_ECB_WS\02_USB_UART\TopDesign\TopDesign.cysch</v>
+<v>HNP3_ECB_WS\03_PWM</v>
+<v>HNP3_ECB_WS\03_PWM\TopDesign</v>
+<v>HNP3_ECB_WS\03_PWM\TopDesign\TopDesign.cysch</v>
 <v>HNP3_ECB_WS\04_CAN_Basic</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\TopDesign</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\TopDesign\TopDesign.cysch</v>
@@ -454,16 +1590,20 @@
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
 <v>HNP3_ECB_WS\01_Basic_Setup</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\TopDesign</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\TopDesign\TopDesign.cysch</v>
 <v>HNP3_ECB_WS\02_USB_UART</v>
+<v>HNP3_ECB_WS\02_USB_UART\TopDesign</v>
+<v>HNP3_ECB_WS\02_USB_UART\TopDesign\TopDesign.cysch</v>
 <v>HNP3_ECB_WS\03_PWM</v>
+<v>HNP3_ECB_WS\03_PWM\TopDesign</v>
+<v>HNP3_ECB_WS\03_PWM\TopDesign\TopDesign.cysch</v>
 <v>HNP3_ECB_WS\04_CAN_Basic</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\TopDesign</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\TopDesign\TopDesign.cysch</v>
-<v>HNP3_ECB_WS\ECB_Library</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="HNP3_ECB_WS">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>HNP3_ECB_WS</v>
 <v>HNP3_ECB_WS\01_Basic_Setup</v>
@@ -589,6 +1729,8 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\01_Basic_Setup.hex</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\01_Basic_Setup.map</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.gpdsc</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.rpt</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup_timing.html</v>
 <v>HNP3_ECB_WS\02_USB_UART</v>
 <v>HNP3_ECB_WS\02_USB_UART\CortexM3</v>
 <v>HNP3_ECB_WS\02_USB_UART\CortexM3\ARM_GCC_493</v>
@@ -715,6 +1857,8 @@
 <v>HNP3_ECB_WS\02_USB_UART\CortexM3\ARM_GCC_493\Debug\02_USB_UART.hex</v>
 <v>HNP3_ECB_WS\02_USB_UART\CortexM3\ARM_GCC_493\Debug\02_USB_UART.map</v>
 <v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.gpdsc</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.rpt</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART_timing.html</v>
 <v>HNP3_ECB_WS\03_PWM</v>
 <v>HNP3_ECB_WS\03_PWM\CortexM3</v>
 <v>HNP3_ECB_WS\03_PWM\CortexM3\ARM_GCC_493</v>
@@ -840,6 +1984,8 @@
 <v>HNP3_ECB_WS\03_PWM\CortexM3\ARM_GCC_493\Debug\03_PWM.hex</v>
 <v>HNP3_ECB_WS\03_PWM\CortexM3\ARM_GCC_493\Debug\03_PWM.map</v>
 <v>HNP3_ECB_WS\03_PWM\03_PWM.gpdsc</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.rpt</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM_timing.html</v>
 <v>HNP3_ECB_WS\04_CAN_Basic</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\CortexM3</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\CortexM3\ARM_GCC_493</v>
@@ -968,132 +2114,6 @@
 <v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.gpdsc</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.rpt</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic_timing.html</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_0.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_10.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_11.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_12.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_13.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_14.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_15.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_2.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_3.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_4.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_5.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_6.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_7.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_8.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_9.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\BUZZER.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1_INT.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1_PM.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_1_TX_RX_func.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_RX.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_TX.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_2.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CyScBoostClk.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_0.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_10.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_11.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_12.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_13.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_14.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_15.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_2.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_3.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_4.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_5.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_6.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_7.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_8.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_9.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\KEY_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\KEY_2.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_B.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_G.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_R.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_0.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_10.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_11.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_12.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_13_RST.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_2.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_3.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_4.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_5.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_6.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_7.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_8.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_9.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\MODX_1_IO.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\MODX_2_IO.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\MODX_3_IO.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\PWM_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\PWM_1_PM.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\SAIO_0.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\SAIO_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\SDIO_0.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\SDIO_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_0.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_0_BOOT.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_0_INT.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_0_PM.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_1_BOOT.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_1_INT.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_1_PM.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_2.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_2_BOOT.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_2_INT.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_MODX_2_PM.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_0.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_0_BOOT.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_0_INT.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_0_PM.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_1_BOOT.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_1_INT.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\UART_STIM_1_PM.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_audio.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_boot.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_cdc.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_cls.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_descr.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_Dm.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_Dp.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_drv.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_episr.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_hid.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_midi.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_msc.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_pm.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_std.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_vnd.lst</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\ELinux_IO_Test.elf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\ELinux_IO_Test.hex</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CortexM3\ARM_GCC_493\Debug\ELinux_IO_Test.map</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\ELinux_IO_Test.gpdsc</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
@@ -1143,6 +2163,7 @@
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>HNP3_ECB_WS</v>
+<v>HNP3_ECB_WS\01_Basic_Setup</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\PSoC 5LP Architecture TRM</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CY8C58LP Family Datasheet</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\System Reference Guides</v>
@@ -1167,6 +2188,7 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\UART_v2_50</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\UART_v2_50\UART_v2_50.pdf</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\USBFS_v3_0.pdf</v>
+<v>HNP3_ECB_WS\02_USB_UART</v>
 <v>HNP3_ECB_WS\02_USB_UART\PSoC 5LP Architecture TRM</v>
 <v>HNP3_ECB_WS\02_USB_UART\CY8C58LP Family Datasheet</v>
 <v>HNP3_ECB_WS\02_USB_UART\System Reference Guides</v>
@@ -1191,6 +2213,7 @@
 <v>HNP3_ECB_WS\02_USB_UART\UART_v2_50</v>
 <v>HNP3_ECB_WS\02_USB_UART\UART_v2_50\UART_v2_50.pdf</v>
 <v>HNP3_ECB_WS\02_USB_UART\USBFS_v3_0.pdf</v>
+<v>HNP3_ECB_WS\03_PWM</v>
 <v>HNP3_ECB_WS\03_PWM\PSoC 5LP Architecture TRM</v>
 <v>HNP3_ECB_WS\03_PWM\CY8C58LP Family Datasheet</v>
 <v>HNP3_ECB_WS\03_PWM\System Reference Guides</v>
@@ -1243,84 +2266,66 @@
 <v>HNP3_ECB_WS\04_CAN_Basic\UART_v2_50</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\UART_v2_50\UART_v2_50.pdf</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\USBFS_v3_0.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\PSoC 5LP Architecture TRM</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CY8C58LP Family Datasheet</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\System Reference Guides</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\System Reference Guides\cy_boot_v5_40</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\CAN_v3_0.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\cy_clock_v2_20</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\cy_pins_v2_20</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\Gnd_v1_0</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\Gnd_v1_0\Gnd_v1_0.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\LED_v1_0</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\LED_v1_0\LED_v1_0.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\not_v1_0</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\not_v1_0\not_v1_0.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\Power_v1_0.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\PWM_v3_30.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\Resistor_v1_0</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\Resistor_v1_0\Resistor_v1_0.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\Speaker_v1_0.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\SwitchSPST_v1_0</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\UART_v2_50</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\UART_v2_50\UART_v2_50.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test\USBFS_v3_0.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
 <v>HNP3_ECB_WS\01_Basic_Setup</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\PSoC 5LP Architecture TRM</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CY8C58LP Family Datasheet</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\System Reference Guides</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\System Reference Guides\cy_boot_v5_40</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\CAN_v3_0.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\cy_clock_v2_20.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\cy_constant_v1_0.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\cy_pins_v2_20</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Gnd_v1_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Gnd_v1_0\Gnd_v1_0.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\LED_v1_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\LED_v1_0\LED_v1_0.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\not_v1_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\not_v1_0\not_v1_0.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Power_v1_0.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Resistor_v1_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\Speaker_v1_0.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\SwitchSPST_v1_0</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\UART_v2_50</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\UART_v2_50\UART_v2_50.pdf</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\USBFS_v3_0.pdf</v>
 <v>HNP3_ECB_WS\02_USB_UART</v>
-<v>HNP3_ECB_WS\03_PWM</v>
-<v>HNP3_ECB_WS\04_CAN_Basic</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\PSoC 5LP Architecture TRM</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\CY8C58LP Family Datasheet</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\System Reference Guides</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\System Reference Guides\cy_boot_v5_40</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\CAN_v3_0.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\cy_clock_v2_20</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\cy_constant_v1_0.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\cy_pins_v2_20</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Gnd_v1_0</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Gnd_v1_0\Gnd_v1_0.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\LED_v1_0</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\LED_v1_0\LED_v1_0.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\not_v1_0.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Power_v1_0.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\PWM_v3_30.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Resistor_v1_0</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Resistor_v1_0\Resistor_v1_0.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\Speaker_v1_0.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\SwitchSPST_v1_0</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\UART_v2_50</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\UART_v2_50\UART_v2_50.pdf</v>
-<v>HNP3_ECB_WS\04_CAN_Basic\USBFS_v3_0.pdf</v>
-<v>HNP3_ECB_WS\ELinux_IO_Test</v>
+<v>HNP3_ECB_WS\02_USB_UART\PSoC 5LP Architecture TRM</v>
+<v>HNP3_ECB_WS\02_USB_UART\CY8C58LP Family Datasheet</v>
+<v>HNP3_ECB_WS\02_USB_UART\System Reference Guides</v>
+<v>HNP3_ECB_WS\02_USB_UART\System Reference Guides\cy_boot_v5_40</v>
+<v>HNP3_ECB_WS\02_USB_UART\CAN_v3_0.pdf</v>
+<v>HNP3_ECB_WS\02_USB_UART\cy_clock_v2_20</v>
+<v>HNP3_ECB_WS\02_USB_UART\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>HNP3_ECB_WS\02_USB_UART\cy_pins_v2_20</v>
+<v>HNP3_ECB_WS\02_USB_UART\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>HNP3_ECB_WS\02_USB_UART\Gnd_v1_0</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
 </CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
 </dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
-<Unloaded>
-<project v=".\04_CAN_Bus_Basic.cydsn\04_CAN_Bus_Basic.cyprj" />
-</Unloaded>
-<OpenDocs>
-<name v=".\04_CAN_Basic.cydsn\main.c" />
-</OpenDocs>
+<Unloaded />
+<OpenDocs />
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="845, 417" SelectedTabbedMdiWindow="5d5178e5-7c80-4558-afac-3b0a3a3cb873"><DocumentWindow Key="5d6058da-4b39-4d51-8cd7-628bcb3535c4" Guid="5d5178e5-7c80-4558-afac-3b0a3a3cb873" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1099, 417" SelectedTabbedMdiWindow="333b8c6c-6134-489e-ba37-81e2cf6492bd"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="333b8c6c-6134-489e-ba37-81e2cf6492bd" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
