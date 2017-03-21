@@ -114,7 +114,7 @@
 #include "USBUART_1_pvt.h"
 #include "USBUART_1_cydmac.h"
 #include "USBUART_1_msc.h"
-#include "CAN_1.h"
+#include "CAN.h"
 #include "CAN_TX_aliases.h"
 #include "CAN_TX.h"
 #include "CAN_RX_aliases.h"

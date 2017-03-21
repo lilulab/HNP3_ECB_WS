@@ -186,7 +186,7 @@ void CAN_1_TxCancel(uint8 bufferId)
 
 #if (CAN_1_TX0_FUNC_ENABLE)
     /*******************************************************************************
-    * FUNCTION NAME:   CAN_1_SendMsgBuf_Master_Trans0
+    * FUNCTION NAME:   CAN_1_SendMsgmaser_sw_1_status
     ********************************************************************************
     *
     * Summary:
@@ -205,7 +205,7 @@ void CAN_1_TxCancel(uint8 bufferId)
     *    CAN_1_FAIL              The function failed
     *
     *******************************************************************************/
-    uint8 CAN_1_SendMsgBuf_Master_Trans0(void) 
+    uint8 CAN_1_SendMsgmaser_sw_1_status(void) 
     {
         uint8 result = CYRET_SUCCESS;
 
@@ -219,13 +219,13 @@ void CAN_1_TxCancel(uint8 bufferId)
             }
             else
             {
-                /* `#START MESSAGE_Buf_Master_Trans0_TRASMITTED` */
+                /* `#START MESSAGE_maser_sw_1_status_TRASMITTED` */
 
                 /* `#END` */
 
-                #ifdef CAN_1_SEND_MSG_Buf_Master_Trans0_CALLBACK
-                    CAN_1_SendMsg_Buf_Master_Trans0_Callback();
-                #endif /* CAN_1_SEND_MSG_Buf_Master_Trans0_CALLBACK */
+                #ifdef CAN_1_SEND_MSG_maser_sw_1_status_CALLBACK
+                    CAN_1_SendMsg_maser_sw_1_status_Callback();
+                #endif /* CAN_1_SEND_MSG_maser_sw_1_status_CALLBACK */
 
                 CY_SET_REG32(CAN_1_TX_CMD_PTR(0u),
                 CY_GET_REG32(CAN_1_TX_CMD_PTR(0u)) | CAN_1_SEND_MESSAGE);
@@ -238,7 +238,7 @@ void CAN_1_TxCancel(uint8 bufferId)
 
 #if (CAN_1_TX1_FUNC_ENABLE)
     /*******************************************************************************
-    * FUNCTION NAME:   CAN_1_SendMsgBuf_Master_Trans1
+    * FUNCTION NAME:   CAN_1_SendMsgmaser_sw_2_status
     ********************************************************************************
     *
     * Summary:
@@ -257,7 +257,7 @@ void CAN_1_TxCancel(uint8 bufferId)
     *    CAN_1_FAIL              The function failed
     *
     *******************************************************************************/
-    uint8 CAN_1_SendMsgBuf_Master_Trans1(void) 
+    uint8 CAN_1_SendMsgmaser_sw_2_status(void) 
     {
         uint8 result = CYRET_SUCCESS;
 
@@ -271,13 +271,13 @@ void CAN_1_TxCancel(uint8 bufferId)
             }
             else
             {
-                /* `#START MESSAGE_Buf_Master_Trans1_TRASMITTED` */
+                /* `#START MESSAGE_maser_sw_2_status_TRASMITTED` */
 
                 /* `#END` */
 
-                #ifdef CAN_1_SEND_MSG_Buf_Master_Trans1_CALLBACK
-                    CAN_1_SendMsg_Buf_Master_Trans1_Callback();
-                #endif /* CAN_1_SEND_MSG_Buf_Master_Trans1_CALLBACK */
+                #ifdef CAN_1_SEND_MSG_maser_sw_2_status_CALLBACK
+                    CAN_1_SendMsg_maser_sw_2_status_Callback();
+                #endif /* CAN_1_SEND_MSG_maser_sw_2_status_CALLBACK */
 
                 CY_SET_REG32(CAN_1_TX_CMD_PTR(1u),
                 CY_GET_REG32(CAN_1_TX_CMD_PTR(1u)) | CAN_1_SEND_MESSAGE);
@@ -290,7 +290,7 @@ void CAN_1_TxCancel(uint8 bufferId)
 
 #if (CAN_1_TX2_FUNC_ENABLE)
     /*******************************************************************************
-    * FUNCTION NAME:   CAN_1_SendMsg2
+    * FUNCTION NAME:   CAN_1_SendMsgmaser_led_red_pwm1
     ********************************************************************************
     *
     * Summary:
@@ -309,7 +309,7 @@ void CAN_1_TxCancel(uint8 bufferId)
     *    CAN_1_FAIL              The function failed
     *
     *******************************************************************************/
-    uint8 CAN_1_SendMsg2(void) 
+    uint8 CAN_1_SendMsgmaser_led_red_pwm1(void) 
     {
         uint8 result = CYRET_SUCCESS;
 
@@ -323,13 +323,13 @@ void CAN_1_TxCancel(uint8 bufferId)
             }
             else
             {
-                /* `#START MESSAGE_2_TRASMITTED` */
+                /* `#START MESSAGE_maser_led_red_pwm1_TRASMITTED` */
 
                 /* `#END` */
 
-                #ifdef CAN_1_SEND_MSG_2_CALLBACK
-                    CAN_1_SendMsg_2_Callback();
-                #endif /* CAN_1_SEND_MSG_2_CALLBACK */
+                #ifdef CAN_1_SEND_MSG_maser_led_red_pwm1_CALLBACK
+                    CAN_1_SendMsg_maser_led_red_pwm1_Callback();
+                #endif /* CAN_1_SEND_MSG_maser_led_red_pwm1_CALLBACK */
 
                 CY_SET_REG32(CAN_1_TX_CMD_PTR(2u),
                 CY_GET_REG32(CAN_1_TX_CMD_PTR(2u)) | CAN_1_SEND_MESSAGE);
@@ -646,7 +646,7 @@ void CAN_1_ReceiveMsg(uint8 rxMailbox)
 
 #if (CAN_1_RX0_FUNC_ENABLE)
     /*******************************************************************************
-    * FUNCTION NAME:   CAN_1_ReceiveMsgBuf_Master_Recv0
+    * FUNCTION NAME:   CAN_1_ReceiveMsg0
     ********************************************************************************
     *
     * Summary:
@@ -664,15 +664,15 @@ void CAN_1_ReceiveMsg(uint8 rxMailbox)
     *  Depends on the Customer code.
     *
     *******************************************************************************/
-    void CAN_1_ReceiveMsgBuf_Master_Recv0(void) 
+    void CAN_1_ReceiveMsg0(void) 
     {
-        /* `#START MESSAGE_Buf_Master_Recv0_RECEIVED` */
+        /* `#START MESSAGE_0_RECEIVED` */
 
         /* `#END` */
 
-        #ifdef CAN_1_RECEIVE_MSG_Buf_Master_Recv0_CALLBACK
-            CAN_1_ReceiveMsg_Buf_Master_Recv0_Callback();
-        #endif /* CAN_1_RECEIVE_MSG_Buf_Master_Recv0_CALLBACK */
+        #ifdef CAN_1_RECEIVE_MSG_0_CALLBACK
+            CAN_1_ReceiveMsg_0_Callback();
+        #endif /* CAN_1_RECEIVE_MSG_0_CALLBACK */
 
         CAN_1_RX[0u].rxcmd.byte[0u] |= CAN_1_RX_ACK_MSG;
     }
@@ -681,7 +681,7 @@ void CAN_1_ReceiveMsg(uint8 rxMailbox)
 
 #if (CAN_1_RX1_FUNC_ENABLE)
     /*******************************************************************************
-    * FUNCTION NAME:    CAN_1_ReceiveMsgBuf_Master_Recv1
+    * FUNCTION NAME:    CAN_1_ReceiveMsg1
     ********************************************************************************
     *
     * Summary:
@@ -699,15 +699,15 @@ void CAN_1_ReceiveMsg(uint8 rxMailbox)
     *  Depends on the Customer code.
     *
     *******************************************************************************/
-    void CAN_1_ReceiveMsgBuf_Master_Recv1(void) 
+    void CAN_1_ReceiveMsg1(void) 
     {
-        /* `#START MESSAGE_Buf_Master_Recv1_RECEIVED` */
+        /* `#START MESSAGE_1_RECEIVED` */
 
         /* `#END` */
 
-        #ifdef CAN_1_RECEIVE_MSG_Buf_Master_Recv1_CALLBACK
-            CAN_1_ReceiveMsg_Buf_Master_Recv1_Callback();
-        #endif /* CAN_1_RECEIVE_MSG_Buf_Master_Recv1_CALLBACK */
+        #ifdef CAN_1_RECEIVE_MSG_1_CALLBACK
+            CAN_1_ReceiveMsg_1_Callback();
+        #endif /* CAN_1_RECEIVE_MSG_1_CALLBACK */
 
         CAN_1_RX[1u].rxcmd.byte[0u] |= CAN_1_RX_ACK_MSG;
     }
