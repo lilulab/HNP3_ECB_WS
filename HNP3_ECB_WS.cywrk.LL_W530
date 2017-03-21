@@ -1584,8 +1584,6 @@
 <v>HNP3_ECB_WS\03_PWM\TopDesign</v>
 <v>HNP3_ECB_WS\03_PWM\TopDesign\TopDesign.cysch</v>
 <v>HNP3_ECB_WS\ECB_Library</v>
-<v>HNP3_ECB_WS\ECB_Library\FSM_test</v>
-<v>HNP3_ECB_WS\ECB_Library\FSM_test\FSM_test.cyudb</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test\TopDesign</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test\TopDesign\TopDesign.cysch</v>
@@ -1602,8 +1600,6 @@
 <v>HNP3_ECB_WS\03_PWM\TopDesign</v>
 <v>HNP3_ECB_WS\03_PWM\TopDesign\TopDesign.cysch</v>
 <v>HNP3_ECB_WS\ECB_Library</v>
-<v>HNP3_ECB_WS\ECB_Library\FSM_test</v>
-<v>HNP3_ECB_WS\ECB_Library\FSM_test\FSM_test.cyudb</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test\TopDesign</v>
 <v>HNP3_ECB_WS\ELinux_IO_Test\TopDesign\TopDesign.cysch</v>
@@ -2160,25 +2156,6 @@
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CyScBoostClk.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_0.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_1.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_10.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_11.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_12.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_13.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_14.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_15.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_2.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_3.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_4.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_5.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_6.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_7.lst</v>
-<v>HNP3_ECB_WS\01_Basic_Setup\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_8.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -2331,25 +2308,6 @@
 <v>HNP3_ECB_WS\02_USB_UART\cy_pins_v2_20</v>
 <v>HNP3_ECB_WS\02_USB_UART\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>HNP3_ECB_WS\02_USB_UART\Gnd_v1_0</v>
-<v>HNP3_ECB_WS\02_USB_UART\Gnd_v1_0\Gnd_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\LED_v1_0</v>
-<v>HNP3_ECB_WS\02_USB_UART\LED_v1_0\LED_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\not_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\Power_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\PWM_v3_30.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\Resistor_v1_0</v>
-<v>HNP3_ECB_WS\02_USB_UART\Resistor_v1_0\Resistor_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\Speaker_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\SwitchSPST_v1_0</v>
-<v>HNP3_ECB_WS\02_USB_UART\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\UART_v2_50</v>
-<v>HNP3_ECB_WS\02_USB_UART\UART_v2_50\UART_v2_50.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\USBFS_v3_0.pdf</v>
-<v>HNP3_ECB_WS\03_PWM</v>
-<v>HNP3_ECB_WS\03_PWM\PSoC 5LP Architecture TRM</v>
-<v>HNP3_ECB_WS\03_PWM\CY8C58LP Family Datasheet</v>
-<v>HNP3_ECB_WS\03_PWM\System Reference Guides</v>
-<v>HNP3_ECB_WS\03_PWM\System Reference Guides\cy_boot_v5_40</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -2366,7 +2324,6 @@
 <OpenDocs>
 <name v=".\03_PWM.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\03_PWM.cydsn\main.c" />
-<name v=".\ECB_Library.cylib\FSM_test\FSM_test.cyudb" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -2374,7 +2331,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1201, 679" SelectedTabbedMdiWindow="fb5ba2d8-d332-4856-b7b6-5fb9f3c24544"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="abe15f32-d724-495e-bdfe-9b29525a3e33" /><DocumentWindow Key="fda5e08e-dc0b-4d4c-8cf3-f5b265adb685" Guid="393418db-3a3e-4614-baa2-0ac17c0cc906" /><DocumentWindow Key="40e5c56c-7b96-4e33-81e8-a6fe0f8414eb" Guid="6ca1fa7d-67f4-4463-9654-ed4b6dbfd02c" /><DocumentWindow Key="cafd4e66-0d7c-44b9-8e2b-383d9758d154" Guid="fb5ba2d8-d332-4856-b7b6-5fb9f3c24544" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1294, 679" SelectedTabbedMdiWindow="341181dd-2b31-41ba-bb04-86a2d21db1d7"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="abe15f32-d724-495e-bdfe-9b29525a3e33" /><DocumentWindow Key="c278ac2a-5e23-48a9-897a-4fdae9a344c2" Guid="341181dd-2b31-41ba-bb04-86a2d21db1d7" /><DocumentWindow Key="c0ef795d-4341-4424-9867-44d6ed4945e8" Guid="aeed9bbf-1fdf-4b07-9708-c634e3042492" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
