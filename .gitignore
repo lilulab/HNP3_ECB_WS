@@ -4,9 +4,17 @@
 Debug/
 codegentemp/
 Backup/
+Export/
 
 *.log
 *.ini
+*.lilu1
+
+*.cyfit
+*.rpt
+*.html
+*.svd
+
 
 
 
