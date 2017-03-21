@@ -1,7 +1,0 @@
-D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\01_Basic_Setup.cydsn\01_Basic_Setup.cyprj|b1190a7c-c89c-43e3-ab57-02347bde9dc5
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|5d0356fc-00b8-42da-a203-bd1b47143e1e
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|b130029d-c1c1-4b48-be97-74ca131a74e4
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|593fe0b7-5ea0-4387-8097-8d91cb16e952
-C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|017405e4-1fc8-498f-b445-447f9e457ba7
-D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\ELinux_IO_Test.cydsn\ELinux_IO_Test.cyprj|9a582a84-7670-4574-9ab3-f9c0900e1e60
-D:\LLGD\3LLWork\0PrjSyn\PSOC\HNP3_ECB_WS\02_USB_UART.cydsn\02_USB_UART.cyprj|12bd6fd1-2da3-44e1-a627-da965593a356

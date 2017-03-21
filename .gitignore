@@ -3,8 +3,10 @@
 # Temporary files
 Debug/
 codegentemp/
+Backup/
 
 *.log
+*.ini
 
 
 
