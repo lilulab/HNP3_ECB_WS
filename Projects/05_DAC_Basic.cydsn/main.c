@@ -26,7 +26,6 @@
 
 /* Function prototypes */
 static uint32 ReadSw1Switch(void);
-CY_ISR_PROTO(ISR_CAN);
 
 /* Global variables*/
 uint8 Count;
@@ -53,14 +52,11 @@ int main()
     USBUART_1_Start(0, USBUART_1_3V_OPERATION);//!!NOTE!! Make sure this matches your board voltage!
     while(!USBUART_1_bGetConfiguration());
     USBUART_1_CDC_Init();
-    PWM_LED_Start();
-    CAN_Start();
     VDAC8_1_Start();
     VDAC8_2_Start();
-    
-    /* Set CAN interrupt handler to local routine */
-    CyIntSetVector(CAN_ISR_NUMBER, ISR_CAN);
-    
+    DVDAC_1_Start();
+    WaveDAC8_1_Start();
+        
     for(;;)
     {
         /* Place your application code here. */
@@ -108,22 +104,17 @@ int main()
             USBUART_1_PutString(str);
             
             if(data_count == 2){
-                // set LED pwm value
-                PWM_LED_WriteCompare1((uint8)led_value[0]);
-                PWM_LED_WriteCompare2((uint8)led_value[1]);
                 
                 VDAC8_1_SetValue((uint8)led_value[0]);
                 VDAC8_2_SetValue((uint8)led_value[1]);
                                 
                 // output result to USB-UART
                 memset(str,0,strlen(str));
-                sprintf(str,"SET LED = [%d,%d].\n \n",
-                                PWM_LED_ReadCompare1(), 
-                                PWM_LED_ReadCompare2());
+                sprintf(str,"SET LED = [%d,%d].\n \n",(uint8)led_value[0], (uint8)led_value[1]);
                 
                 USBUART_1_PutString(str);
-            } //end if
-        } // end if
+            } //end if(Count != 0)
+        } // end if (Count != 0)
         
                 /* Change configuration at switch press or release event */
         if (switchState != ReadSw1Switch())    /* Switch state changed status */
@@ -137,95 +128,20 @@ int main()
 
             if (switchState == SWITCH_RELEASED)
             {
-                CAN_TX_DATA_BYTE1(CAN_TX_MAILBOX_M_SWITCH_STATUS) = SWITCH_PRESSED;
                 sprintf(str,"SW1 = %d, pressed. \n",switchState);
+                LED_B_Write(0u);
             }
             else
             {
-                CAN_TX_DATA_BYTE1(CAN_TX_MAILBOX_M_SWITCH_STATUS) = SWITCH_RELEASED;
                 sprintf(str,"SW1 = %d, released. \n",switchState);
+                LED_B_Write(1u);
             }
             
             /* Send USB-UART message with switch state */
             USBUART_1_PutString(str);
-            
-            // new string for CAN states
-            // memset(str,0,strlen(str));
-            // sprintf(str,"SW1 = %d.\n \n",switchState);
-            // USBUART_1_PutString(str);
-            
-            // send out switch status CAN messages
-            CAN_TX_DATA_BYTE2(CAN_TX_MAILBOX_M_SWITCH_STATUS) = switchState;
-            CAN_TX_DATA_BYTE3(CAN_TX_MAILBOX_M_SWITCH_STATUS) = 0u;
-            CAN_TX_DATA_BYTE4(CAN_TX_MAILBOX_M_SWITCH_STATUS) = 0u;
-            CAN_TX_DATA_BYTE5(CAN_TX_MAILBOX_M_SWITCH_STATUS) = 0u;
-            CAN_TX_DATA_BYTE6(CAN_TX_MAILBOX_M_SWITCH_STATUS) = 0u;
-            CAN_TX_DATA_BYTE7(CAN_TX_MAILBOX_M_SWITCH_STATUS) = 0u;
-            CAN_TX_DATA_BYTE8(CAN_TX_MAILBOX_M_SWITCH_STATUS) = 0u;            
-
-            /* Send CAN message with switch state */
-            can_tx_status = CAN_SendMsgM_SWITCH_STATUS();
-            
-            // send USB-UART messages
-            sprintf(str,"CAN_TX_MAILBOX_M_SWITCH_STATUS = %d; return flag is %d.\n", 
-                switchState, 
-                can_tx_status);
-            USBUART_1_PutString(str);            
-            
-            // send out LED status CAN messages
-            CAN_TX_DATA_BYTE1(CAN_TX_MAILBOX_M_LED_STATUS) = (uint8)led_value[0];
-            CAN_TX_DATA_BYTE2(CAN_TX_MAILBOX_M_LED_STATUS) = (uint8)led_value[1];
-            CAN_TX_DATA_BYTE3(CAN_TX_MAILBOX_M_LED_STATUS) = 0u;
-            CAN_TX_DATA_BYTE4(CAN_TX_MAILBOX_M_LED_STATUS) = 0u;
-            CAN_TX_DATA_BYTE5(CAN_TX_MAILBOX_M_LED_STATUS) = 0u;
-            CAN_TX_DATA_BYTE6(CAN_TX_MAILBOX_M_LED_STATUS) = 0u;
-            CAN_TX_DATA_BYTE7(CAN_TX_MAILBOX_M_LED_STATUS) = 0u;
-            CAN_TX_DATA_BYTE8(CAN_TX_MAILBOX_M_LED_STATUS) = 0u;
-            
-            can_tx_status = CAN_SendMsgM_LED_STATUS();
-            
-            // send USB-UART messages
-            sprintf(str,"CAN_TX_MAILBOX_M_LED_STATUS = %d,%d; return flag is %d.\n", 
-                (uint8)led_value[0], 
-                (uint8)led_value[1], 
-                can_tx_status);
-            USBUART_1_PutString(str); 
-            
-            
         } // end switchState
     } // end for(;;) loop
 } // end main
-
-/*******************************************************************************
-* Function Name: ISR_CAN
-********************************************************************************
-*
-* Summary:
-*  This ISR is executed at a Receive Message event and set the isrFlag.
-*
-* Parameters:
-*  None.
-*
-* Return:
-*  None.
-*
-*******************************************************************************/
-CY_ISR(ISR_CAN)
-{
-    /* Clear Receive Message flag */
-    CAN_INT_SR_REG.byte[1u] = CAN_RX_MESSAGE_MASK;
-
-    /* Set the isrFlag */
-    isrFlag = 1u;
-
-    /* Acknowledges receipt of new message */
-    CAN_RX_ACK_MESSAGE(CAN_RX_MAILBOX_0);
-    
-    memset(str,0,strlen(str));
-    sprintf(str,"Recive Message in CAN_RX_MAILBOX_0. \n \n");
-    USBUART_1_PutString(str);
-}
-
 
 /*******************************************************************************
 * Function Name: ReadSw1Switch

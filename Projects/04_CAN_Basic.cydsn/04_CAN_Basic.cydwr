@@ -524,7 +524,7 @@
     </Group>
     <Group key="Pin">
       <Data key="0a8f5e24-469c-4d77-8e21-77479c2e6273" value="DIO_12" />
-      <Data key="0deaf9c3-d6f7-4846-bb41-128f2977935a" value="LED_B" />
+      <Data key="0deaf9c3-d6f7-4846-bb41-128f2977935a" value="LED_G" />
       <Data key="2a41c928-e004-4d8e-b07e-4f0204967ca2" value="AIO_1" />
       <Data key="2eeb2564-33e5-4a69-8429-1ee5b972f5aa" value="AIO_10" />
       <Data key="2f5568ae-93aa-443f-bf91-27970022118e" value="AIO_6" />
@@ -576,7 +576,7 @@
       <Data key="beca5e2d-f70f-4900-a4db-7eca1ed3126e/8b77a6c4-10a0-4390-971c-672353e2a49c" value="USBUART_1_Dm" />
       <Data key="beca5e2d-f70f-4900-a4db-7eca1ed3126e/618a72fc-5ddd-4df5-958f-a3d55102db42" value="USBUART_1_Dp" />
       <Data key="c939eaa7-1870-47a8-b857-23b81deebc90" value="SDIO_0" />
-      <Data key="c3453c69-c79f-4f51-9ab5-28d50514dc0f" value="LIO_13" />
+      <Data key="c3453c69-c79f-4f51-9ab5-28d50514dc0f" value="LIO_13_RST" />
       <Data key="cccc6f01-0a25-46d0-957f-7ed6cf1dfb31" value="DIO_2" />
       <Data key="cf6b7119-73e2-40e4-95a9-413db6f7cfce" value="AIO_2" />
       <Data key="d5b66ca5-c8ea-4e77-a19b-85e172926a37" value="MODX_1_IO" />
@@ -596,7 +596,7 @@
       <Data key="fcc3230d-40c2-40bf-a196-506a11fb2379" value="DIO_3" />
       <Data key="fd18c94d-76bf-4c65-b261-97242138be4b" value="MODX_2_IO" />
       <Data key="fe67eddb-e8be-4990-a840-ee6721b369d3" value="MODX_1_RXD" />
-      <Data key="fef63e61-23fd-462b-a892-15003b8b6977" value="LED_G" />
+      <Data key="fef63e61-23fd-462b-a892-15003b8b6977" value="LED_B" />
     </Group>
   </Group>
   <Group key="EEPROM">
@@ -3765,7 +3765,7 @@
     </Group>
     <Group key="9dee9568-db3c-46f0-85eb-077abc8c9f67">
       <Group key="0">
-        <Data key="Port Format" value="4,0" />
+        <Data key="Port Format" value="4,1" />
       </Group>
     </Group>
     <Group key="9f2b4f8a-b4ae-436d-a590-f5bf79e0fada">
@@ -3855,7 +3855,7 @@
     </Group>
     <Group key="9994f676-85d9-42bb-bccc-10d10a117ab3">
       <Group key="0">
-        <Data key="Port Format" value="4,1" />
+        <Data key="Port Format" value="4,0" />
       </Group>
     </Group>
     <Group key="48348b49-b066-44ee-8f61-a6b9041db4e3">

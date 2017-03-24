@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="HNP3_ECB_WS\05_DAC_Basic\Source Files\main.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>HNP3_ECB_WS</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\TopDesign</v>
@@ -1564,6 +1564,7 @@
 <v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5\project.h</v>
 <v>HNP3_ECB_WS\05_DAC_Basic</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\TopDesign</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Pins</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Analog</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Clocks</v>
@@ -1577,6 +1578,7 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\Header Files\cyapicallbacks.h</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Source Files</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Source Files\main.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_0</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_0\AIO_0.c</v>
@@ -1660,9 +1662,6 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\CAN_TX\CAN_TX.c</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\CAN_TX\CAN_TX.h</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\CAN_TX\CAN_TX_aliases.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\Clock_1</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\Clock_1\Clock_1.c</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\Clock_1\Clock_1.h</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\Clock_2</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\Clock_2\Clock_2.c</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\Clock_2\Clock_2.h</v>
@@ -1760,6 +1759,20 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DIO_9\DIO_9.c</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DIO_9\DIO_9.h</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DIO_9\DIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1\DVDAC_1.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1\DVDAC_1.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1\DVDAC_1_PM.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1_DMA</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1_DMA\DVDAC_1_DMA_dma.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1_DMA\DVDAC_1_DMA_dma.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1_IntClock</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1_IntClock\DVDAC_1_IntClock.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1_IntClock\DVDAC_1_IntClock.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1_VDAC8</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1_VDAC8\DVDAC_1_VDAC8.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1_VDAC8\DVDAC_1_VDAC8.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\DVDAC_1_VDAC8\DVDAC_1_VDAC8_PM.c</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\KEY_1</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\KEY_1\KEY_1.c</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\KEY_1\KEY_1.h</v>
@@ -1848,10 +1861,6 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO.c</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO.h</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\MODX_3_IO\MODX_3_IO_aliases.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\PWM_LED</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\PWM_LED\PWM_LED.c</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\PWM_LED\PWM_LED.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\PWM_LED\PWM_LED_PM.c</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\SAIO_0</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\SAIO_0\SAIO_0.c</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\SAIO_0\SAIO_0.h</v>
@@ -1968,11 +1977,54 @@
 <v>HNP3_ECB_WS\05_DAC_Basic</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\TopDesign</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Pins</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Analog</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Clocks</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Interrupts</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\DMA</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\System</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Directives</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Flash Security</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\EEPROM</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Header Files</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Header Files\cyapicallbacks.h</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Source Files</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Source Files\main.c</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_0</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_0\AIO_0.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_0\AIO_0.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_0\AIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_1</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_1\AIO_1.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_1\AIO_1.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_1\AIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_10</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_10\AIO_10.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_10\AIO_10.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_10\AIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_11</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_11\AIO_11.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_11\AIO_11.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_11\AIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_12</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_12\AIO_12.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_12\AIO_12.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_12\AIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_13</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_13\AIO_13.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_13\AIO_13.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_13\AIO_13_aliases.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_14</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_14\AIO_14.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_14\AIO_14.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_14\AIO_14_aliases.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_15</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_15\AIO_15.c</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_15\AIO_15.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_15\AIO_15_aliases.h</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_2</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -2060,7 +2112,6 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_RX.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_TX.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_TX_RX_func.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_1.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_2.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
@@ -2089,6 +2140,12 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_7.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_8.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_9.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\DVDAC_1.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\DVDAC_1_DMA_dma.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\DVDAC_1_IntClock.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\DVDAC_1_PM.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\DVDAC_1_VDAC8.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\DVDAC_1_VDAC8_PM.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\KEY_1.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\KEY_2.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_B.lst</v>
@@ -2112,8 +2169,6 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\MODX_1_IO.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\MODX_2_IO.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\MODX_3_IO.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\PWM_LED.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\PWM_LED_PM.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\SAIO_0.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\SAIO_1.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\SDIO_0.lst</v>
@@ -2158,6 +2213,13 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\VDAC8_1_PM.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\VDAC8_2.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\VDAC8_2_PM.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\WaveDAC8_1.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\WaveDAC8_1_DacClk.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\WaveDAC8_1_PM.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\WaveDAC8_1_VDAC8.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\WaveDAC8_1_VDAC8_PM.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\WaveDAC8_1_Wave1_DMA_dma.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\WaveDAC8_1_Wave2_DMA_dma.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\05_DAC_Basic.elf</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\05_DAC_Basic.hex</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\05_DAC_Basic.map</v>
@@ -2168,20 +2230,60 @@
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
 <v>HNP3_ECB_WS\01_Basic_Setup</v>
+<v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.gpdsc</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup.rpt</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\01_Basic_Setup_timing.html</v>
 <v>HNP3_ECB_WS\02_USB_UART</v>
+<v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.gpdsc</v>
 <v>HNP3_ECB_WS\02_USB_UART\02_USB_UART.rpt</v>
 <v>HNP3_ECB_WS\02_USB_UART\02_USB_UART_timing.html</v>
 <v>HNP3_ECB_WS\03_PWM</v>
+<v>HNP3_ECB_WS\03_PWM\03_PWM.gpdsc</v>
 <v>HNP3_ECB_WS\03_PWM\03_PWM.rpt</v>
 <v>HNP3_ECB_WS\03_PWM\03_PWM_timing.html</v>
 <v>HNP3_ECB_WS\04_CAN_Basic</v>
+<v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.gpdsc</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic.rpt</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\04_CAN_Basic_timing.html</v>
 <v>HNP3_ECB_WS\05_DAC_Basic</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.rpt</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic_timing.html</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_0.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_1.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_10.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_11.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_12.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_13.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_14.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_15.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_2.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_3.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_4.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_5.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_6.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_7.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_8.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_9.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\BUZZER.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_INT.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_PM.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_RX.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_TX.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_TX_RX_func.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_2.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CyScBoostClk.lst</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -2301,18 +2403,17 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\System Reference Guides</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\System Reference Guides\cy_boot_v5_40</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CAN_v3_0.pdf</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\cy_clock_v2_20</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\cy_constant_v1_0.pdf</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\cy_clock_v2_20.pdf</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\cy_constant_v1_0</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\cy_pins_v2_20</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\DVDAC_v2_10.pdf</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Gnd_v1_0</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Gnd_v1_0\Gnd_v1_0.pdf</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\LED_v1_0</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\LED_v1_0\LED_v1_0.pdf</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\not_v1_0.pdf</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Power_v1_0.pdf</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\PWM_v3_30.pdf</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Resistor_v1_0</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Resistor_v1_0\Resistor_v1_0.pdf</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Speaker_v1_0.pdf</v>
@@ -2323,6 +2424,7 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\USBFS_v3_0.pdf</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\VDAC8_v1_90</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\VDAC8_v1_90\VDAC8_v1_90.pdf</v>
+<v>HNP3_ECB_WS\05_DAC_Basic\WaveDAC8_v2_10.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
@@ -2396,8 +2498,8 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\Projects\05_DAC_Basic.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Projects\05_DAC_Basic.cydsn\05_DAC_Basic.cydwr" />
 <name v=".\Projects\05_DAC_Basic.cydsn\main.c" />
+<name v=".\Projects\05_DAC_Basic.cydsn\05_DAC_Basic.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -2405,7 +2507,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1251, 696" SelectedTabbedMdiWindow="a9b3d89d-0097-4b03-aa90-1eff94f91cd1"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="abe15f32-d724-495e-bdfe-9b29525a3e33" /><DocumentWindow Key="5f8172c9-763b-4a29-920d-ced3838adffd" Guid="23f71dfc-9d80-4a99-81bd-3a57be15b34e" /><DocumentWindow Key="7146be93-77e7-4e84-a148-0b8e8201ceba" Guid="a3fcb65d-d893-4bbe-859f-508d5413a261" /><DocumentWindow Key="71a43e73-dccb-44e7-bb70-4616595769a4" Guid="a9b3d89d-0097-4b03-aa90-1eff94f91cd1" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1251, 696" SelectedTabbedMdiWindow="0d72bd11-dac9-445b-915b-59ba8ff37ba1"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="abe15f32-d724-495e-bdfe-9b29525a3e33" /><DocumentWindow Key="16651c1c-ddb9-460f-b8a0-ee3218ba0c41" Guid="2ce130ca-103c-4eee-bc02-546609656f8a" /><DocumentWindow Key="83e225d1-01dd-4832-a983-4cb548b2eb0c" Guid="0d72bd11-dac9-445b-915b-59ba8ff37ba1" /><DocumentWindow Key="b7bc6bf3-732e-48fd-af87-5cc38f530bec" Guid="9b13a895-84bb-4ba8-87bd-a32366ba5009" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
