@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Clocks">
 <ExpandedNodeIds>
 <v>HNP3_ECB_WS</v>
 <v>HNP3_ECB_WS\01_Basic_Setup\TopDesign</v>
@@ -1562,7 +1562,6 @@
 <v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5\cyfitterrv.inc</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5\cymetadata.c</v>
 <v>HNP3_ECB_WS\04_CAN_Basic\Generated_Source\PSoC5\project.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\TopDesign</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Pins</v>
@@ -1967,6 +1966,322 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\cyfitterrv.inc</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\cymetadata.c</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\project.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\TopDesign</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Pins</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Analog</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Clocks</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Interrupts</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\DMA</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\System</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Directives</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Flash Security</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\EEPROM</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Header Files</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Header Files\cyapicallbacks.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Source Files</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Source Files\main.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_0</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_0\AIO_0.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_0\AIO_0.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_0\AIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_1</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_1\AIO_1.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_1\AIO_1.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_1\AIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_10</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_10\AIO_10.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_10\AIO_10.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_10\AIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_11</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_11\AIO_11.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_11\AIO_11.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_11\AIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_12</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_12\AIO_12.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_12\AIO_12.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_12\AIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_13</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_13\AIO_13.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_13\AIO_13.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_13\AIO_13_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_15</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_15\AIO_15.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_15\AIO_15.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_15\AIO_15_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_2</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_2\AIO_2.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_2\AIO_2.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_2\AIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_3</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_3\AIO_3.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_3\AIO_3.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_3\AIO_3_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_4</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_4\AIO_4.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_4\AIO_4.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_4\AIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_5</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_5\AIO_5.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_5\AIO_5.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_5\AIO_5_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_6</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_6\AIO_6.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_6\AIO_6.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_6\AIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_7</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_7\AIO_7.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_7\AIO_7.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_7\AIO_7_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_8</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_8\AIO_8.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_8\AIO_8.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_8\AIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_9</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_9\AIO_9.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_9\AIO_9.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_9\AIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\BUZZER</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\BUZZER\BUZZER.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\BUZZER\BUZZER.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\BUZZER\BUZZER_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\CyScBoostClk</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\CyScBoostClk\CyScBoostClk.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\CyScBoostClk\CyScBoostClk.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_0</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_0\DIO_0.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_0\DIO_0.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_0\DIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_10</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_10\DIO_10.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_10\DIO_10.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_10\DIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_11</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_11\DIO_11.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_11\DIO_11.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_11\DIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_12</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_12\DIO_12.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_12\DIO_12.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_12\DIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_13</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_13\DIO_13.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_13\DIO_13.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_13\DIO_13_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_14</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_14\DIO_14.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_14\DIO_14.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_14\DIO_14_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_15</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_15\DIO_15.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_15\DIO_15.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_15\DIO_15_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_2</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_2\DIO_2.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_2\DIO_2.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_2\DIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_4</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_4\DIO_4.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_4\DIO_4.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_4\DIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_6</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_6\DIO_6.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_6\DIO_6.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_6\DIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_8</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_8\DIO_8.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_8\DIO_8.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_8\DIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_9</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_9\DIO_9.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_9\DIO_9.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\DIO_9\DIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\KEY_1</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\KEY_1\KEY_1.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\KEY_1\KEY_1.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\KEY_1\KEY_1_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\KEY_2</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\KEY_2\KEY_2.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\KEY_2\KEY_2.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\KEY_2\KEY_2_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_B</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_B\LED_B.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_B\LED_B.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_B\LED_B_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_G</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_G\LED_G.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_G\LED_G.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_G\LED_G_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_R</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_R\LED_R.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_R\LED_R.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LED_R\LED_R_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_0</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_0\LIO_0.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_0\LIO_0.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_0\LIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_1</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_1\LIO_1.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_1\LIO_1.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_1\LIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_10</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_10\LIO_10.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_10\LIO_10.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_10\LIO_10_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_11</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_11\LIO_11.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_11\LIO_11.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_11\LIO_11_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_12</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_12\LIO_12.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_12\LIO_12.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_12\LIO_12_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_13_RST</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_13_RST\LIO_13_RST_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_2</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_2\LIO_2.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_2\LIO_2.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_2\LIO_2_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_3</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_3\LIO_3.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_3\LIO_3.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_3\LIO_3_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_4</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_4\LIO_4.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_4\LIO_4.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_4\LIO_4_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_5</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_5\LIO_5.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_5\LIO_5.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_5\LIO_5_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_6</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_6\LIO_6.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_6\LIO_6.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_6\LIO_6_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_7</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_7\LIO_7.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_7\LIO_7.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_7\LIO_7_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_8</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_8\LIO_8.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_8\LIO_8.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_8\LIO_8_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_9</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_9\LIO_9.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_9\LIO_9.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\LIO_9\LIO_9_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_CW</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_CW\MOT_CW.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_CW\MOT_CW.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_CW\MOT_CW_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_INT</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_INT\MOT_INT.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_INT\MOT_INT.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_INT\MOT_INT_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_RUN</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_RUN\MOT_RUN.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_RUN\MOT_RUN.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_RUN\MOT_RUN_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_SRT</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_SRT\MOT_SRT.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_SRT\MOT_SRT.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_SRT\MOT_SRT_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_VPOT</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_VPOT\MOT_VPOT.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_VPOT\MOT_VPOT.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\MOT_VPOT\MOT_VPOT_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_audio.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_audio.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_boot.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_cdc.inf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_cls.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_cydmac.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_descr.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_drv.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_episr.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_hid.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_hid.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_midi.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_midi.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_msc.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_msc.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_pm.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_pvt.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_std.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1\USBUART_1_vnd.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1_Dm</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1_Dm\USBUART_1_Dm_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1_Dp</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\USBUART_1_Dp\USBUART_1_Dp_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\VDAC8_1</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\VDAC8_1\VDAC8_1.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\VDAC8_1\VDAC8_1.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\VDAC8_1\VDAC8_1_PM.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\VDAC8_2</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\VDAC8_2\VDAC8_2.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\VDAC8_2\VDAC8_2.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\VDAC8_2\VDAC8_2_PM.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cydevice.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cyfitter.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\cymetadata.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\project.h</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
@@ -1975,56 +2290,36 @@
 <v>HNP3_ECB_WS\03_PWM</v>
 <v>HNP3_ECB_WS\04_CAN_Basic</v>
 <v>HNP3_ECB_WS\05_DAC_Basic</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\TopDesign</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Pins</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Analog</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Clocks</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Interrupts</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\DMA</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\System</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Directives</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\Flash Security</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.cydwr\EEPROM</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Header Files</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Header Files\cyapicallbacks.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Source Files</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Source Files\main.c</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_0</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_0\AIO_0.c</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_0\AIO_0.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_0\AIO_0_aliases.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_1</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_1\AIO_1.c</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_1\AIO_1.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_1\AIO_1_aliases.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_10</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_10\AIO_10.c</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_10\AIO_10.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_10\AIO_10_aliases.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_11</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_11\AIO_11.c</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_11\AIO_11.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_11\AIO_11_aliases.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_12</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_12\AIO_12.c</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_12\AIO_12.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_12\AIO_12_aliases.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_13</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_13\AIO_13.c</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_13\AIO_13.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_13\AIO_13_aliases.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_14</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_14\AIO_14.c</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_14\AIO_14.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_14\AIO_14_aliases.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_15</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_15\AIO_15.c</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_15\AIO_15.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_15\AIO_15_aliases.h</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\Generated_Source\PSoC5\AIO_2</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\TopDesign</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Pins</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Analog</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Clocks</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Interrupts</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\DMA</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\System</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Directives</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\Flash Security</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.cydwr\EEPROM</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Header Files</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Header Files\cyapicallbacks.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Source Files</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Source Files\main.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_0</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_0\AIO_0.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_0\AIO_0.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_0\AIO_0_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_1</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_1\AIO_1.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_1\AIO_1.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_1\AIO_1_aliases.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_10</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_10\AIO_10.c</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_10\AIO_10.h</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Generated_Source\PSoC5\AIO_10\AIO_10_aliases.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -2045,6 +2340,9 @@
 <v>HNP3_ECB_WS\05_DAC_Basic</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\TopDesign</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\TopDesign\TopDesign.cysch</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\TopDesign</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\TopDesign\TopDesign.cysch</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
@@ -2063,6 +2361,9 @@
 <v>HNP3_ECB_WS\05_DAC_Basic</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\TopDesign</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\TopDesign\TopDesign.cysch</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\TopDesign</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\TopDesign\TopDesign.cysch</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -2226,6 +2527,101 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.gpdsc</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic.rpt</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\05_DAC_Basic_timing.html</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_0.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_1.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_10.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_11.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_12.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_13.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_15.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_2.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_3.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_4.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_5.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_6.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_7.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_8.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_9.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\BUZZER.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\CyScBoostClk.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_0.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_10.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_11.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_12.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_13.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_14.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_15.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_2.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_4.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_6.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_8.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\DIO_9.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\KEY_1.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\KEY_2.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_B.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_G.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LED_R.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_0.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_1.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_10.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_11.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_12.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_13_RST.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_2.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_3.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_4.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_5.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_6.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_7.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_8.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\LIO_9.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\MOT_CW.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\MOT_INT.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\MOT_RUN.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\MOT_SRT.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\MOT_VPOT.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_audio.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_boot.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_cdc.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_cls.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_descr.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_Dm.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_Dp.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_drv.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_episr.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_hid.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_midi.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_msc.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_pm.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_std.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\USBUART_1_vnd.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\VDAC8_1.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\VDAC8_1_PM.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\VDAC8_2.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\Listing Files\VDAC8_2_PM.lst</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\06_Motor_Driver_OM_BLH.elf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\06_Motor_Driver_OM_BLH.hex</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CortexM3\ARM_GCC_493\Debug\06_Motor_Driver_OM_BLH.map</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.gpdsc</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH.rpt</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\06_Motor_Driver_OM_BLH_timing.html</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
@@ -2264,26 +2660,6 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_5.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_6.lst</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_7.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_8.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\AIO_9.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\BUZZER.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_INT.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_PM.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_RX.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_TX.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CAN_TX_RX_func.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\Clock_2.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CyScBoostClk.lst</v>
-<v>HNP3_ECB_WS\05_DAC_Basic\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -2425,6 +2801,28 @@
 <v>HNP3_ECB_WS\05_DAC_Basic\VDAC8_v1_90</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\VDAC8_v1_90\VDAC8_v1_90.pdf</v>
 <v>HNP3_ECB_WS\05_DAC_Basic\WaveDAC8_v2_10.pdf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\PSoC 5LP Architecture TRM</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\CY8C58LP Family Datasheet</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\System Reference Guides</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\System Reference Guides\cy_boot_v5_40</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\cy_constant_v1_0</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\cy_pins_v2_20</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Gnd_v1_0</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Gnd_v1_0\Gnd_v1_0.pdf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\LED_v1_0</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\LED_v1_0\LED_v1_0.pdf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Power_v1_0.pdf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Resistor_v1_0</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Resistor_v1_0\Resistor_v1_0.pdf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\Speaker_v1_0.pdf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\SwitchSPST_v1_0</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\USBFS_v3_0.pdf</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\VDAC8_v1_90</v>
+<v>HNP3_ECB_WS\06_Motor_Driver_OM_BLH\VDAC8_v1_90\VDAC8_v1_90.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>HNP3_ECB_WS</v>
@@ -2463,26 +2861,6 @@
 <v>HNP3_ECB_WS\02_USB_UART\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
 <v>HNP3_ECB_WS\02_USB_UART\cy_pins_v2_20</v>
 <v>HNP3_ECB_WS\02_USB_UART\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\Gnd_v1_0</v>
-<v>HNP3_ECB_WS\02_USB_UART\Gnd_v1_0\Gnd_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\LED_v1_0</v>
-<v>HNP3_ECB_WS\02_USB_UART\LED_v1_0\LED_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\not_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\Power_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\PWM_v3_30.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\Resistor_v1_0</v>
-<v>HNP3_ECB_WS\02_USB_UART\Resistor_v1_0\Resistor_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\Speaker_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\SwitchSPST_v1_0</v>
-<v>HNP3_ECB_WS\02_USB_UART\SwitchSPST_v1_0\SwitchSPST_v1_0.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\UART_v2_50</v>
-<v>HNP3_ECB_WS\02_USB_UART\UART_v2_50\UART_v2_50.pdf</v>
-<v>HNP3_ECB_WS\02_USB_UART\USBFS_v3_0.pdf</v>
-<v>HNP3_ECB_WS\03_PWM</v>
-<v>HNP3_ECB_WS\03_PWM\PSoC 5LP Architecture TRM</v>
-<v>HNP3_ECB_WS\03_PWM\CY8C58LP Family Datasheet</v>
-<v>HNP3_ECB_WS\03_PWM\System Reference Guides</v>
-<v>HNP3_ECB_WS\03_PWM\System Reference Guides\cy_boot_v5_40</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -2497,9 +2875,9 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\Projects\05_DAC_Basic.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Projects\05_DAC_Basic.cydsn\main.c" />
-<name v=".\Projects\05_DAC_Basic.cydsn\05_DAC_Basic.cydwr" />
+<name v=".\Projects\06_Motor_Driver_OM_BLH.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Projects\06_Motor_Driver_OM_BLH.cydsn\main.c" />
+<name v=".\Projects\06_Motor_Driver_OM_BLH.cydsn\06_Motor_Driver_OM_BLH.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -2507,7 +2885,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1251, 696" SelectedTabbedMdiWindow="0d72bd11-dac9-445b-915b-59ba8ff37ba1"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="abe15f32-d724-495e-bdfe-9b29525a3e33" /><DocumentWindow Key="16651c1c-ddb9-460f-b8a0-ee3218ba0c41" Guid="2ce130ca-103c-4eee-bc02-546609656f8a" /><DocumentWindow Key="83e225d1-01dd-4832-a983-4cb548b2eb0c" Guid="0d72bd11-dac9-445b-915b-59ba8ff37ba1" /><DocumentWindow Key="b7bc6bf3-732e-48fd-af87-5cc38f530bec" Guid="9b13a895-84bb-4ba8-87bd-a32366ba5009" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="954, 377" SelectedTabbedMdiWindow="77b6404c-3512-4d1f-af1e-54ff2ba968fd"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="abe15f32-d724-495e-bdfe-9b29525a3e33" /><DocumentWindow Key="83abf221-095b-45ec-b892-a10a654afdac" Guid="77b6404c-3512-4d1f-af1e-54ff2ba968fd" /><DocumentWindow Key="8c5766a5-53bd-4311-811a-92eec40f00fa" Guid="71d65093-084f-4202-b1d4-ee21639de5c8" /><DocumentWindow Key="862562be-d7b1-4ad4-8fc6-71b3bad948f2" Guid="617784d5-4c51-4c40-aa14-532dc03175ec" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
