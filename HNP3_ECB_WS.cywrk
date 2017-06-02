@@ -3,7 +3,7 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="HNP3_ECB_WS" persistent="HNP3_ECB_WS.cywrk" platform="NOT_USED">
-<current_project name=".\Projects\07_HNP3_BLANK_V1.cydsn\07_HNP3_BLANK_V1.cyprj" />
+<current_project name=".\Projects\08_HNP3_CwruStim_Blank.cydsn\08_HNP3_CwruStim_Blank.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
@@ -14,6 +14,7 @@
 <v>.\Projects\05_DAC_Basic.cydsn\05_DAC_Basic.cyprj</v>
 <v>.\Projects\06_Motor_Driver_OM_BLH.cydsn\06_Motor_Driver_OM_BLH.cyprj</v>
 <v>.\Projects\07_HNP3_BLANK_V1.cydsn\07_HNP3_BLANK_V1.cyprj</v>
+<v>.\Projects\08_HNP3_CwruStim_Blank.cydsn\08_HNP3_CwruStim_Blank.cyprj</v>
 </projects>
 <workspace_id v="baab2ddd-33d5-480d-af57-82ccdd54abcb" />
 <WriteAppVersionLastSavedWith v="4.0.0.432" />
